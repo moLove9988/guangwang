@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Liner'
+const appName = '创林精英会'
 </script>
 
 <template>
