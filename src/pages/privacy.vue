@@ -172,7 +172,7 @@ const appName = '富兴数据智囊'
 <br />
 9. 联系我们
 <br />
-如果您对我们的隐私政策或任何隐私相关事宜有任何疑问，请通过电子邮件联系我们【Surfing@Surfing.site】。
+如果您对我们的隐私政策或任何隐私相关事宜有任何疑问，请通过电子邮件联系我们【fuxingshuju782@gmail.com】。
 
     <br><br>
   </div>
