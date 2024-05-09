@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = '国奥体育'
+const appName = '庐山抖球数据通'
 </script>
 
 <template>
