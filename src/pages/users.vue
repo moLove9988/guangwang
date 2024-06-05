@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = '国奥体育'
+const appName = 'WordAI'
 </script>
 
 <template>
