@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'ChatGturn'
+const appName = 'ChatTurbon'
 </script>
 
 <template>
