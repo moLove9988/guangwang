@@ -7,7 +7,7 @@ let privacyPolicy = `<p>欢迎您开通自动续费功能。</p><p>自动续费�
 </script>
 
 <template>
-  <div class="protocol" v-html="contents">
+  <div class="protocol" v-html="privacyPolicy">
 
   </div>
 </template>
