@@ -7,7 +7,7 @@ export let privacyPolicy = `<p>**Recharge Agreement for ${appName}**</p><p>**Wel
 </script>
 
 <template>
-  <div class="protocol" v-html="contents">
+  <div class="protocol" v-html="privacyPolicy">
 
   </div>
 </template>

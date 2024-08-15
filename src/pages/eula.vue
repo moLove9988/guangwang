@@ -7,7 +7,7 @@ export let privacyPolicy = `<p><strong>Welcome to ${appName}</strong></p><p><str
 </script>
 
 <template>
-  <div class="protocol" v-html="contents">
+  <div class="protocol" v-html="privacyPolicy">
 
   </div>
 </template>
