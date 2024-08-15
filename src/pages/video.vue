@@ -3,7 +3,7 @@ defineOptions({
   name: 'IndexPage',
 })
 const appName = 'ChatterEase'
-export let privacyPolicy = `<p>&lt;h4&gt;A. Description of base income&lt;/h4&gt; &nbsp;<br>&lt;p&gt;1. The profit base ratio of the income is based on the pure profit excluding the 30% tax revenue from Apple and Google.&lt;/p &gt; &nbsp;<br>&lt;p&gt;2. We only have gifts that generate returns, with a base rate of 25%. The function to increase the base rate based on user quality will be implemented later.&lt;/p &gt;</p><p>&lt;h4&gt;B. VIP income explanation&lt;/h4&gt; &nbsp;<br>&lt;p&gt;1. VIP levels: Experience VIP, Regular VIP, Yearly VIP&lt;/p &gt; &nbsp;<br>&lt;p&gt;2. VIP experience only enjoys the rights of priority matching and unrestricted matching conditions, without any benefits.&lt;/p &gt;</p>`
+export let privacyPolicy = `<p>Diversification of FateVideo's revenue &nbsp;<br>A. Description of base income<br>1. The profit base ratio of the income is based on the pure profit excluding the 30% tax revenue from Apple and Google.<br>2. We only have gifts that generate returns, with a base rate of 25%. The function to increase the base rate based on user quality will be implemented later.&nbsp;<br>&nbsp;<br>B. Video Revenue Explanation<br>1. The video duration is free, only gifts generate revenue. &nbsp;<br>2. The income base in the video is 25%. For example, if you receive gifts worth 10,000 gold coins in a video, you will get 10,000 * 0.7 * 0.25 = 1,750 gold coins.<br>3. The income base in the video is 25%, and VIP increases the income base by 5%. For example, if you receive gifts worth 10,000 gold coins in a video, you will receive 10,000 * 0.7 * 0.30 = 2,100 gold coins.</p>`
 </script>
 
 <template>
