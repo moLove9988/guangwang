@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Meson'
+const appName = 'Azrson'
 </script>
 
 <template>
