@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'MifPlay'
+const appName = 'Cerao'
 </script>
 
 <template>
