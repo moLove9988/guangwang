@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'MifPlay'
+const appName = 'Byoliv'
 </script>
 
 <template>
