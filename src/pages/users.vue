@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'testaaa'
+const appName = 'KorCall（A-摩托交友社区2）'
 </script>
 
 <template>
