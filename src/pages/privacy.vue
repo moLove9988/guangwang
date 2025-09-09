@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'testaaa'
+const appName = 'Togee（B-自驾游社区3）'
 </script>
 
 <template>
