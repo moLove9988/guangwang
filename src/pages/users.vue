@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'testaaa'
+const appName = 'Funuo（A-网络游戏社区2） '
 </script>
 
 <template>
