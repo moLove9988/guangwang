@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Mioya（B-古典音乐社区）'
+const appName = 'Mioya'
 </script>
 
 <template>
