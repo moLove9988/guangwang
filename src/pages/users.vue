@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Styvi'
+const appName = 'Sticky'
 </script>
 
 <template>
