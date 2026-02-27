@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'PkioLive'
+const appName = 'Copiko'
 </script>
 
 <template>
