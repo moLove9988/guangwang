@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Taligo'
+const appName = 'Jclia'
 </script>
 
 <template>
