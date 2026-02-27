@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Ockie'
+const appName = 'MookRun'
 </script>
 
 <template>
