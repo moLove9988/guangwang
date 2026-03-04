@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'JwiMe'
+const appName = 'Holly'
 </script>
 
 <template>
