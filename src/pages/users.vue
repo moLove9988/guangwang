@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'SoiChat'
+const appName = 'Recio'
 </script>
 
 <template>
