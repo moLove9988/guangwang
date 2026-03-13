@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Bemmda'
+const appName = 'Linkub'
 </script>
 
 <template>
