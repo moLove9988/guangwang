@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Jcii'
+const appName = 'HaluGo'
 </script>
 
 <template>
