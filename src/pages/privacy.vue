@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Pivcam'
+const appName = 'Pautiy'
 </script>
 
 <template>
