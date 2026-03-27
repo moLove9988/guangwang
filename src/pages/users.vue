@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'VelloLive'
+const appName = 'GraclChat'
 </script>
 
 <template>
