@@ -8,413 +8,181 @@ const appName = 'QianMian'
 <template>
   <div class="protocol">
     <div class="bt" style="text-align: center">
-      {{ appName }}'s Privacy Policy
+      {{ appName }} 隐私政策
     </div>
-    The use of {{ appName }} through mobile applications may involve collection and use
-    of your information. This Privacy Policy explains and informs you how your
-    information is collected, used and disclosed by {{ appName }} with respect to your
-    access and use of our services through our mobile applications. It is
-    important for you to understand this Privacy Policy and how you may protect
-    your information, so please read this Privacy Policy carefully.
+    通过移动应用使用 {{ appName }} 可能涉及我们对您信息的收集和使用。本隐私政策向您说明并告知，当您通过我们的移动应用访问和使用我们的服务时，{{ appName }} 如何收集、使用和披露您的信息。
+    理解本隐私政策以及如何保护您的个人信息对您至关重要，请您仔细阅读本隐私政策。
     <br>
     <div class="bt">
-      1. Application Scope of this Privacy Policy
+      1. 本隐私政策的适用范围
     </div>
-    1.1By using {{ appName }}, you agree that we may access, collect, use and share your
-    information in accordance with this Privacy Policy, as revised from time to
-    time. In addition, your use of {{ appName }} signifies that you agree with the terms
-    of this Privacy Policy. If you do not agree to the terms of this Privacy
-    Policy, do not use {{ appName }}.
+    1.1 您使用 {{ appName }}，即表示同意我们可根据本隐私政策（不时修订版本）访问、收集、使用和共享您的信息。此外，您使用 {{ appName }} 即表示您同意本隐私政策条款。若您不同意本隐私政策条款，请不要使用 {{ appName }}。
     <br><br>
-    1.2This Privacy Policy is incorporated into and forms part of the {{ appName }}
-    Terms of Service that you have agreed to in order to use {{ appName }}. Any terms
-    used in this Privacy Policy will have the same meaning as the equivalent
-    defined terms in the {{ appName }} Terms of Service unless otherwise defined in this
-    Privacy Policy or the context requires otherwise. Unless otherwise specified
-    in this Privacy Policy, these terms in the {{ appName }} Terms of Service shall also
-    be applicable in this Privacy Policy.
+    1.2 本隐私政策已纳入您为使用 {{ appName }} 而同意的 {{ appName }} 服务条款，并构成其一部分。除非本隐私政策另有定义或根据上下文另有要求，本隐私政策中使用的任何术语，其含义与 {{ appName }} 服务条款中的对应定义术语相同。除非本隐私政策另有规定，{{ appName }} 服务条款中的相关条款同样适用于本隐私政策。
     <br><br>
-    1.3Any information that is collected is subject to the Privacy Policy in
-    effect at the time such information is collected. We may, however, modify
-    and revise our Privacy Policy from time to time. If we make any change to
-    this policy, which we deem to be material changes, with or without
-    notification, you are agreeing to be bound by the revised policy.
+    1.3 所收集的任何信息均适用信息收集时生效的隐私政策。但我们可能会不时修改和修订本隐私政策。若我们对本政策作出我们视为重大的变更，无论是否另行通知，您均同意受修订后的政策约束。
     <br><br>
-    1.4 {{ appName }} may link you to social media or other features or services
-    (including websites, plug-ins and widgets) provided by a third party. Please
-    note that this Privacy Policy doesn’t apply to the information collected by
-    any third-party websites, services or applications that can be accessed
-    through our services, and does not apply to the information collected by
-    other companies and organizations who advertise their services on {{ appName }}. We
-    bear no liability for any third party use of any information provided by you
-    to them.
+    1.4 {{ appName }} 可能会为您跳转至社交媒体或第三方提供的其他功能或服务（包括网站、插件和组件）。请注意，本隐私政策不适用于通过我们服务可访问的任何第三方网站、服务或应用所收集的信息，也不适用于在 {{ appName }} 上投放广告的其他公司和机构所收集的信息。对于第三方使用您向其提供的任何信息，我们不承担任何责任。
     <br><br>
-    2. We obtain information about you through the means discussed below when we
-    provide the {{ appName }} Services. Please note that we need certain types of
-    information so that we can provide the {{ appName }} Services to you.
+    2. 我们在提供 {{ appName }} 服务时，将通过以下方式获取您的相关信息。请注意，我们需要获取部分类型的信息，才能为您提供 {{ appName }} 服务。
     <br><br>
-    1).User-provided Information
+    1）用户主动提供的信息
     <br><br>
-    2).Automatically Collected Information for Legitimate Interests
+    2）基于合法权益自动收集的信息
     <br><br>
-    User-provided Information
+    用户主动提供的信息
     <br><br>
-    1) Information provide to us when you open a {{ appName }} account, including your
-    nickname, gender, date of birth, country, age,email,password,social media
-    account information (profile photo,Video), and any tags you posted about
-    yourself;
+    1）您在注册 {{ appName }} 账号时向我们提供的信息，包括昵称、性别、出生日期、国家、年龄、电子邮箱、密码、社交媒体账号信息（头像、视频），以及您发布的个人相关标签；
     <br><br>
-    2)Any information included in your {{ appName }} profile which are visible to other
-    users of {{ appName }}, or information you make available to us via your use of
-    {{ appName }}, which may include your photos, gender;
+    2）您 {{ appName }} 个人资料中对其他用户可见的任何信息，或您在使用 {{ appName }} 过程中向我们提供的信息，可能包括您的照片、性别；
     <br><br>
-    3) User-generated content (" UGC "), such as comments, text, messages,
-    pictures, images, videos, sounds, code, or other data or material that you
-    upload, distribute, or stream on the Application while using the {{ appName }}
-    Service;
+    3）用户生成内容（UGC），例如您在使用 {{ appName }} 服务期间，在应用内上传、传播或推送的评论、文字、消息、图片、图像、视频、音频、代码或其他数据及素材；
     <br><br>
-    4) Payment information, such as bank account number, Paypal or other payment
-    information to be paid;
+    4）支付信息，例如银行账号、PayPal 或其他待支付相关信息；
     <br><br>
-    5) Transaction information such as transaction number and transaction
-    history after you purchase the paid service;
+    5）您购买付费服务后的交易信息，例如交易编号、交易记录；
     <br><br>
-    6) Your opt-in and communication with us, such as information used to
-    validate your account or address your feedback or complaint and information
-    you provide when participating in in-app surveys and activities.
+    6）您的授权选择及与我们的沟通信息，例如用于验证您账号、处理您的反馈或投诉的信息，以及您参与应用内问卷调查和活动时提供的信息；
     <br><br>
-    7) Information provided by you from social media when you create a {{ appName }}
-    account by connecting to or associating a {{ appName }} account with a third party
-    social media account (e.g., Facebook, Google);
+    7）您通过关联第三方社交媒体账号（如 Facebook、Google）注册 {{ appName }} 账号时，从社交媒体授权提供的信息；
     <br><br>
-    2.Automatically Collected Information for Legitimate Interests
+    2. 基于合法权益自动收集的信息
     <br><br>
-    ⊙ Data about your Accounts on other Services: If your social media or other
-    online accounts are associated with your accounts on our services, we may
-    obtain certain information through those accounts. If you log in to our
-    services through Facebook or other third party platforms, we ask for your
-    permission to access certain information about that other account. For
-    example, depending on the platform or service, we may collect your name,
-    profile picture, gender, information and date of birth, including
-    information from Google: The Unique ID for the Google Account; ID token;
-    Facebook: AccessToken. These platforms and services provide us with
-    information through their apis. The information we receive depends on the
-    information you decide to provide us (through your privacy Settings) or the
-    platform or service. If you access or use our services through third party
-    platforms or services or click on any third party links, the collection, use
-    and sharing of your data will also be governed by the privacy policies and
-    other agreements of such third party.
+    ⊙ 您在其他服务上的账号相关数据：若您的社交媒体或其他网络账号与我们服务中的账号相关联，我们可能通过这些账号获取部分信息。若您通过 Facebook 或其他第三方平台登录我们的服务，我们会请求您授权访问该账号的相关信息。例如，根据不同平台或服务，我们可能收集您的姓名、头像、性别、出生日期等信息，其中 Google 相关信息包括：谷歌账号唯一标识（ID）、身份令牌；Facebook 相关信息包括：访问令牌。此类平台和服务通过其应用程序接口向我们提供信息，我们收到的信息取决于您（通过隐私设置）决定向我们提供的内容，或相关平台、服务的设定。若您通过第三方平台或服务访问、使用我们的服务，或点击任何第三方链接，您数据的收集、使用和共享同样受该第三方隐私政策及其他协议约束。
     <br><br>
-    ⊙Device identifiers, such as your operating system, browser type, brand,
-    model and mobile device serial number, Internet Protocol (IP) address,
-    mobile operator, screen resolution, language Settings, IMEI number, IMSI
-    number, and media access control address;
+    ⊙ 设备标识信息，例如您的操作系统、浏览器类型、品牌、型号、移动设备序列号、互联网协议（IP）地址、移动运营商、屏幕分辨率、语言设置、IMEI 码、IMSI 码以及媒体访问控制地址；
     <br><br>
-    ⊙Network activity information, such as your browsing history, search
-    history, videos or pages you visited, the dates and times you visited, other
-    user accounts you subscribed to, and information about your interactions
-    with other users;
+    ⊙ 网络行为信息，例如您的浏览记录、搜索记录、观看的视频或页面、访问日期和时间、您关注的其他用户账号，以及您与其他用户的互动信息；
     <br><br>
-    ⊙We also collect error-reporting information if the Service crashes or hangs
-    up so that we can investigate the error and improve the stability of the
-    Service for future releases. In general these reports do not contain
-    personally identifiable information, or only incidentally. As part of these
-    error reports, we receive information about the type and version of your
-    device, the device identifier, the time the error occurred, the feature
-    being used and the state of the application when the error occurred. We do
-    not use this information for any purpose other than investigating and fixing
-    the error.
+    ⊙ 若服务出现崩溃或卡顿，我们还会收集错误报告信息，以便排查问题、提升后续版本服务稳定性。通常此类报告不包含个人可识别信息，或仅偶然涉及。作为错误报告的一部分，我们会收到您的设备类型和版本、设备标识、错误发生时间、使用功能及应用出错时的状态等信息。我们仅将此类信息用于排查和修复错误，不作其他用途。
     <br><br>
-    ⊙Information about your access to and use of other applications;
+    ⊙ 您访问和使用其他应用的相关信息；
     <br><br>
-    ⊙Metadata, associated with the UGC you provide to us, describes other data
-    and provides information about how, when, and by whom the UGC clips are
-    collected and the format of the UGC, such as subject tags and subtitles used
-    to tag video keywords;
+    ⊙ 与您提供的用户生成内容相关的元数据，用于描述其他数据并说明用户生成内容片段的收集方式、时间、主体及格式，例如用于标注视频关键词的主题标签、字幕；
     <br><br>
-    We may also collect, use and share your information to generate and share
-    summary insights that do not identify you.Aggregated data may be derived
-    from your personal information but is not considered personal information
-    because the data does not directly or indirectly identify you.For example,
-    we may aggregate your usage data to calculate the percentage of users who
-    visit a particular site feature, to generate statistics about our users, to
-    calculate the percentage of users who visit a particular site feature, or to
-    calculate the number of AD displays placed or clicked.
+    我们还可能收集、使用和共享您的信息，用于生成和共享无法识别您个人身份的汇总分析数据。汇总数据可来源于您的个人信息，但不属于个人信息，因为该数据不会直接或间接识别您的身份。例如，我们可汇总您的使用数据，计算访问某一网站功能的用户占比、生成用户统计数据、统计广告展示或点击数量等。
     <br><br>
     <div class="bt">
-      2.Special Note about Sensitive Personal Information
+      2. 敏感个人信息特别说明
     </div>
-    To provide certain features (e.g. online video calling), we must access your
-    microphone, camera, with your permission, as described below:
+    为提供部分功能（如在线视频通话），经您授权后，我们需访问您的麦克风、摄像头，具体说明如下：
     <br><br>
-    1)Microphone: We access the microphone on your device (with your permission)
-    to record audio messages and deliver sound during video calls.
+    1）麦克风：经您授权后，我们访问您设备上的麦克风，用于录制语音消息，并在视频通话中传输音频。
     <br><br>
-    2)Camera: We access the camera on your device (with your permission) to take
-    your profile pictures and deliver realtime images during video calls.
+    2）摄像头：经您授权后，我们访问您设备上的摄像头，用于拍摄头像，并在视频通话中传输实时画面。
     <br><br>
-    By using {{ appName }}, you agree that all processing activities of sensitive
-    personal information are for the purposes and in the manner as described in
-    this Privacy Policy.
+    您使用 {{ appName }}，即表示同意所有敏感个人信息的处理行为，均按照本隐私政策所述目的和方式进行。
     <br><br>
-    Please note that we do not use your sensitive personal information for the
-    purpose of making direct marketing unless agreed by you.
+    请注意，未经您同意，我们不会将您的敏感个人信息用于直接营销用途。
     <br><br>
-    2.3Special Note about Children’s Information The services of {{ appName }} are only
-    applicable to users of 18 years old or more. We do not allow users under 18
-    years old to access our platform, and will not knowingly collect the
-    personal information of users under 18 years old.
+    2.3 未成年人信息特别说明 {{ appName }} 服务仅面向年满 18 周岁及以上用户。我们不允许 18 周岁以下用户访问本平台，也不会故意收集 18 周岁以下用户的个人信息。
     <br><br>
     <div class="bt">
-      3.How We Use the Information We Collect
+      3. 我们如何使用所收集的信息
     </div>
-    We use or may disclose your personal information only in the following
-    circumstances: Verify your identity;
+    我们仅在下列情形下使用或披露您的个人信息：验证您的身份；
     <br><br>
-    1) Connect you to others enabled by the Service;
+    1）通过本服务为您建立与他人的连接；
     <br><br>
-    2) Sharing your personal information with others on the Service;
+    2）在本服务中向他人共享您的个人信息；
     <br><br>
-    3) Allows you to use certain features of services that may be provided from
-    time to time. Show you the name of the person you are communicating with and
-    show you the name of the person you are communicating with on the service;
+    3）允许您使用我们不时提供的部分服务功能；在服务中向您展示沟通对象的姓名；
     <br><br>
-    4) Send you any administrative notification alerts and communications
-    related to your use of the Services;
+    4）向您发送各类管理通知、提醒，以及与您使用服务相关的通讯内容；
     <br><br>
-    5) To provide you with information that you have allowed us to collect from
-    you or that you have provided to social media providers associated with your
-    {{ appName }} account Relevant content you requested, such as information about your
-    location and that of your {{ appName }} contact;
+    5）为您提供您允许我们收集、或您向与 {{ appName }} 账号关联的社交媒体服务商提供的相关内容，例如您的位置信息及 {{ appName }} 联系人位置信息；
     <br><br>
-    6) Contact you by email, text message or other means to notify you of new
-    products, services or promotions on offer.for internal operations Conduct,
-    including troubleshooting, data analysis, testing, research, service
-    improvement, detection and prevention of error, fraud or other illegal;
-    Activities;
+    6）通过电子邮件、短信或其他方式联系您，告知新上线的产品、服务或推广活动；开展内部运营工作，包括故障排查、数据分析、测试、调研、服务优化，以及侦测和防范错误、欺诈或其他违法行为；
     <br><br>
-    7) When we sincerely believe that the law, any legal process, law
-    enforcement, national security, or issue of public importance requires
-    disclosure: To protect and defend our rights or property (including
-    enforcing our terms of use and other agreements); or
+    7）在我们确信法律要求、司法程序、执法行动、国家安全或公共重大事项需要披露时；保护和维护我们的权利或财产（包括执行我们的使用条款及其他协议）；
     <br><br>
-    8)Relating to corporate transactions involving {{ appName }}, such as the purchase
-    or sale of business units, acquisitions, mergers, sale of assets or other
-    similar events.
+    8）与涉及 {{ appName }} 的公司交易相关，例如业务单元收购或出售、并购、资产转让或其他类似事项。
     <br><br>
-    {{ appName }} allows you to share text messages, photos, screenshots, videos and
-    other communications in the {{ appName }} application with other users, and if you
-    choose to do so your text messages, photos, screenshots, videos and other
-    communications will be stored on our servers. In addition, if you choose to
-    share these items with other {{ appName }} users, we may not be able to remove them
-    from our servers or make them unavailable to anyone you have shared them
-    with. Sending and sharing text messages, photos, screenshots, videos or
-    other communications in the {{ appName }} application is your decision. By choosing
-    to share that information, you should understand that you may no longer be
-    able to control how that information is used and that it may become publicly
-    available (depending in part on your actions or the actions of others with
-    whom you have shared the information). {{ appName }} is not responsible for any use
-    or misuse of information you share.
+    {{ appName }} 支持您在应用内与其他用户共享短信、照片、截图、视频及其他通讯内容。若您选择共享，上述内容将存储在我们的服务器上。此外，若您选择向其他 {{ appName }} 用户共享此类内容，我们可能无法从服务器删除相关内容，或阻止已接收方继续访问。您在 {{ appName }} 内发送和共享短信、照片、截图、视频及其他通讯内容均由您自主决定。选择共享该类信息即表示您知晓，可能无法再控制该信息的使用方式，且相关信息可能被公开（部分取决于您及共享对象的操作行为）。对于您共享信息的任何使用或滥用行为，{{ appName }} 不承担责任。
     <br><br>
-    3.2 Transfer and Storage
+    3.2 信息传输与存储
     <br><br>
-    We operate and may continue to operate servers in a number of jurisdictions
-    around the world, so the server on which your personal information is used
-    and stored may not be in your jurisdiction.
+    我们在全球多个司法管辖区运营服务器，且可能持续拓展，因此用于处理和存储您个人信息的服务器可能不在您所在司法管辖区。
     <br><br>
-    You consent to the transfer of your personal information (both inside and
-    outside of your jurisdiction) for the purposes described in this Privacy
-    Policy.
+    您同意，为实现本隐私政策所述目的，我们可在您所在司法管辖区境内外传输您的个人信息。
     <br><br>
-    3.3 analysis
+    3.3 数据分析
     <br><br>
-    The main reason we use your information is to provide and improve our
-    services. In addition, we use your information to help keep you safe. Read
-    on to learn more about the various reasons we use your information, as well
-    as practical examples.
+    我们使用您信息的主要目的是提供和优化服务，同时保障您的使用安全。下文将详细说明我们使用您信息的各类原因及实际案例。
     <br><br>
-    1) Third Party Usage Analysis Tools: We use the tools provided by Google Inc
-    (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, "Google") for
-    usage analysis in our services. Tools owned by Firebase and acquired by
-    Google are used to measure usage. Firebase, run by Google, is also used for
-    usage analysis purposes.
+    1）第三方使用分析工具：我们使用谷歌公司（美国加利福尼亚州山景城环形大道 1600 号，邮编 94043）提供的工具进行服务使用情况分析。我们使用谷歌旗下的 Firebase 工具统计使用数据，该工具同样用于使用情况分析。
     <br><br>
-    2) Third party Conversion tracking tool: AppsFlyer, Google conversion
-    tracking API and Facebook Conversion tracking API for user conversion
-    tracking.
+    2）第三方转化追踪工具：使用 AppsFlyer、谷歌转化追踪接口、Facebook 转化追踪接口进行用户转化追踪。
     <br><br>
-    3) Crash detection tool: We used the Firebase owned Crashlytics tool for
-    crash detection. It helps maintain and improve services. All of your crash
-    data is collected anonymously.
+    3）崩溃检测工具：我们使用谷歌旗下 Firebase 的 Crashlytics 工具进行崩溃检测，有助于维护和优化服务。您的所有崩溃数据均以匿名方式收集。
     <br><br>
-    3.4 Share your information
+    3.4 您的信息共享
     <br><br>
-    Your information is shared with others in the following ways: Sharing on our
-    products
+    我们将通过以下方式向他人共享您的信息：在我们产品内共享
     <br><br>
-    1) Without your consent, we will not rent or sell your information to a
-    third party (or a group of companies to which {{ appName }} belongs), except as
-    otherwise stated in this Privacy Policy with whom we may share your
-    information:
+    1）未经您同意，我们不会向第三方（或 {{ appName }} 所属集团公司）出租或出售您的信息，本隐私政策另有规定的除外。我们可能与之共享您信息的对象包括：
     <br><br>
-    2) We may share user content and your information (including but not limited
-    to information from cookies, log files, device identifiers, bit data and
-    usage data) with or become part of a group of businesses that are legally
-    part of {{ appName }}'s group of companies (" Affiliates ").Affiliates may use this
-    information to help provide, understand, and improve services (including by
-    providing analytics) and their own services (including by providing you with
-    a better, more relevant experience).But these affiliates will respect the
-    choices you make about who can see your content.
+    2）我们可能向 {{ appName }} 集团旗下合法关联企业共享用户内容及您的信息（包括但不限于 Cookie 信息、日志文件、设备标识、比特数据及使用数据）。关联企业可使用此类信息协助提供、理解和优化服务（包括提供分析服务）及自身服务（为您提供更优质、更贴合需求的体验），但此类关联企业将尊重您对内容可见范围的设置选择。
     <br><br>
-    3) We may also share your information and information from tools such as
-    cookies, log files, device identifiers and location data with third party
-    organizations that help us provide services to you (the "Service
-    Provider").Our service providers will be granted access to your information
-    in order to provide services under reasonable confidentiality terms.
+    3）我们还可能向协助我们为您提供服务的第三方机构（服务提供商）共享您的信息，以及 Cookie、日志文件、设备标识、位置数据等工具获取的信息。我们的服务提供商将在合理保密条款约束下，访问您的信息以提供对应服务。
     <br><br>
-    4) We may also share aggregate or anonymous information with third parties,
-    including advertisers and investors.For example, we might tell our
-    advertisers how many users our app has received.This information does not
-    contain any personal or personally identifiable information and is used to
-    develop content and services that we hope you will be interested in.
+    4）我们还可能向第三方（包括广告商和投资方）共享汇总或匿名信息。例如，我们可能向广告商告知应用的用户总量。此类信息不包含任何个人可识别信息，用于开发我们认为您可能感兴趣的内容和服务。
     <br><br>
-    5) We may delete some data that can identify you and share your name data
-    with other parties.We may also combine your information with other
-    information in ways that are no longer associated with you and share this
-    aggregate information, and you may choose the parties with whom you share
-    your user content:
+    5）我们可能删除可识别您身份的部分数据，再将您的姓名信息与其他方共享。我们也可能将您的信息与其他信息进行匿名化整合后共享。您可自主选择共享用户内容的对象：
     <br><br>
-    6) Any information or content that you voluntarily disclose to publish to
-    the Service, such as user content, will be made available to the public.
-    With this feature, {{ appName }} can prevent demand frenzy.Once you share user
-    content or make it public, that user content may be re-shared by others;
+    6）您自愿在服务中公开发布的任何信息或内容（如用户生成内容）将对公众开放。借助该功能，{{ appName }} 可避免需求乱象。一旦您共享或公开发布用户内容，该内容可能被他人再次转发共享；
     <br><br>
-    7) If you delete information and content that you create on the Service (for
-    example, screen shots, etc.), the copy may remain visible in the Service's
-    cache and archived pages, or if other users or third parties have copied or
-    saved the information (for example, Facebook, etc.).
+    7）若您删除在服务中创建的信息和内容（如截图等），服务缓存和存档页面中可能仍保留副本；若其他用户或第三方（如 Facebook 等）已复制或保存相关信息，也可能继续可见。
     <br><br>
-    3.5 Security Measures We Take to Protect Your Information
+    3.5 我们为保护您信息采取的安全措施
     <br><br>
-    We employ administrative, physical and electronic measures designed to
-    protect your information from unauthorized access, however, despite these
-    efforts, no security measures are perfect or impenetrable and no method of
-    data transmission can be guaranteed against any interception or other type
-    of misuse. In the event that your personal information is compromised as a
-    result of a breach of security, we will promptly notify you if your personal
-    information has been compromised, as required by applicable law.
+    我们采取管理、物理和电子技术措施，旨在保护您的信息免受未经授权访问。但尽管已作出上述努力，没有任何安全措施是完美或不可突破的，也没有任何数据传输方式可完全杜绝拦截或其他形式的滥用。若因安全漏洞导致您的个人信息泄露，我们将根据适用法律要求，及时向您发出通知。
     <br><br>
-    Where we do share your personal information with any third parties, we will
-    use reasonable efforts to ensure that such third parties only use your
-    personal information:
+    当我们向任何第三方共享您的个人信息时，我们将采取合理措施确保该第三方仅在以下条件下使用您的个人信息：
     <br><br>
-    (i)in compliance with this Privacy Policy;
+    （i）遵守本隐私政策；
     <br><br>
-    (ii) subject to any other instructions we give them, including any
-    appropriate confidentiality and security measures that we implement.
+    （ii）遵循我们给出的其他指示，包括我们实施的适当保密和安全措施。
     <br><br>
     <div class="bt">
-      4.How to Access Your Information
+      4. 您如何访问个人信息
     </div>
-    You can access and modify the information you provided to us through your
-    account.
+    您可通过账号访问和修改您向我们提供的信息。
     <br><br>
-    If you believe your information posted on {{ appName }} is not authentic or accurate
-    and can provide us with reasonable proof regarding this, you can require us
-    via the contact information provided in this Privacy Policy to correct these
-    unauthentic or inaccurate information and we will use reasonable efforts to
-    honour your request; however, we may retain an archived copy of your
-    information as required by law and/or for record keeping purposes.
+    若您认为您在 {{ appName }} 上发布的信息不真实、不准确，并能为此提供合理证明，您可通过本隐私政策提供的联系方式要求我们更正该类不实或错误信息，我们将尽合理努力满足您的请求；但根据法律要求及/或存档需要，我们可能保留您信息的存档副本。
     <br><br>
-    Once your account is closed or deleted, you will no longer have access to
-    your message history, preferences or any other information associated with
-    your use of our services. Even after you remove information from your
-    account or profile, copies of that information may remain viewable
-    elsewhere, to the extent it has been shared with others, it was otherwise
-    distributed pursuant to your privacy settings, or it was copied or stored by
-    other users. Additionally, we will retain your personal data even after you
-    have closed your account if reasonably necessary to comply with our legal
-    obligations (including law enforcement requests), meet regulatory
-    requirements, resolve disputes, maintain security, prevent fraud and abuse,
-    or enforce the Terms of Service. We will retain de-personalized information
-    after your account has been closed.
+    账号关闭或删除后，您将无法再访问与使用我们服务相关的消息记录、偏好设置及其他任何信息。即使您从账号或个人资料中删除信息，若该信息已与他人共享、根据您的隐私设置被分发，或被其他用户复制、保存，相关副本仍可能在其他地方可见。此外，为遵守法律义务（包括执法要求）、满足监管规定、解决纠纷、维护安全、防范欺诈和滥用行为，或执行服务条款，即使您关闭账号，我们仍可能保留您的个人数据。账号关闭后，我们将保留匿名化处理后的信息。
     <br><br>
-    In some cases, we may not be able to update, amend or remove your personal
-    information, in which case we will let you know why we are unable to do so,
-    for example, certain requests may require disproportionate technical effort
-    or extremely impractical, or are prohibited by law.
+    在部分情况下，我们可能无法更新、修改或删除您的个人信息，届时我们将告知无法操作的原因，例如部分请求需要投入过高技术成本、极不具备可行性，或受法律禁止。
     <br><br>
-    Since {{ appName }} will be used in multiple jurisdictions and we may not be
-    possible to identify all the inconsistency between certain terms of this
-    Privacy Policy and the applicable law in your jurisdiction, thus you agree
-    to notify us once such inconsistency is identified by you. Under this
-    circumstance we will take necessary methods to eliminate such inconsistency,
-    including deleting these personal information improperly collected or used
-    by us.
+    由于 {{ appName }} 将在多个司法管辖区使用，我们可能无法识别本隐私政策部分条款与您所在司法管辖区适用法律之间的所有冲突，因此您同意，一旦发现此类冲突请及时通知我们。在此情况下，我们将采取必要措施消除冲突，包括删除我们不当收集或使用的个人信息。
     <br><br>
     <div class="bt">
-      5. Data access and deletion
+      5. 数据访问与删除
     </div>
-    You always have control over what information you choose to share with us on
-    the Services. To do this, you can change the Settings in the service or on
-    the mobile device. Alternatively, you can delete this service completely
-    from your mobile device and you can delete your data at any time. If you
-    request us to delete your account, we will use commercially reasonable
-    efforts to delete your data from our servers.
+    您始终可自主选择在服务中向我们共享的信息内容。您可通过服务或移动设备设置进行调整，也可随时从移动设备完全卸载本服务并删除数据。若您请求我们删除您的账号，我们将尽商业上合理的努力，从服务器中删除您的数据。
     <br><br>
-    Text messages, photos, videos or any other personally identifiable
-    information that you share in or through the {{ appName }} App with other users or
-    submit in blogs, bulletin boards or chat rooms on our website or elsewhere
-    may be viewed and used by others, These include sending you unsolicited
-    messages or identity theft. {{ appName }} is not responsible for any use or misuse
-    of your information resulting from the disclosure of your information
+    您在 {{ appName }} 应用内与其他用户共享，或在我们网站及其他平台的博客、公告栏、聊天室中提交的短信、照片、视频或其他任何个人可识别信息，可能被他人查看和使用，包括向您发送未经请求的消息或实施身份盗用。对于因您披露信息导致的任何使用或滥用行为，{{ appName }} 不承担责任。
     <br><br>
     <div class="bt">
-      6. Security
+      6. 安全保障
     </div>
-    Protecting user privacy and personal information is a top priority at {{ appName }},
-    and we make significant efforts to ensure the privacy of all personally
-    identifiable information you provide to us.Access to all personally
-    identifiable information is limited to {{ appName }} employees, contractors, agents
-    and third party service providers who want to know this information in order
-    to provide, operate and develop it.Maintenance, support can be political
-    into the service.
+    保护用户隐私和个人信息是 {{ appName }} 的首要任务，我们全力保障您提供的所有个人可识别信息的隐私安全。仅 {{ appName }} 员工、承包商、代理人及第三方服务提供商，可在为提供、运营、开发、维护、支持服务所需范围内，访问所有个人可识别信息。
     <br><br>
     <div class="bt">
-      7. Age
+      7. 年龄限制
     </div>
-    This service is not targeted at children under the age of eighteen (18) and
-    we do not knowingly accept or sell personally identifiable information from
-    children under the age of eighteen as part of our service. If we become
-    aware that we have inadvertently received personally identifiable
-    information from users under 18 years of age in our Services, we will remove
-    such information from our records. If we change our practices in the future,
-    as part of the service, we will obtain prior, verifiable parental consent
-    before collecting any personally identifiable information from children
-    under 18 years of age.
+    本服务并非针对未满 18 周岁的未成年人设计，我们不会故意接受或向未满 18 周岁未成年人收集、出售个人可识别信息作为服务内容。若我们发现无意中收到未满 18 周岁用户的个人可识别信息，将从记录中删除该信息。若未来我们调整相关规则，在收集未满 18 周岁未成年人的个人可识别信息前，将事先获得可验证的监护人同意。
     <br><br>
     <div class="bt">
-      8. Change notification
+      8. 政策变更通知
     </div>
-    We reserve the right to change this Privacy Policy at our sole discretion.
-    You can view updates to our privacy policy at any time through the link on
-    our website. You agree to accept the Posting of {{ appName }} electronic newsletter
-    and/or the revised Privacy Policy. And you agree that such electronic
-    communications or posts constitute a notice to you of the Privacy Policy. We
-    reserve the right to revise this policy from time to time, so please check
-    often. If we make material changes to this Policy, we will notify you by
-    Posting a revised Privacy Policy or by means of a notice on our website or
-    legal requirements. You agree to periodically review the Privacy Policy so
-    that you are aware of any changes. You agree that your continued use of the
-    Service after we publish the revised Privacy Policy or provide notice on our
-    website means that you accept the revised Privacy Policy. If you do not
-    agree to the terms of the Privacy Policy, you should not use the Service.
+    我们保留自行决定修改本隐私政策的权利。您可随时通过我们网站上的链接查看隐私政策更新内容。您同意接收 {{ appName }} 电子通讯及/或修订后的隐私政策公告，并认可此类电子通讯或公告构成本隐私政策的有效通知。我们保留不时修订本政策的权利，请您经常查阅。若我们对本政策作出重大变更，将通过发布修订版隐私政策、在网站发布通知或按法律要求的方式告知您。您同意定期查阅隐私政策，及时了解任何变更。您在我们发布修订版隐私政策或网站通知后继续使用服务，即表示您接受修订后的隐私政策。若您不同意隐私政策条款，请不要使用本服务。
     <br><br>
     <div class="bt">
-      9. Contacting Us
+      9. 联系我们
     </div>
-    If you have any questions about our Privacy Policy or any privacy-related
-    matters, please contact us via email at 【{{ appName }}@{{ appName }}.site】.
+    若您对本隐私政策或任何与隐私相关的事宜有任何疑问，请通过电子邮件【{{ appName }}@{{ appName }}.site】与我们联系。
     <br><br>
   </div>
 </template>
