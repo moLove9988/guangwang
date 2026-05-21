@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Lidlu.'
+const appName = 'Nooka'
 </script>
 
 <template>
