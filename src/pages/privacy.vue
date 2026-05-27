@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'PopoFun'
+const appName = 'VoHub'
 </script>
 
 <template>
