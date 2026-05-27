@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'VoxHub'
+const appName = 'PopoFun'
 </script>
 
 <template>
@@ -86,6 +86,13 @@ const appName = 'VoxHub'
     7) Information provided by you from social media when you create a {{ appName }}
     account by connecting to or associating a {{ appName }} account with a third party
     social media account (e.g., Facebook, Google);
+    <br><br>
+    8) When you choose to use the AI question-and-answer feature, the text you
+    enter, the AI conversation content, and limited technical information
+    necessary to provide the feature, such as request time, language setting,
+    and service error information. Please do not enter sensitive personal
+    information or information about other people unless you have the right to
+    provide it.
     <br><br>
     2.Automatically Collected Information for Legitimate Interests
     <br><br>
@@ -202,6 +209,13 @@ const appName = 'VoxHub'
     or sale of business units, acquisitions, mergers, sale of assets or other
     similar events.
     <br><br>
+    9) If you choose to use the AI question-and-answer feature, we use the text
+    prompts, questions, and related conversation context that you submit to
+    generate AI responses, maintain the security and reliability of the feature,
+    prevent abuse, troubleshoot service errors, and improve the quality of the
+    {{ appName }} Services. We do not use your AI question-and-answer content for
+    advertising profiling.
+    <br><br>
     {{ appName }} allows you to share text messages, photos, screenshots, videos and
     other communications in the {{ appName }} application with other users, and if you
     choose to do so your text messages, photos, screenshots, videos and other
@@ -246,6 +260,16 @@ const appName = 'VoxHub'
     3) Crash detection tool: We used the Firebase owned Crashlytics tool for
     crash detection. It helps maintain and improve services. All of your crash
     data is collected anonymously.
+    <br><br>
+    4) Third party AI service: If you choose to use the AI question-and-answer
+    feature, {{ appName }} uses the OpenAI API provided by OpenAI, L.L.C.
+    ("OpenAI") to process your text prompts, questions, and related
+    conversation context and return AI-generated responses. We send this
+    information to OpenAI only after you choose to use the AI feature and give
+    permission in the app. OpenAI acts as our service provider for this feature
+    and is required to protect the information it processes with the same or
+    equivalent level of privacy and security protection required by this
+    Privacy Policy and applicable law.
     <br><br>
     3.4 Share your information
     <br><br>
@@ -293,6 +317,16 @@ const appName = 'VoxHub'
     example, screen shots, etc.), the copy may remain visible in the Service's
     cache and archived pages, or if other users or third parties have copied or
     saved the information (for example, Facebook, etc.).
+    <br><br>
+    8) AI service sharing: When you use the AI question-and-answer feature, and
+    only after you give permission in the app, we share the text you submit and
+    the related conversation context with OpenAI so that OpenAI can process the
+    request and provide an AI-generated response.
+    We do not sell this information. We do not intentionally send your account
+    password, payment information, precise location, contacts, photos, videos,
+    microphone recordings, or camera data to OpenAI for the AI
+    question-and-answer feature unless you actively include such information in
+    the text you submit.
     <br><br>
     3.5 Security Measures We Take to Protect Your Information
     <br><br>
@@ -423,10 +457,9 @@ const appName = 'VoxHub'
   .protocol {
     font-size: 14px;
     margin-bottom: 14px;
-    color: #000;
+    color: #666;
     margin-left:6px;
     margin-right:6px;
-    background-color: fff;
   }
   .bt {
     font-size: 20px;
