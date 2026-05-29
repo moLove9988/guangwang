@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Camivo'
+const appName = 'Museip'
 </script>
 
 <template>
