@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Yowave（D-卡丁车语聊社区）'
+const appName = 'Yowave'
 </script>
 
 <template>
