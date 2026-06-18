@@ -158,12 +158,7 @@
         We use the information we have (based on your settings) for the
         purposes listed below, as well as to provide and support Incosplay
         Products and related services described in the
-        <a
-          href="http://safari-reader//incosplay.top/agreement"
-          target="_blank"
-          rel="noopener"
-          >Incosplay User Agreement</a
-        >. The following describes how we use it.
+       Incosplay User Agreement. The following describes how we use it.
       </p>
 
       <h3>2.1 To provide, personalize, and improve our Products</h3>
@@ -538,11 +533,8 @@
         described below.
       </p>
       <address class="pp-address">
-        Contact us
-        <a href="http://safari-reader//incosplay.top/" target="_blank" rel="noopener"
-          >online</a
-        >
-        or by email:
+        Contact 
+         email:
         <a href="mailto:support@incosplay.top?subject=Policy%20question"
           >Carmie098772@gmail.com</a
         >
