@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Pluvo'
+const appName = 'LeepJ'
 </script>
 
 <template>
