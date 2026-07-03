@@ -1,157 +1,174 @@
 <template>
   <div class="agreement-page">
     <section class="agreement-section">
-      <h1>Livtoik User Agreement</h1>
+      <h1>Sandra User Agreement</h1>
 
-      <p class="effective-date"><strong>Effective Date: June 23, 2026</strong></p>
-
-      <p>
-        Welcome to Livtoik. This User Agreement explains the rules that apply when you access or use Livtoik,
-        including our mobile application, livestream features, account features, messages, user profiles,
-        activity posts, challenge features, web-based pages, and related services.
-      </p>
+      <p class="effective-date"><strong>Effective Date: July 1, 2026</strong></p>
 
       <p>
-        By creating an account, signing in, accessing Livtoik, posting content, joining livestreams,
-        sending messages, making purchases, or otherwise using Livtoik, you agree to this User Agreement.
-        If you do not agree, please do not use Livtoik.
+        Welcome to Sandra. This User Agreement explains the rules that apply when you access or use Sandra, including
+        drawing challenges, sketch guessing features, themed rounds, live game messages, reactions, DoodleMuse AI prompt
+        tools, and other creative or social features provided through the app.
       </p>
 
-      <h2>1. Eligibility</h2>
+      <p>By using Sandra, you agree to this User Agreement. If you do not agree, please do not use the app.</p>
+
+      <h2>1. App Description</h2>
       <p>
-        You must be old enough to legally use online services in your location and to enter into this agreement.
-        Livtoik may require account registration, identity or age verification, camera access, or other verification
-        steps before certain features are available.
+        Sandra is a creative drawing and guessing app that turns simple prompts into playful sketch experiences. Users
+        may create drawing challenges, draw freely, use DoodleMuse AI to generate sketch ideas from keywords, guess other
+        users’ sketches, participate in themed rounds, send live game messages, react to content, and share or remix
+        creative moments within the app.
       </p>
+      <p>Sandra is intended for fun, creativity, imagination, and friendly interaction.</p>
+
+      <h2>2. Availability</h2>
       <p>
-        You are responsible for ensuring that your use of Livtoik complies with applicable laws, aviation rules,
-        communications rules, payment rules, and platform terms.
+        Sandra is available worldwide except in Mainland China. The app is not offered, distributed, or intended for use
+        in Mainland China. By using Sandra, you confirm that you are not accessing or using the app from Mainland China
+        or in violation of any applicable laws or platform restrictions.
       </p>
 
-      <h2>2. Account Registration and Security</h2>
+      <h2>3. User Accounts and Responsibility</h2>
       <p>
-        You may need an account to use features such as posting challenges, joining certain rooms, messaging,
-        editing your profile, using H5 features, or making purchases.
+        You are responsible for your use of Sandra and for any content, messages, sketches, prompts, guesses, reactions,
+        or other materials you create, upload, submit, share, or display through the app.
       </p>
       <p>
-        You agree to provide accurate registration information and to keep your account information up to date.
-        You are responsible for keeping your login credentials secure and for all activity under your account.
-      </p>
-
-      <h2>3. Livestreams, Rooms, and Interactive Features</h2>
-      <p>
-        Livtoik may allow users to create, host, join, view, or interact with livestream rooms, virtual rooms,
-        video rooms, live chats, profile pages, activity pages, private chats, and related H5 pages.
-      </p>
-      <p>
-        You agree not to use these features to harass others, impersonate another person, mislead users,
-        publish unlawful content, or interfere with Livtoik.
+        You agree to provide accurate information where required and to keep your account secure. You may not use another
+        person’s account without permission or allow others to misuse your account.
       </p>
 
-      <h2>4. Aviation and Safety</h2>
+      <h2>4. User Content</h2>
       <p>
-        Livtoik may include aviation-related livestreams, challenges, posts, broadcasts, images, messages,
-        or marketplace-style pages. Livtoik is not an aviation safety system, flight planning tool, emergency service,
-        aircraft operation tool, navigation tool, or substitute for professional training, licensing, air traffic control,
-        or legal compliance.
+        You retain ownership of the content you create and submit to Sandra. However, by posting, uploading, sharing,
+        or generating content through the app, you grant Sandra a worldwide, non-exclusive, royalty-free license to host,
+        store, display, reproduce, modify, adapt, publish, translate, distribute, and use such content as necessary to
+        operate, improve, promote, and provide the app and its features.
       </p>
       <p>
-        You must not rely on Livtoik for flight operation decisions. You are solely responsible for following all
-        applicable laws, regulations, safety procedures, and professional requirements.
-      </p>
-
-      <h2>5. User Content</h2>
-      <p>
-        You may upload, submit, publish, transmit, or display content, including profile information, photos, videos,
-        livestreams, comments, messages, challenge posts, activity posts, and other materials.
-      </p>
-      <p>
-        You keep ownership of your content, but you grant Livtoik a worldwide, non-exclusive, royalty-free license
-        to host, store, process, display, distribute, adapt for technical purposes, and use your content as needed
-        to operate, protect, and improve Livtoik.
+        This license allows Sandra to display your sketches, prompts, guesses, reactions, and related content within the
+        app, including in challenges, themed rounds, social features, and other user-facing areas.
       </p>
 
-      <h2>6. Prohibited Conduct</h2>
+      <h2>5. Prohibited Content and Conduct</h2>
       <p>
-        You agree not to post unlawful, harmful, abusive, harassing, hateful, discriminatory, exploitative, violent,
-        infringing, fraudulent, deceptive, spam, malware, or unsafe aviation-related content. You also agree not to
-        bypass security, moderation, payment, identity verification, or access controls.
+        Users must not create, upload, post, send, share, generate, or display any illegal, harmful, abusive, or
+        otherwise prohibited content through Sandra.
+      </p>
+      <p>Prohibited content includes, but is not limited to:</p>
+      <ul>
+        <li>Content that violates any applicable law or regulation;</li>
+        <li>Harassment, bullying, threats, intimidation, hate speech, or discriminatory content;</li>
+        <li>Sexually explicit, pornographic, or exploitative content;</li>
+        <li>Content involving minors in a sexual, abusive, or harmful manner;</li>
+        <li>Graphic violence, self-harm content, or content encouraging harm to oneself or others;</li>
+        <li>Content promoting terrorism, extremism, criminal activity, or dangerous behavior;</li>
+        <li>
+          Content that infringes intellectual property, privacy, publicity, or other rights of any person or entity;
+        </li>
+        <li>Spam, scams, phishing, impersonation, deceptive content, or malicious links;</li>
+        <li>
+          Content that disrupts the app, interferes with other users, or abuses Sandra’s systems, including DoodleMuse
+          AI or live game features.
+        </li>
+      </ul>
+      <p>
+        Sandra may remove content, restrict features, suspend accounts, or terminate access if we believe a user has
+        violated this Agreement or created risk for other users, the app, or third parties.
       </p>
 
-      <h2>7. Review, Moderation, Reports, and Blocking</h2>
+      <h2>6. DoodleMuse AI Features</h2>
       <p>
-        Some content, including challenge posts, may require review before it appears publicly. Livtoik may remove,
-        hide, restrict, or refuse content at any time.
+        Sandra may include AI-powered features, including DoodleMuse AI, which can help generate sketch ideas based on
+        keywords or prompts. AI-generated suggestions may be creative, unexpected, inaccurate, or unsuitable in some
+        cases.
       </p>
       <p>
-        Users may report or block other users. If you block a user, content from that user may be hidden from your
-        experience.
-      </p>
-
-      <h2>8. Purchases and Virtual Items</h2>
-      <p>
-        Livtoik may offer paid features, virtual items, coins, balance, subscriptions, or other purchases through Apple
-        in-app purchase or H5-triggered purchase flows.
+        You are responsible for reviewing and using AI-generated ideas appropriately. You must not use DoodleMuse AI to
+        create or attempt to create prohibited, illegal, harmful, infringing, or abusive content.
       </p>
       <p>
-        Payments are processed by Apple or the applicable payment provider. Virtual items have no cash value,
-        are not legal tender, and may be used only within Livtoik where supported.
+        Sandra does not guarantee that AI-generated prompts, sketches, suggestions, or outputs will be original,
+        accurate, safe, or appropriate for every user or situation.
       </p>
 
-      <h2>9. Third-Party and H5 Pages</h2>
+      <h2>7. Community Features</h2>
       <p>
-        Livtoik may load web-based pages or H5 features for live rooms, settings, profiles, purchases, reports,
-        orders, goods, addresses, activity pages, and other features.
+        Sandra may allow users to interact through sketch challenges, guesses, themed rounds, live game messages,
+        reactions, and other social or creative features. You agree to interact respectfully and not misuse community
+        features to harass others, spread prohibited content, manipulate games, or interfere with the experience of
+        other users.
+      </p>
+
+      <h2>8. Intellectual Property</h2>
+      <p>
+        Sandra, including its name, design, features, software, interface, logos, systems, and DoodleMuse AI-related
+        tools, is owned by or licensed to Sandra and is protected by intellectual property laws.
       </p>
       <p>
-        These pages may communicate with the app to request login, close a page, navigate to another page,
-        initiate a purchase, make a phone call, or complete other supported actions.
+        You may not copy, modify, reverse engineer, distribute, sell, or exploit any part of Sandra except as allowed by
+        this Agreement or applicable law.
       </p>
+
+      <h2>9. App Changes and Availability</h2>
+      <p>
+        Sandra may update, modify, suspend, or discontinue any part of the app at any time, including drawing tools, AI
+        features, prompts, challenges, social features, or user content functions. We may also limit access to certain
+        features, regions, accounts, or users where necessary.
+      </p>
+      <p>We do not guarantee that Sandra will always be available, error-free, secure, or uninterrupted.</p>
 
       <h2>10. Privacy</h2>
       <p>
-        Your use of Livtoik is also governed by our Privacy Policy, which explains how we collect, use, store,
-        and protect information.
+        Your use of Sandra may involve the collection and processing of certain information. Please review our Privacy
+        Policy, if available, to understand how information may be collected, used, stored, and shared.
       </p>
 
-      <h2>11. Availability and Changes</h2>
+      <h2>11. Termination</h2>
       <p>
-        Livtoik may change, suspend, discontinue, or limit any feature at any time. We may update this agreement
-        from time to time. The updated version will apply when it is posted or made available in the app.
+        You may stop using Sandra at any time. Sandra may suspend or terminate your access if you violate this Agreement,
+        misuse the app, create risk for others, or if continued access is no longer appropriate for legal, safety,
+        operational, or business reasons.
+      </p>
+      <p>
+        After termination, certain provisions of this Agreement may continue to apply, including ownership rights,
+        content licenses, disclaimers, limitations of liability, and dispute-related provisions.
       </p>
 
-      <h2>12. Disclaimers</h2>
+      <h2>12. Disclaimer</h2>
       <p>
-        Livtoik is provided on an “as is” and “as available” basis. We do not guarantee that livestreams, pages,
-        user content, messages, purchases, profiles, or verification features will always be available, accurate,
-        secure, or error-free.
+        Sandra is provided on an “as is” and “as available” basis. To the fullest extent permitted by law, Sandra
+        disclaims all warranties, express or implied, including warranties of merchantability, fitness for a particular
+        purpose, non-infringement, availability, accuracy, and reliability.
       </p>
+      <p>You use Sandra at your own discretion and risk.</p>
 
       <h2>13. Limitation of Liability</h2>
       <p>
-        To the maximum extent allowed by law, Livtoik and its operators will not be liable for indirect, incidental,
-        special, consequential, exemplary, or punitive damages, or for loss of data, revenue, profits, goodwill,
-        content, or business opportunities.
+        To the fullest extent permitted by law, Sandra and its owners, operators, affiliates, partners, service
+        providers, and representatives will not be liable for any indirect, incidental, special, consequential, punitive,
+        or exemplary damages, or for loss of data, content, profits, goodwill, or business opportunities arising from or
+        related to your use of the app.
       </p>
 
-      <h2>14. Termination</h2>
+      <h2>14. Changes to This Agreement</h2>
       <p>
-        You may stop using Livtoik at any time. We may suspend, restrict, or terminate your access if we believe
-        you violated this agreement, created risk, caused harm, or used Livtoik in a way that may expose Livtoik,
-        users, partners, or third parties to liability.
+        Sandra may update this User Agreement from time to time. If we make changes, we may notify users through the app,
+        by email, or by other reasonable means. Continued use of Sandra after the updated Agreement becomes effective
+        means you accept the revised terms.
       </p>
 
       <h2>15. Contact</h2>
-      <p>
-        If you have questions about this User Agreement, please contact us through the in-app support or settings page.
-      </p>
+      <p>If you have any questions about this User Agreement, please contact us at:</p>
+      <p><a href="mailto:sandra@gmail.com">sandra@gmail.com</a></p>
     </section>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'LivtoikUserAgreement'
+  name: 'SandraUserAgreement'
 }
 </script>
 
@@ -194,6 +211,23 @@ p {
   color: #333333;
 }
 
+ul {
+  margin: 0 0 14px 20px;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 8px;
+  font-size: 15px;
+  color: #333333;
+}
+
+a {
+  color: #111111;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 .effective-date {
   margin-bottom: 20px;
   color: #111111;
@@ -212,7 +246,8 @@ p {
     font-size: 17px;
   }
 
-  p {
+  p,
+  li {
     font-size: 14px;
   }
 }

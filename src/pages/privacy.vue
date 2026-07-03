@@ -1,152 +1,280 @@
 <template>
   <div class="agreement-page">
     <section class="agreement-section">
-      <h1>Livtoik Privacy Policy</h1>
+      <h1>Sandra Privacy Policy</h1>
 
-      <p class="effective-date"><strong>Effective Date: June 23, 2026</strong></p>
-
-      <p>
-        This Privacy Policy explains how Livtoik collects, uses, stores, shares, and protects information when you use
-        our mobile application, livestream features, H5 pages, messaging features, account features, purchases,
-        and related services.
-      </p>
+      <p class="effective-date"><strong>Effective Date: July 1, 2026</strong></p>
 
       <p>
-        By using Livtoik, you agree to the collection and use of information as described in this Privacy Policy.
-        If you do not agree, please do not use Livtoik.
+        This Privacy Policy explains how Sandra (“Sandra,” “we,” “our,” or “us”) collects, uses, stores, shares,
+        and protects information when you access or use the Sandra mobile application, including drawing challenges,
+        sketch guessing, themed rounds, live game messages, reactions, DoodleMuse AI features, and related creative
+        or social services.
       </p>
 
-      <h2>1. Information We Collect</h2>
       <p>
-        We collect information you provide, information generated when you use Livtoik, and information needed
-        to operate app features.
+        By using Sandra, you agree to the collection and use of information as described in this Privacy Policy.
+        If you do not agree, please do not use the app.
       </p>
 
-      <h2>2. Account Information</h2>
+      <h2>1. Availability</h2>
       <p>
-        When you register, sign in, or update your profile, we may collect your name, nickname, email address,
-        password-related login credentials, account identifiers, profile photo, avatar, bio, profile settings,
-        login token, verification status, and app identifiers.
+        Sandra is available worldwide except in Mainland China. Sandra is not offered, distributed, or intended for use
+        in Mainland China.
       </p>
 
-      <h2>3. User Content and Communications</h2>
+      <h2>2. Information We Collect</h2>
+      <p>We may collect the following types of information depending on how you use Sandra.</p>
+
+      <h3>2.1 Account Information</h3>
       <p>
-        Livtoik may collect and process content you create, upload, send, receive, or interact with, including
-        livestream room information, challenge posts, activity posts, images, videos, comments, likes, join or cancel
-        states, reports, block actions, messages, conversation information, timestamps, sender and recipient identifiers,
-        and related metadata.
+        If you create an account or sign in to Sandra, we may collect information such as your username, display name,
+        email address, login information, profile details, and account preferences.
       </p>
 
-      <h2>4. Camera, Photos, and Face Verification</h2>
+      <h3>2.2 User Content</h3>
       <p>
-        Livtoik may request access to your camera or photo library for features such as profile images, activity covers,
-        challenge covers, livestream features, and identity or age verification.
+        Sandra is a creative drawing and guessing app. We may collect and store content you create, upload, submit,
+        generate, share, or display through the app, including:
       </p>
+      <ul>
+        <li>Sketches, drawings, doodles, and images;</li>
+        <li>Drawing prompts, keywords, and challenge ideas;</li>
+        <li>Guesses, answers, comments, live game messages, and reactions;</li>
+        <li>Themed round activity, challenge participation, and remix activity;</li>
+        <li>Content generated or assisted by DoodleMuse AI.</li>
+      </ul>
       <p>
-        If you use face verification, we may process a selfie or image to verify your identity, age, account integrity,
-        or eligibility for app features. We use verification data to help protect users, prevent misuse,
-        and support compliance.
-      </p>
-
-      <h2>5. Payment and Purchase Information</h2>
-      <p>
-        Livtoik may support purchases through Apple in-app purchase or H5-triggered purchase flows. We may receive
-        transaction status, product identifiers, purchase results, balance updates, and related records needed to provide
-        purchased features or virtual items.
-      </p>
-      <p>
-        Apple processes payment details. Livtoik does not receive your full payment card information from Apple.
+        User Content may be visible to other users when you post, share, join public or social features, participate
+        in challenges, send live game messages, or interact with community features.
       </p>
 
-      <h2>6. Device, Usage, and Technical Information</h2>
+      <h3>2.3 AI Feature Information</h3>
       <p>
-        We may collect device type, operating system, app version, language, region, network state, permitted device
-        identifiers, IP address, timestamps, request logs, API activity, H5 events, crash logs, diagnostics, feature usage,
-        page visits, button actions, loading states, error messages, and security events.
+        If you use DoodleMuse AI, we may process the keywords, prompts, text, sketches, or related inputs you provide
+        in order to generate sketch ideas, creative prompts, or related outputs.
+      </p>
+      <p>
+        You should not submit sensitive personal information, confidential information, or information about others
+        without permission when using AI features.
       </p>
 
-      <h2>7. Location and Address Information</h2>
+      <h3>2.4 Usage and Interaction Information</h3>
       <p>
-        Livtoik may allow you to enter event addresses, activity locations, delivery addresses, or other location-related
-        information through app or H5 pages. We use this information to provide the feature you requested.
-      </p>
-      <p>
-        Livtoik does not need precise device location unless a specific feature requests it and you grant that permission.
+        We may collect information about how you use Sandra, such as the features you use, challenges you join,
+        sketches you view or guess, reactions you send, game activity, session activity, app performance, crash reports,
+        and general interaction data.
       </p>
 
-      <h2>8. How We Use Information</h2>
+      <h3>2.5 Device and Technical Information</h3>
       <p>
-        We use information to create and secure accounts, provide livestreams, messaging, profiles, posts, challenges,
-        H5 pages, purchases and settings, display content, save login status and preferences, process purchases,
-        review content, handle reports, block users, prevent abuse, improve performance, diagnose issues, and comply
-        with legal, security, App Store, and platform requirements.
+        We may collect device and technical information such as device type, operating system, app version, language
+        settings, general region, IP address, device identifiers, network information, crash logs, and diagnostic data.
       </p>
 
-      <h2>9. How We Share Information</h2>
+      <h3>2.6 Communications</h3>
       <p>
-        We may share information with service providers, payment providers, Apple, other users when you choose to interact
-        publicly or directly, authorities when required by law, and parties involved in a business transfer.
-      </p>
-      <p>
-        We do not sell your personal information in the ordinary meaning of selling it for money.
+        If you contact us, we may collect your email address, message content, and any information you choose to provide
+        so that we can respond to your request.
       </p>
 
-      <h2>10. Data Storage and Security</h2>
+      <h2>3. How We Use Information</h2>
+      <p>We may use information to:</p>
+      <ul>
+        <li>Provide, operate, maintain, and improve Sandra;</li>
+        <li>
+          Enable drawing challenges, sketch guessing, themed rounds, live messages, reactions, and other creative
+          features;
+        </li>
+        <li>Generate sketch ideas and prompts through DoodleMuse AI;</li>
+        <li>Display User Content within the app where users choose to share or participate;</li>
+        <li>Personalize prompts, challenges, recommendations, and user experience;</li>
+        <li>Moderate content, enforce our rules, and protect user safety;</li>
+        <li>Detect, prevent, and address fraud, abuse, spam, security incidents, or prohibited conduct;</li>
+        <li>Analyze app performance, fix bugs, and improve functionality;</li>
+        <li>Communicate with users about support, updates, safety notices, and policy changes;</li>
+        <li>Comply with legal obligations and enforce our agreements.</li>
+      </ul>
+
+      <h2>4. User Content, Public Areas, and Community Features</h2>
       <p>
-        We use reasonable technical and organizational measures to protect information. However, no method of transmission
-        or storage is completely secure.
+        Sandra includes social and community features. Content you share in sketch challenges, themed rounds, live game
+        messages, reactions, public prompts, guesses, or remix features may be seen by other users.
       </p>
       <p>
-        Some information may be stored locally on your device, such as login state, token data, user lists,
-        blocked user IDs, local challenge posts, and preferences.
+        You are responsible for the content you choose to share. Please do not post personal, sensitive, confidential,
+        or private information that you do not want others to see.
+      </p>
+      <p>
+        We may review, remove, restrict, or moderate User Content if we believe it violates our User Agreement,
+        community rules, safety standards, platform requirements, or applicable law.
       </p>
 
-      <h2>11. Data Retention</h2>
+      <h2>5. Prohibited Content</h2>
       <p>
-        We keep information for as long as needed to provide Livtoik, maintain accounts, comply with legal obligations,
-        resolve disputes, prevent abuse, enforce agreements, support security, and operate business records.
+        Users may not create, upload, post, send, share, generate, or display illegal, harmful, abusive, infringing,
+        sexually explicit, violent, hateful, harassing, deceptive, exploitative, or otherwise prohibited content through
+        Sandra.
+      </p>
+      <p>This includes prohibited content created manually or with the help of DoodleMuse AI.</p>
+      <p>
+        We may process User Content and related activity to detect, prevent, investigate, or remove prohibited content
+        and to protect Sandra, our users, and third parties.
       </p>
 
-      <h2>12. Your Choices and Rights</h2>
+      <h2>6. How We Share Information</h2>
+      <p>We may share information in the following situations:</p>
+
+      <h3>6.1 With Other Users</h3>
       <p>
-        Depending on your location, you may have rights to access, correct, delete, or receive a copy of certain personal
-        information, or to object to or restrict certain processing.
-      </p>
-      <p>
-        You can revoke camera or photo permissions in your device settings. If you revoke permissions, related features
-        may stop working.
+        Information and content you choose to share through public or social features may be visible to other users,
+        including sketches, prompts, guesses, messages, reactions, display name, profile information, and challenge
+        activity.
       </p>
 
-      <h2>13. Children and Minors</h2>
+      <h3>6.2 With Service Providers</h3>
       <p>
-        Livtoik is not intended for children who are not old enough to legally use the service in their location.
-        We do not knowingly collect personal information from children without appropriate consent where required.
+        We may share information with trusted service providers who help us operate Sandra, such as hosting providers,
+        analytics providers, customer support tools, security services, moderation tools, AI service providers, crash
+        reporting tools, and app infrastructure providers.
+      </p>
+      <p>These providers may process information only as needed to provide services to us.</p>
+
+      <h3>6.3 For Safety, Legal, and Security Reasons</h3>
+      <p>We may disclose information if we believe it is necessary to:</p>
+      <ul>
+        <li>Comply with applicable law, legal process, or government requests;</li>
+        <li>Enforce our User Agreement or other policies;</li>
+        <li>Detect, prevent, or investigate fraud, abuse, security incidents, or prohibited content;</li>
+        <li>Protect the rights, safety, and property of Sandra, users, or others.</li>
+      </ul>
+
+      <h3>6.4 Business Transfers</h3>
+      <p>
+        If Sandra is involved in a merger, acquisition, financing, restructuring, sale of assets, or similar business
+        transaction, user information may be transferred as part of that transaction, subject to appropriate protections.
       </p>
 
-      <h2>14. International Processing</h2>
+      <h2>7. Third-Party Services</h2>
       <p>
-        Your information may be processed or stored in countries or regions other than where you live.
-        Data protection laws may differ from those in your location.
+        Sandra may use third-party services for hosting, analytics, AI features, moderation, app performance, crash
+        reporting, authentication, notifications, or other functions.
+      </p>
+      <p>
+        Third-party services may collect and process information according to their own privacy policies. We encourage
+        you to review the privacy practices of any third-party services that may be linked or integrated with Sandra.
+      </p>
+
+      <h2>8. Data Retention</h2>
+      <p>
+        We retain information for as long as reasonably necessary to provide Sandra, operate app features, maintain user
+        accounts, comply with legal obligations, resolve disputes, enforce agreements, prevent abuse, and protect safety
+        and security.
+      </p>
+      <p>
+        User Content may remain available for as long as it is part of active challenges, shared areas, records,
+        moderation logs, backups, or legal/security processes.
+      </p>
+      <p>
+        When information is no longer needed, we will delete, anonymize, or securely store it in accordance with our
+        retention practices.
+      </p>
+
+      <h2>9. Account Deletion and Data Deletion</h2>
+      <p>
+        If Sandra allows users to create accounts, users may request deletion of their account and associated personal
+        information by contacting us at <a href="mailto:sandra@gmail.com">sandra@gmail.com</a> or by using any in-app
+        account deletion feature we provide.
+      </p>
+      <p>
+        After receiving a valid deletion request, we will delete or de-identify personal information associated with the
+        account, unless we need to retain certain information for legitimate reasons such as security, fraud prevention,
+        dispute resolution, legal compliance, or enforcement of our agreements.
+      </p>
+      <p>
+        Some content may remain if it has been shared with other users, included in completed challenges, stored in
+        backups, or retained for safety, moderation, legal, or security reasons.
+      </p>
+
+      <h2>10. Your Choices and Rights</h2>
+      <p>Depending on your location and applicable law, you may have the right to:</p>
+      <ul>
+        <li>Access the personal information we hold about you;</li>
+        <li>Request correction of inaccurate information;</li>
+        <li>Request deletion of your personal information;</li>
+        <li>Object to or restrict certain processing;</li>
+        <li>Withdraw consent where processing is based on consent;</li>
+        <li>Request a copy of your information;</li>
+        <li>Appeal or complain about certain privacy decisions.</li>
+      </ul>
+      <p>
+        To make a privacy request, contact us at <a href="mailto:sandra@gmail.com">sandra@gmail.com</a>. We may need
+        to verify your identity before responding.
+      </p>
+
+      <h2>11. Children’s Privacy</h2>
+      <p>
+        Sandra is not intended for children under the age of 13, or the minimum age required by applicable law in the
+        user’s location.
+      </p>
+      <p>
+        We do not knowingly collect personal information from children below the applicable minimum age without
+        appropriate consent. If we learn that we have collected such information, we will take reasonable steps to
+        delete it.
+      </p>
+      <p>
+        If you believe a child has provided personal information to Sandra, please contact us at
+        <a href="mailto:sandra@gmail.com">sandra@gmail.com</a>.
+      </p>
+
+      <h2>12. International Data Transfers</h2>
+      <p>
+        Because Sandra is available globally except in Mainland China, information may be processed, stored, or
+        transferred in countries or regions other than where you live.
+      </p>
+      <p>Where required, we use appropriate safeguards to protect personal information when it is transferred internationally.</p>
+
+      <h2>13. Security</h2>
+      <p>
+        We use reasonable administrative, technical, and organizational measures to protect information against
+        unauthorized access, loss, misuse, alteration, and disclosure.
+      </p>
+      <p>
+        However, no app, website, system, or transmission method is completely secure. We cannot guarantee absolute
+        security.
+      </p>
+
+      <h2>14. Do Not Share Sensitive Information</h2>
+      <p>
+        Sandra is designed for playful drawing, guessing, and creative interaction. Users should not submit sensitive
+        personal information, confidential information, financial information, government identification numbers, private
+        addresses, health information, or other highly sensitive data in sketches, prompts, messages, guesses, AI inputs,
+        or public areas of the app.
       </p>
 
       <h2>15. Changes to This Privacy Policy</h2>
       <p>
-        We may update this Privacy Policy from time to time. The updated version will apply when posted or made available
-        in the app.
+        We may update this Privacy Policy from time to time. If we make material changes, we may notify users through
+        the app, by email, or by other reasonable means.
+      </p>
+      <p>
+        The updated Privacy Policy will be effective when posted or otherwise made available. Your continued use of
+        Sandra after the effective date means you accept the updated Privacy Policy.
       </p>
 
-      <h2>16. Contact</h2>
+      <h2>16. Contact Us</h2>
       <p>
-        If you have questions about this Privacy Policy or your privacy choices, please contact us through the in-app
-        support or settings page.
+        If you have questions, requests, or concerns about this Privacy Policy or Sandra’s privacy practices, please
+        contact us at:
       </p>
+      <p><a href="mailto:sandra@gmail.com">sandra@gmail.com</a></p>
     </section>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'LivtoikPrivacyPolicy'
+  name: 'SandraPrivacyPolicy'
 }
 </script>
 
@@ -183,10 +311,35 @@ h2 {
   color: #111111;
 }
 
+h3 {
+  margin: 20px 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #111111;
+}
+
 p {
   margin: 0 0 14px;
   font-size: 15px;
   color: #333333;
+}
+
+ul {
+  margin: 0 0 14px 20px;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 8px;
+  font-size: 15px;
+  color: #333333;
+}
+
+a {
+  color: #111111;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .effective-date {
@@ -207,7 +360,12 @@ p {
     font-size: 17px;
   }
 
-  p {
+  h3 {
+    font-size: 15px;
+  }
+
+  p,
+  li {
     font-size: 14px;
   }
 }
