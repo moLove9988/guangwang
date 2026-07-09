@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'MiyaTalk'
+const appName = 'MoonNest'
 </script>
 
 <template>
