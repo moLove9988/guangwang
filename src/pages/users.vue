@@ -1,547 +1,430 @@
-<script setup lang="ts" generic="T extends any, O extends any">
-defineOptions({
-  name: 'IndexPage',
-})
-const appName = 'Olin'
-</script>
-
 <template>
-  <div class="agreement">
-    <div class="T_title" style="text-align: center">
-      {{ appName }} User Agreement
-    </div>
-    <div class="T_content">
-      We hereby advise you to carefully read and understand this User Agreement (hereinafter referred to as “Agreement”)before registering.
+  <div class="csp-wrapper">
+    <div class="csp-container">
+      <header class="csp-header">
+        <h1>Jollmet User Agreement</h1>
+        <p class="csp-updated">Effective Date: June 22, 2026</p>
+      </header>
 
-      In order to clarify rights and obligations of all parties,and protect the legitimate rights and interests of all parties,this Agreement is specially formulated.the contents highlighted in bold underline in this Agreement are specially reminded of your attention.Please ensure that you fully understand this Agreement.You are not authorized to register ,log in or use our services or software(hereinafter referred to as services, software)unless you accept all the Agreement.Your registration,login,usage,etc.will bu deemed as acceptance of this Agreement and you agree to be bound by the Agreement.
+      <p class="csp-intro">
+        Welcome to Jollmet. This User Agreement explains the rules and
+        conditions that apply when you access or use Jollmet, including its
+        meal planning tools, recipe management features, ingredient
+        organization functions, nutrition summary features, shared meal plan
+        discovery, community posting, likes, saved plans, and related
+        services. By downloading, accessing, registering for, or using
+        Jollmet, you agree to this User Agreement. If you do not agree to
+        these terms, you must not access or use Jollmet.
+      </p>
 
-      We reserve the right,at our discretion, to change,modify,add,or remove portions of the Agreement,sup;ementary Agreement,Privacy Policy,regulative provisions or feature terms at any time by posting the amended version on our software or within the services without prior noice.If you do not agree to these terms or any future amended version,then you must not access,use our services.Otherwise,your access,use of our services shall be deemed to agree any future updated version of them.
-    </div>
-    <div class="T_title">
-      1.Account
-    </div>
-    <div class="T_content">
-      1.1 In order to ues our services,We may ask you to create an Account or
-      allocate an Account(hereinafter referred to as Account)to you.We can
-      modify how your account is registered.
-      <br><br>
-      1.2 You agree to simultaneously au theorize us to activate an account for
-      other services of the company upon registration of this account.Specific
-      products are subject to our actual operation.
-      <br><br>
-      1.3 The ownership of the Account belongs to us and you only have the right
-      to use the Account.You are forbidden to donate,borrow,rent,transfer or
-      sell the Account.
-      <br><br>
-      1.4 You are responsible for maintaining the security of your Account.If
-      you Account encounter hacking or passwork theft due to your improper
-      handling, you shall hold full responsibility for.We will treat all acts
-      performed through your Account as being performed by you.You therefore
-      accept responsibility for all acts done using your Account.If you become
-      aware of any actual or suspected unauthorized use of your Account or
-      Account passwork,please tellus immediately.You agree not to use other
-      users’account or passwork under any circumstances.
-      <br><br>
-      1.5 You shall abide by the terms of this Agreement and use the Software
-      correctly and appropriately.If you violate any of the terms in this
-      Agreement,we reserve the right to discontinus or terminate the Service to
-      you.
-      <br><br>
-      1.6 If no activity is conducted by you in relation to the Account for one
-      year,we have the right to delete or take back the Account without prior
-      notice to avoid wasting resources,and you shall take all the
-      risks.Meanwhile,we reserve the right to delete or take back your Account
-      and user name at any time at our sole discretion.
-      <br><br>
-    </div>
-    <div class="T_title">
-      2.Service Scope
-    </div>
-    <div class="T_content">
-      2.1 The specific Service of the Software is provided according to the
-      actual situation,including but not limited to video chat,purchase or sent
-      virtual gifts.We can modify the Service provided at any time without prior
-      notice to you at our sole discretion.
-      <br><br>
-      2.2 You understand and agree that we are entitled to send you promotional
-      or other relewant business information,notices via email,client,push
-      messages,SMS,webpage or other legal means for commercial purposes.Due to
-      the unique nature of the mobile phone network,we have the right to access
-      your mobile phone information.
-      <br><br>
-    </div>
-    <div class="T_title">
-      3. User information protection
-    </div>
-    <div class="T_content">
-      3.1 In the process of registering your Account or using the Service,you
-      may be required to fill in or submit certain necessary informayion,such as
-      the identity information required by laws,regulations,and regulatory
-      documents(hereinafter referred to as “laws and regulations”).If the
-      information you submit is incomplete,inaccurate or does not comply with
-      the laws and regulations,you may bu unable,restricted to use our Service.
-      <br><br>
-      3.2 In order to provide Service and improve quality of this Software ,our
-      techniques,we may collect or use your information or disclose it to third
-      parties.For more details,please read our “Privacy pOlicy”carefully.
+    <section class="csp-section">
+      <h2>1. Service Provider</h2>
+      <p>Jollmet is provided and operated by Jollmet Team.</p>
+      <p>For support or legal questions, please contact us at: Jollmet@gmail.com</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>2. Purpose of Jollmet</h2>
+      <p>Jollmet is designed for meal organization, recipe management, ingredient organization, personal food planning, content saving, plan sharing, and community discovery.</p>
+      <p>Jollmet may allow users to:</p>
+      <ul>
+        <li>create and organize weekly meal plans</li>
+        <li>save favorite recipes</li>
+        <li>manage ingredients</li>
+        <li>build a personal food library</li>
+        <li>view basic nutrition summaries</li>
+        <li>explore meal plans shared by other users</li>
+        <li>save shared plans</li>
+        <li>post or share meal planning ideas</li>
+        <li>like content shared by other users</li>
+        <li>discover cooking styles, recipe combinations, and meal routines</li>
+      </ul>
+      <p>Jollmet is provided for personal organization, lifestyle planning, recipe collection, and content sharing purposes only.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>3. No Medical, Dietary, Fitness, or Professional Health Advice</h2>
+      <p>Jollmet does not provide medical advice, dietary advice, nutrition counseling, fitness guidance, weight loss treatment, clinical recommendations, diagnosis, therapy, professional health advice, or any form of regulated healthcare service.</p>
+      <p>Any nutrition summaries, ingredient information, meal ideas, recipe content, community posts, shared plans, or other content shown in Jollmet are for general informational and organizational purposes only.</p>
+      <p>You understand and agree that:</p>
+      <ul>
+        <li>Jollmet is not a substitute for a doctor, dietitian, nutritionist, therapist, trainer, or other qualified professional</li>
+        <li>Jollmet does not evaluate your medical condition, allergies, food intolerance, dietary restrictions, pregnancy status, medication use, disease risk, or health goals</li>
+        <li>Jollmet does not guarantee that any recipe, meal plan, ingredient, nutrition summary, or user-shared content is suitable, safe, accurate, complete, or appropriate for you</li>
+        <li>you are solely responsible for deciding whether any food, ingredient, recipe, or meal plan is appropriate for your personal circumstances</li>
+      </ul>
+      <p>If you have a medical condition, food allergy, eating disorder, dietary restriction, pregnancy-related concern, medication interaction concern, or any other health-related issue, you should consult a qualified professional before relying on any food-related information.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>4. Eligibility</h2>
+      <p>You must be at least 13 years old, or the minimum legal age required in your country or region, to use Jollmet. If you are under the age of majority in your jurisdiction, you may use Jollmet only with the consent and supervision of a parent or legal guardian.</p>
+      <p>By using Jollmet, you confirm that you have the legal ability to enter into this User Agreement.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>5. User Account</h2>
+      <p>Some features of Jollmet may require account registration. You agree to provide accurate, current, and complete information when creating or updating your account.</p>
+      <p>You are responsible for maintaining the confidentiality of your login credentials and for all activity that occurs under your account.</p>
+      <p>You must not:</p>
+      <ul>
+        <li>use another person’s account without permission</li>
+        <li>share your account credentials with others</li>
+        <li>create an account using false, misleading, or unauthorized information</li>
+        <li>impersonate any person, brand, organization, or entity</li>
+        <li>use Jollmet if you have previously been suspended or removed from the service</li>
+      </ul>
+      <p>We may suspend, restrict, or terminate your account if we believe that you have violated this User Agreement or created risk for Jollmet, other users, or third parties.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>6. User Content</h2>
+      <p>Jollmet may allow you to create, upload, save, post, publish, share, or display content, including meal plans, recipes, ingredient lists, food notes, images, comments, profile information, likes, saved content, and other materials.</p>
+      <p>You retain ownership of the content you create or upload. However, by submitting content to Jollmet, you grant Jollmet a worldwide, non-exclusive, royalty-free, transferable, sublicensable license to host, store, reproduce, display, format, adapt, distribute, and use your content as necessary to operate, improve, promote, and provide the service.</p>
+      <p>This license continues for as long as your content remains available in Jollmet. If you delete your content, we will make reasonable efforts to remove it from active display, but copies may remain in backups, logs, cached pages, moderation records, legal records, or content already shared with or saved by other users.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>7. User Content Responsibility</h2>
+      <p>You are solely responsible for all content you create, upload, save, post, or share through Jollmet.</p>
+      <p>You represent and warrant that:</p>
+      <ul>
+        <li>you own or have the necessary rights to post your content</li>
+        <li>your content does not violate the rights of any third party</li>
+        <li>your content does not violate any law, regulation, or platform rule</li>
+        <li>your content does not contain harmful, illegal, misleading, abusive, or prohibited material</li>
+      </ul>
+      <p>Jollmet does not endorse user content and is not responsible for the accuracy, safety, legality, reliability, or usefulness of content posted by users.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>8. Prohibited Content</h2>
+      <p>You must not upload, post, share, or promote content that includes, encourages, supports, or links to:</p>
+      <ul>
+        <li>illegal activity</li>
+        <li>violence, threats, harassment, bullying, abuse, intimidation, or hate speech</li>
+        <li>sexually explicit content or exploitation</li>
+        <li>content involving minors in an unsafe, inappropriate, or exploitative way</li>
+        <li>self-harm, eating disorder encouragement, extreme dieting, starvation, purging, unsafe weight loss, or dangerous body image content</li>
+        <li>medical claims, treatment instructions, disease cure claims, or professional health recommendations presented as authoritative advice</li>
+        <li>false, misleading, deceptive, or fraudulent information</li>
+        <li>spam, scams, phishing, malware, or unauthorized advertising</li>
+        <li>content that infringes copyright, trademark, privacy, publicity, or other rights</li>
+        <li>private personal information of another person without consent</li>
+        <li>content that promotes unsafe food handling, dangerous ingredients, or harmful consumption practices</li>
+        <li>content that violates Apple App Store rules, applicable laws, or this User Agreement</li>
+      </ul>
+      <p>We reserve the right to remove, hide, restrict, or report any content that we believe violates these rules.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>9. Community Interaction Rules</h2>
+      <p>Jollmet may include community discovery features, public shared meal plans, likes, saved plans, profile elements, and user interactions.</p>
+      <p>You agree to interact respectfully and lawfully with other users.</p>
+      <p>You must not:</p>
+      <ul>
+        <li>harass, threaten, insult, stalk, or target other users</li>
+        <li>pressure users to follow any specific diet, food plan, body goal, or lifestyle</li>
+        <li>make harmful comments about weight, appearance, eating habits, body size, health conditions, or personal choices</li>
+        <li>use Jollmet to sell regulated products, medical products, supplements, drugs, alcohol, tobacco, controlled substances, or unsafe food items</li>
+        <li>collect user information without consent</li>
+        <li>send spam or unwanted promotional messages</li>
+        <li>manipulate likes, engagement, rankings, or community visibility</li>
+      </ul>
+    </section>
+
+    <section class="csp-section">
+      <h2>10. Food Safety and Allergy Responsibility</h2>
+      <p>Jollmet may display ingredients, recipes, nutrition summaries, or user-shared food ideas. Such information may be incomplete, inaccurate, outdated, or unsuitable for certain users.</p>
+      <p>You are solely responsible for checking:</p>
+      <ul>
+        <li>ingredient safety</li>
+        <li>allergens</li>
+        <li>food expiration</li>
+        <li>preparation methods</li>
+        <li>storage conditions</li>
+        <li>portion sizes</li>
+        <li>nutrition information</li>
+        <li>dietary restrictions</li>
+        <li>local food safety standards</li>
+      </ul>
+      <p>Jollmet is not responsible for allergic reactions, food intolerance, foodborne illness, unsafe preparation, inaccurate nutrition data, or any harm resulting from recipes, ingredients, meal plans, or user-shared content.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>11. Nutrition Summaries</h2>
+      <p>Jollmet may provide or display nutrition-related summaries for convenience. These summaries may be generated from public data, third-party sources, user input, estimates, or automated calculations.</p>
+      <p>Nutrition summaries are approximate and may not be accurate, complete, current, or suitable for your individual needs.</p>
+      <p>You must not rely on Jollmet nutrition summaries for medical, clinical, dietary, fitness, weight management, or professional decision-making.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>12. Intellectual Property</h2>
+      <p>Jollmet, including its design, interface, graphics, software, features, text, logos, trademarks, service names, databases, and other materials, is owned by Jollmet Team or its licensors and is protected by intellectual property laws.</p>
+      <p>You may use Jollmet only for personal, lawful, non-commercial purposes unless we give you written permission.</p>
+      <p>You must not:</p>
+      <ul>
+        <li>copy, modify, reverse engineer, decompile, scrape, reproduce, sell, rent, sublicense, or exploit Jollmet</li>
+        <li>remove copyright, trademark, or ownership notices</li>
+        <li>use Jollmet branding without permission</li>
+        <li>build a competing product by copying Jollmet content, design, features, or data structure</li>
+        <li>use automated tools to access, extract, crawl, or collect data from Jollmet</li>
+      </ul>
+    </section>
+
+    <section class="csp-section">
+      <h2>13. App Store Terms</h2>
+      <p>If you downloaded Jollmet from the Apple App Store, you also agree to comply with Apple’s applicable terms and conditions. Apple is not responsible for Jollmet, its content, maintenance, support, claims, or legal compliance, except as required by applicable law.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>14. Third-Party Services and Content</h2>
+      <p>Jollmet may contain third-party links, content, data, tools, software, analytics, hosting services, or integrations.</p>
+      <p>We do not control and are not responsible for third-party services. Your use of third-party services may be subject to separate terms and privacy policies.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>15. In-App Purchases and Paid Features</h2>
+      <p>Jollmet may offer paid features, subscriptions, digital items, premium access, or other in-app purchases.</p>
+      <p>If paid features are available:</p>
+      <ul>
+        <li>prices and benefits will be shown before purchase</li>
+        <li>payments may be processed through the applicable app store or payment provider</li>
+        <li>refunds are handled according to the rules of the platform through which you purchased</li>
+        <li>we may modify, add, remove, or discontinue paid features where permitted by law</li>
+        <li>access to paid features may depend on your account status, device, region, platform rules, and service availability</li>
+      </ul>
+      <p>Unless required by law or app store rules, purchases are not transferable and may not be redeemable for cash.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>16. Service Availability</h2>
+      <p>Jollmet may change, suspend, limit, update, remove, or discontinue any part of the service at any time.</p>
+      <p>We do not guarantee that Jollmet will always be available, uninterrupted, secure, error-free, or compatible with every device, operating system, or region.</p>
+      <p>We may perform maintenance, updates, security actions, moderation reviews, or service changes without prior notice.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>17. Suspension and Termination</h2>
+      <p>We may suspend, restrict, or terminate your access to Jollmet if:</p>
+      <ul>
+        <li>you violate this User Agreement</li>
+        <li>you violate applicable laws or platform rules</li>
+        <li>your content creates legal, safety, security, or reputational risk</li>
+        <li>your account is involved in abuse, fraud, spam, harassment, or misuse</li>
+        <li>we are required to do so by law, platform policy, court order, or government request</li>
+        <li>we discontinue the service</li>
+      </ul>
+      <p>You may stop using Jollmet at any time. You may also request account deletion where supported.</p>
+      <p>Termination does not remove obligations that should reasonably survive, including ownership rights, disclaimers, limitation of liability, indemnity, dispute terms, and legal compliance obligations.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>18. Disclaimer of Warranties</h2>
+      <p>Jollmet is provided on an “as is” and “as available” basis.</p>
+      <p>To the maximum extent permitted by law, Jollmet Team disclaims all warranties, whether express, implied, statutory, or otherwise, including warranties of accuracy, reliability, availability, merchantability, fitness for a particular purpose, non-infringement, security, and error-free operation.</p>
+      <p>We do not warrant that:</p>
+      <ul>
+        <li>Jollmet will meet your expectations</li>
+        <li>meal plans, recipes, nutrition summaries, or ingredient information will be accurate or safe</li>
+        <li>user content will be reliable, appropriate, or lawful</li>
+        <li>the service will be uninterrupted or free from harmful components</li>
+        <li>errors will be corrected</li>
+        <li>data will never be lost</li>
+      </ul>
+    </section>
+
+    <section class="csp-section">
+      <h2>19. Limitation of Liability</h2>
+      <p>To the maximum extent permitted by law, Jollmet Team and its owners, employees, contractors, partners, service providers, and affiliates will not be liable for any indirect, incidental, special, consequential, exemplary, punitive, or similar damages, including loss of data, loss of content, loss of goodwill, personal injury, food-related harm, allergic reaction, business loss, device damage, or service interruption.</p>
+      <p>To the maximum extent permitted by law, our total liability for any claim related to Jollmet will not exceed the greater of:</p>
+      <ul>
+        <li>the amount you paid to Jollmet in the twelve months before the claim</li>
+        <li>USD 50</li>
+      </ul>
+      <p>Some jurisdictions do not allow certain limitations of liability, so some limitations may not apply to you.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>20. Indemnity</h2>
+      <p>You agree to defend, indemnify, and hold harmless Jollmet Team and its owners, employees, contractors, partners, service providers, and affiliates from any claims, damages, losses, liabilities, costs, and expenses, including reasonable legal fees, arising from or related to:</p>
+      <ul>
+        <li>your use or misuse of Jollmet</li>
+        <li>your content</li>
+        <li>your violation of this User Agreement</li>
+        <li>your violation of any law or third-party right</li>
+        <li>your interaction with other users</li>
+        <li>your reliance on recipes, meal plans, ingredients, nutrition summaries, or user content</li>
+      </ul>
+    </section>
+
+    <section class="csp-section">
+      <h2>21. Changes to This Agreement</h2>
+      <p>We may update this User Agreement from time to time. When we make changes, we may update the effective date, provide in-app notice, or use other reasonable methods.</p>
+      <p>Your continued use of Jollmet after changes become effective means that you accept the updated User Agreement.</p>
+      <p>If you do not agree to the updated terms, you must stop using Jollmet.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>22. Governing Law</h2>
+      <p>This User Agreement will be governed by the laws of the jurisdiction where Jollmet Team is established, unless applicable consumer protection laws require otherwise.</p>
+      <p>If a local law gives you mandatory rights that cannot be waived, those rights are not affected by this User Agreement.</p>
+    </section>
+
+    <section class="csp-section">
+      <h2>23. Contact</h2>
+      <p>If you have questions about this User Agreement, please contact: Jollmet Team, Email: Jollmet@gmail.com</p>
+    </section>
+
     </div>
 
-    <div class="T_title">
-      4. Content Requirements and Usage Rules
-    </div>
-    <div class="T_content">
-      4.1 The Content described in this Agreement refers to any content
-      created,uploaded,copied,published and distributed by you,including but not
-      limited to registration information and verification details such as
-      account avatar,name,personal description,or text,
-      audio,pictures,videos,graphics that are sent,replied or auto-reply
-      messages and related link pages, and other content generated while using
-      the software.
-      <br><br>
-      4.2 You are not allowed to use this Softw are to produce, upload,copy and
-      send the following Content or conduct the following behavior:
-      <br><br>
-      1) That threatens national security,leaks state secrets, subverts state
-      power, damages state unity;
-      <br><br>
-      2) That damages national honor and profit;
-      <br><br>
-      3) That incites national hatred, discrimination and damages national
-      unity;
-      <br><br>
-      4) That damages national religion policies,promotes cult and feudal
-      superstition:
-      <br><br>
-      5) That spreads rumors,disturbs public order and damages social stability;
-      <br><br>
-      6) That spreads obscene,pornographic content containing sexual or sexually
-      suggestive content;
-      <br><br>
-      7) That spreads gambling,violence,murder,terror;
-      <br><br>
-      8) That insults or defames others, violates others legal rights or
-      fraudulent;
-      <br><br>
-      9) That contains insulting, intimidating,or threatening content;
-      <br><br>
-      10) That contains harassment,spam,malicious or phishing information;
-      <br><br>
-      11) That disclosing or involving the privacy of others, personal
-      information or details;
-      <br><br>
-      12) That infringes on the legal rights of other people's
-      reputation,portrait rights,intellectual property rights, trade
-      secrets,etc.;
-      <br><br>
-      13) That harms the interests of minors in any way;
-      <br><br>
-      14) That stalks or otherwise harasses other users;
-      <br><br>
-      15) That contains false information, or steals other people's avatars or
-      details,posts or uses others' identity;
-      <br><br>
-      16) That enforces, induces other users to follow,click on the link page or
-      share information;
-      <br><br>
-      17) That fabricates facts,conceals truths to mislead or deceive others;
-      <br><br>
-      18) That contains advertising or sales-oriented information;
-      <br><br>
-      19) That uses technical means to build multiple fake accounts;
-      <br><br>
-      20) That deletes the copyright information on this software and its copy;
-      <br><br>
-      21) That do reverse engineering,reverse compilation, de-compilation, or
-      attempt to discover the source code of the software;
-      <br><br>
-      22) That uses,rents, lends,copies modifies,links, reproduces,compiles,
-      issues,publishes or creates mirror sites with contents that contains
-      intellectual property rights of this company;
-      <br><br>
-      23) That copies,modifies,adds, deletes,hooks,or creates any data released
-      by us or necessary for the software,or derivatives;
-      <br><br>
-      24) That adds, deletes, changes the function of the software,or operates
-      or transmits the software to the public by modifying or falsifying the
-      instructions and data in the software,whether or not for commercial
-      purpose;
-      <br><br>
-      25) That Loges in or uses the software through third- party
-      software,hacking,plug-ins or systems that are not developed or authorized
-      by us,or create,publish,or distribute third-party
-      software,plug-ins,hackings, and systems that are not developed or
-      authorized by the company;
-      <br><br>
-      26) That is or could reasonably be viewed as offensive, indecent or
-      objectionable;
-      <br><br>
-      27) Other Contents or behaviors that in violation of laws and
-      regulations,such as regulatory documents and policies(including
-      jurisdiction where you reside, the Software operates, runs),or infringe
-      lawful rights and interests of other third parties, interfere with the
-      normal operation of the software. we will review your uploads and send the
-      results within 24 hours of upload. If you use the app to make,upload,
-      copy, publish and disseminate the above content, we have the right to
-      delete the content you send,if there is any serious violation, we will
-      block the account.
-      <br><br>
-      4.3 Any Contents produced,uploaded,copied and sent by you has nothing to
-      do with us and doesn't reflect or represent our
-      opinion,standpoint,policy.We shall not be liable in any way for any
-      Content uploaded, distributed,copied,published by you,or behavior
-      conducted by you.
-      <br><br>
-      4.4 You are solely responsible for the authenticity, legality,
-      accuracy,validity of the information
-      transmitted,produced,uploaded,copied,published, disseminated by you, and
-      behaviors conducted, and performed by you. Any liability is at your own
-      risk and has nothing to do with the software. If any damage is caused to
-      us or third parties due to your behavior, you shall compensate losses of
-      us or third parties, and we have the right to pursue your liability in
-      accordance with this agreement.
-      <br><br>
-    </div>
-    <div class="T_title">
-      5.Third Party Products and Services
-    </div>
-    <div class="T_content">
-      5.1 The Service may contain advertisements and promotions offered by third
-      parties and you agree to display those advertisements and promotions
-      during the course of using the Service. Unless otherwise expressly
-      regulated by laws and regulations,you should be responsible for
-      transactions in accordance with the advertising information, and losses in
-      relation to the transaction.We are not liable for any responsibility,
-      losses arising from the aforesaid transactions.
-      <br><br>
-      5.2 If you choose to use services,products provided by third party that
-      displayed,linked on our Software, you shall comply with third party's
-      agreement, policy in regard with you behavior. We cannot guarantee the
-      security,accuracy, validity of third party's service and we are not
-      responsible or liable for losses incurred by you arising from services,
-      products, behavior of third party.
-    </div>
-    <!-- <div class="T_title">
-      6.Membership
-    </div>
-    <div class="T_content">
-      6.1 You can purchase membership service,and the included service content
-      and price information is subject to the display on relevant service pages
-      of this Service.
-      <br><br>
-      6.2 We can adjust the membership service charge standard and content at
-      any time by displaying the amended version on relative pages.
-      <br><br>
-      6.3 You are forbidden to transfer or refund after successful payment under
-      any circumstance unless clearly stated by Law and Regulation.The Service
-      will terminate automatically after the end of subscription if you do not
-      use our Service within the validity period specified in the payment
-      service, which cannot be interrupted or postponed.
-      <br><br>
-      6.4 The content and personal data you submitted when registering for
-      membership must be valid and truthful. You must modify the registered
-      personal data when necessary, otherwise you are liable for any
-      consequences caused by your membership rights unable to fully and
-      effectively exercised.
-      <br><br>
-    </div>
-    <div class="T_title">
-      7. Subscriptions and Virtual Currency
-    </div>
-    <div class="T_content">
-      7.1 Subscriptions
-      You can buy different subscription packages according to one month, two months and three months.
-      For all mobile subscriptions, the fee will be deducted from your iTunes or Google account when you confirm your purchase.
-      Your subscription will be automatically renewed unless you turn off the automatic renewal feature at least 24 hours before
-      the end of your current subscription. This is because your account may be charged for renewal within 24 hours before the
-      end of the current subscription period. You can manage your subscriptions and turn off automatic renewal by accessing your
-      iTunes or Google account settings. You cannot cancel the current subscription during the subscription period, but you can cancel automatic renewal at any time.
-      <br><br>
-      Purchases of subscriptions are non refundable and non transferable, even if they expire or stop. We may change the
-      purchase price of the subscription and the features included in the subscription at any time. We reserve the right
-      to stop publishing and subscribing and set the subscription expiration date at any time. Subscriptions cannot be
-      exchanged for any amount or currency value.
-      <br><br>
-      7.2 Virtual Currency
-      When you purchase or receive Virtual Currency products such as Diamonds you do not own them. Diamonds are used to upload stories, use
-      filters and use video chat features, etc. You agree that we will have no liability to you based on the exercise of our rights with
-      respect to coins and other Virtual Currencies. We reserve the right to verify your identity and eligibility to use your Virtual Currencies.
-      <br><br>
-      We are not responsible for repairing or replacing Virtual Currencies, or providing you with any credit or refund in the event that we
-      modify, suspend, or terminate the Virtual Currencies, or the Story, or for loss or damage due to any service error, or any other reason.
-      Purchases of Virtual Currency may not be sub-licensed and are non-refundable and non-transferable, even if they expire or are revoked or
-      discontinued. We may change the purchase price for Virtual Currency at any time, as well as the ways you can use Virtual Currency.
-      We reserve the right to revoke or stop issuing Virtual Currency at any time without notice, refund, or compensation, and to set expiration
-      dates for Virtual Currency. Virtual Currency may not be redeemed for any sum of money or monetary value. If you delete your account or your
-      account is terminated for any reason, you will lose all accumulated and unused Virtual Currency without refund or other compensation.
-      You agree that we will have no liability to you based on the exercise of our rights with respect to Virtual Currency.
-      Virtual Currency purchased or received by any user does not constitute property and is not transferable.
-      <br><br>
-      7.3 Payment Method
-      Our paid services
-      Our paid services can be purchased through your account with some third parties, such as your Apple iTunes account or your Google play
-      account ("third party account"). If you purchase any paid services through a third-party account, the bill for these paid services will
-      be displayed through your third-party account. You should review the terms of service for third-party accounts that we have no control over.
-      <br><br>
-      7.4 Unsubscribe
-      If you purchase a subscription through a third-party account, you will need to cancel your subscription through that third-party and in accordance
-      with that third party’s terms of Service. If you cancel your subscription, your subscription benefits will continue until the end of your then-current
-      subscription term, but your subscription will not be renewed after that term expires. You will not be entitled to a prorated refund of any portion of
-      the subscription fees paid for the then-current subscription term.
-      <br><br>
-      7.5 Term/Fees
-      This Agreement shall remain in full force and effect while you use the mobile application and website and/or the Service. We may terminate your membership
-      for any reason, at any time, without notice. If we terminate your Membership in the Service, you shall not be entitled to a refund of any unused portion of
-      subscription fees, if any. Even after membership is terminated, this Agreement will remain in effect. Our Services' Terms of Service and/or subscription
-      fees, if any, that were provided to you at registration is subject to change if needed. By using the Service and becoming a Member, you acknowledge that
-      we reserve the right to charge for the Service and have the right to terminate a Member's Membership, should a Member breach this Agreement or fail to pay
-      for the Service if necessary, as required by this Agreement. Standard usage charges for SMS, MMS, and other data charges may apply and may be billed on your
-      wireless service bill or deducted from your prepaid balance.
-      <br><br>
-    </div> -->
-    <div class="T_title">
-      6. Data Storage
-    </div>
-    <div class="T_content">
-      6.1 We are not responsible for the deleting or storage failure of your
-      data in this Service.
-      <br><br>
-      6.2 We can determine the maximum storage time length and storage space of
-      your data in the Service according to various factors.You can back up the
-      relevant data of this Service according to your own needs.
-      <br><br>
-      6.3 If you discontinue using the Service, or if the Service is terminated
-      or ended,we can permanently delete your data from our server, and we are
-      not obligated to return any data to you.
-      <br><br>
-      6.4 You can modify or delete your personal data, registration information
-      and Content uploaded, distributed by you.Please note that deleting
-      relative information will lead to delete of Contents stored in the
-      system.You are responsible for this risk.
-      <br><br>
-    </div>
-    <div class="T_title">
-      7.Risk
-    </div>
-    <div class="T_content">
-      7.1 You understand and agree that the Software only provides you with a
-      platform for inform ation sharing, transmission.You are responsible for
-      all actions under your Account,including any content you transmit and any
-      consequences resulted.You should personally judge the content of the
-      software and Service and bear all risks arising from the use of the
-      Service,including risks arising from the reliance on the correctness,
-      completeness or usefulness of the Content.We cannot and will not be liable
-      for any losses caused by your behavior.
-      <br><br>
-      7.2 If you find anyone who violates this agreement or uses the Service in
-      other improper ways,please tell us immediately and we will deal with them
-      according to this Agreement.
-      <br><br>
-      7.3 You understand and agree that we reserve the right to
-      change,suspend,terminate,update all or an feature of the Service in our
-      sole discretion according to various factors without prior notice.
-      <br><br>
-    </div>
-    <div class="T_title">
-      8. Intellectual Property
-    </div>
-    <div class="T_content">
-      8.1 You acknowledge that intellectual property rights in and relating to
-      our Services(other than Content which is contributed and owned by
-      advertisers) is owned by us,unless you have legally acquired intellectual
-      property rights in the Content posted by you on our Software before using
-      our Services.
-      <br><br>
-      8.2 Unless otherwise provided,the copyright,patent and other intellectual
-      property rights of the Software are owned by us.
-      <br><br>
-      8.3 the copyright or trademark rights of the graphics, text or its
-      components involved in the Service,and other Software logos and product
-      and Service names (hereinafter collectively referred to as the "Software
-      Logo"),are owned by us.You are not allowed to display or use the Software
-      logo in any way without our prior written consent,and you must not
-      indicate to others that you have the right to display, use, or otherwise
-      modify with the Software logo.
-      <br><br>
-      8.4 The above and any other intellectual property rights owned by us or
-      related advertisers are protected by law and you are not allowed to use or
-      create derivative works in any form without the written permission of us
-      or the relevant advertisers.
-      <br><br>
-      8.5 Unless otherwise agreed in writing by the company and you/your
-      agent,you own the intellectual property rights in connection with Content
-      uploaded by you such as text,images,videos, audio,photograph,and you agree
-      to authorize us and our affiliates a irrevocable, permanent
-      exclusive,royalty-free,worldwide,sub- licensable right to use, display and
-      reproduce the aforesaid Content for commercial or non-commercial purposes,
-      including but not limited to adapt,display, broadcast,rent,copy,
-      film,translate,or place such Content on Internet.We can choose whether to
-      use and the usage method in our sole discretion,including but not limited
-      to using and disseminating the above information on any platform operated
-      by us, editing the above information, and authorize third party to use,
-      edit,disseminate.
-    </div>
-    <div class="T_title">
-      9. Liability
-    </div>
-    <div class="T_content">
-      9.1 If you have illegal,wrongful,defaulting, tort act,we have the right
-      in our sole discretion to take any or all of the following measures:to
-      give a warning,to disable your ability to use some features,terminate your
-      access to the Software,put you into blacklist,announce your default act,
-      to deduct,withhold virtual items and virtual gains in part or in whole.If
-      we adopt to terminate your Account,put you into blacklist,we have the
-      right not to refund your virtual items, and gains. <br><br>
-      9.2 You understand and agree that we have right to take any remedy
-      measures, appropriate legal action against your
-      illegal,wrongful,defaulting,tort act, and disclose relevant information to
-      authorities in accordance with laws and regulations and you shall bear all
-      results.
-      <br><br>
-      9.3 You understand and agree that any losses, damages, claims of third
-      party arising out of your violation of this Agreement,shall be paid by
-      you,including reasonable attorney's fees.
-      <br><br>
-      9.4 You agree to indemnify,defend and hold harmless us,our affiliates
-      from and against any and all
-      comolaints.demands.claims.damages.losses.costs.liabilities and
-      expenses,including but not limited to attorney's fees, arising out of your
-      access to or use of the Service,your breach of this Agreement.
-      <br><br>
-      9.5 We have the right to choose to apply the aforesaid rem edy measures
-      separately or collectively.
-      <br><br>
-    </div>
-    <div class="T_title">
-      10.Force Majeure And Other Disclaimers
-    </div>
-    <div class="T_content">
-      10.1 You understand and acknowledge that in the course of using the
-      Service, you may encounter problems out of our control, which m ay cause
-      the Service to be interrupted.W e are not liable for any Service
-      suspension,problems,losses out of our control and expectation,for example
-      natural disasters such as floods,earthquakes,plague epidemics and
-      storms,and social events such as war,turmoil,government actions, etc. In
-      the event aforesaid,we will try our best to cooperate and to repair in
-      time.
-      <br><br>
-      10.2 We make no promises or guarantees that the Services will always
-      safe,reliable,be available,uninterrupted,or error-free or not-delay.TO THE
-      EXTENT PERMITTED BY APPLICABLE LAW,WE MAKE NO WARRANTIES,CONDITIONS,OR
-      OTHER TERMS OF ANY KIND,EITHER EXPRESS OR IMPLIED,ABOUT THE SERVICES.WE
-      DISCLAIM ANY WARRANTIES OF TITLE OR IMPLIED WARRANTIES,CONDITIONS,OR OTHER
-      TERMS OF NON-INFRINGEMENT,MERCHANTABILITY, QUIET ENJOYMENT,OR FITNESS FOR
-      A PARTICULAR PURPOSE.We do not control or manipulate actions of you and
-      others,nor are we responsible for any of their content (whether online or
-      offline) and any content they share (including
-      offensive,indecent,obscene,illegal, and other contentious content).
-      <br><br>
-      10.3 Like most Internet Services, our Service may be affected by various
-      security issues, including but not limited to internet Service
-      quality,social environment, other software,websites you
-      download,install,visit may contain viruses such as "Trojan horses" that
-      threaten the security of your computer information and data,which in turn
-      affects the normal use of the Service.You should strengthen the protection
-      of information security and user data, and pay attention to strengthen
-      password protection to avoid loss and harassment.
-      <br><br>
-      10.4 You understand and acknowledge that the Service has interruptions due
-      to unavoidable issues,computer virus or hacking,system instability,your
-      location,your shutdown,and any other technology problems,internet
-      problems,telecom operate problems,etc.We shall not be liable for any
-      losses caused due to the aforesaid interruptions.
-      <br><br>
-      10.5 You understand and acknowledge that there may be some misleading,
-      deceptive, threatening, defamatory, offensive or illegal information,or
-      infringement information of the rights of others in the course of using
-      the Service.We do not assume any responsibility for any losses of you or
-      any third party resulting from aforesaid information or act.
-      <br><br>
-      10.6 You understand and acknowledged that we may maintain,update,and
-      repair features or this Software on a regular or irregular basis. If the
-      service is interrupted within a reasonable period of time due to such
-      circumstances with prior notice,we shall not be liable for this.
-      <br><br>
-      10.7 Unless otherwise provided by law and regulation,we have rights but no
-      obligation to handle any defaulting, tort, illegal act of third party and
-      we cannot guarantee that the foresaid defaulting,tort,illegal act of third
-      party shall be found,handled in times.
-      <br><br>
-      10.8 You understand and acknowledge that we are not responsible for any
-      defects in the quality of the products or Services offered to you and any
-      damages caused by the free products or Services gifted to you.
-      <br><br>
-      10.9 NOTWITHSTANDING OTHERWISE PROVIDED IN THIS AGREEMENT,YOU ACKNOWLEDGE
-      THAT WE ARE NOT LIABLEFOR ANY INDIRECT,INCIDENTAL,SPECIAL, EXEMPLARY,OR
-      CONSEQUENTIAL DAMAGES, INCLUDING FOR LOSS OF PROFITS,GOODWILL,OR DATA, IN
-      ANY WAY WHATSOEVER ARISING OUT OF THE USE OF,OR INABILITY TO USE,THE
-      SERVICES; ORFOR THE CONDUCT OF THIRD PARTIES, INCLUDING OTHER USERS OF THE
-      SERVICES AND OPERATORS OF EXTERNAL SITES.IN ADDITION,ALL COMPENSATION,
-      REMEDY,LIABILITIES,REGARDLESS OF ANY MANNER, REASON,SHALL NOT EXCEED ALL
-      FEES PAID BY TO US (IF APPLICABLE)
-      <br><br>
-      10.10 You acknowledge and understand that there may be personal and
-      property security and transaction dispute risks if you meet,trade with
-      other users offline, off the platform.We are not liable for the above
-      risks or losses, and you must bear all responsibility.
-      <br><br>
-    </div>
-    <div class="T_title">
-      11.Miscellaneous
-    </div>
-    <div class="T_content">
-      11.1 We remind you to read this Agreement carefully, especially clauses in
-      connection with disclaimer, risks, limitation of you rights and our
-      liability. If you are a minor,pleases read with accompany of your
-      guardian(s).
-      <br><br>
-      11.2 You understand and agree that other statements, rules published by us
-      in the software are deemed to be supplemental to these rules and are an
-      integral part of these Rules and have the same legal effect as this
-      Agreement.
-      <br><br>
-      11.3 This Agreement shall be governed by, and construed in all respects in
-      accordance with, the laws of the Hong Kong SAR. Any dispute arising out of
-      or in connection with this Agreement, including any question regarding its
-      existence,validity or termination,shall be referred to and finally
-      resolved by arbitration administered by the Hong Kong International
-      Arbitration Centre in accordance with the Arbitration Rules.
-      <br><br>
-      11.4 The invalidity or unenforceability of any provision of this Agreement
-      shall not in any way affect or impair the validity or enforceability of
-      the remaining provisions.If any provision of this Agreement is declared
-      invalid or unenforceable by competent authorities,the Parties shall use
-      their best endeavors to agree upon a replacement provision so as to
-      substantially effectuate the commercial purpose of the original provision.
-      <br><br>
+    <div class="csp-floating-bar">
+      <span class="csp-floating-label">Contact:</span>
+      <a class="csp-floating-email" href="mailto:Jollmet@gmail.com">Jollmet@gmail.com</a>
     </div>
   </div>
 </template>
 
-<style  scoped>
-  .agreement {
-    padding: 0px 25px;
-    font-size: 14px;
-    margin-bottom: 14px;
-    color: #666666;
+<script>
+export default {
+  name: 'JollmetUserAgreement'
+}
+</script>
 
-    background-color: #fff;
+<style scoped>
+.csp-wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
+.csp-container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  color: #2b2d33;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.csp-header {
+  border-bottom: 2px solid #e2e4ea;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.csp-header h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+  color: #1a1c20;
+}
+
+.csp-updated {
+  font-size: 0.9rem;
+  color: #6b6f76;
+  margin: 0;
+}
+
+.csp-intro {
+  background: #f6f7fa;
+  border-left: 4px solid #2e9e6b;
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  font-size: 0.97rem;
+}
+
+.csp-section {
+  margin-bottom: 2.25rem;
+}
+
+.csp-section h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a1c20;
+  border-bottom: 1px solid #e2e4ea;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.csp-section h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #33363d;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.csp-section p {
+  margin: 0 0 0.9rem;
+  text-align: justify;
+}
+
+.csp-section ul,
+.csp-section ol {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+
+.csp-section li {
+  margin-bottom: 0.6rem;
+}
+
+.csp-section a {
+  color: #2e9e6b;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.csp-section a:hover {
+  text-decoration: underline;
+}
+
+.csp-floating-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.csp-floating-label {
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.csp-floating-email {
+  color: #fff;
+  text-decoration: underline;
+  word-break: break-word;
+}
+
+.csp-floating-email:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+  .csp-container {
+    padding: 1.5rem 1rem 6.5rem;
+    font-size: 15px;
   }
-  .T_title {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 1rem 0px;
-    color: #666666;
+
+  .csp-floating-bar {
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.7rem 1rem;
+    font-size: 0.88rem;
   }
-  .T_content {
-    font-size: 14px;
-    margin-bottom: 12px;
-    /* color: #666; */
-  }
-  .title_content {
-    font-size: 12px;
-    margin-bottom: 12px;
-    color: #666;
-    margin-left: 12px;
-    margin-right:12px;
-  }
+}
 </style>
