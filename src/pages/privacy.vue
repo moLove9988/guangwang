@@ -1,154 +1,45 @@
 <template>
   <div class="agreement-page">
     <section class="agreement-section">
-      <h1>Pacel Privacy Policy</h1>
+      <h1>Pacel プライバシーポリシー</h1>
+      <p class="effective-date"><strong>制定日：2026年7月21日</strong></p>
+      <p>Pacel（以下「本サービス」）は、学生のキャンパス生活における交流、情報共有、グループ連絡および校内での物品共有を支援するコミュニティサービスです。本ポリシーは、本サービスにおける情報の取扱いを説明するものです。</p>
 
-      <p class="effective-date"><strong>Effective Date: July 7, 2026</strong></p>
+      <h2>1. 取得する情報</h2>
+      <p>当社は、利用者がアカウント登録、プロフィールの編集、コンテンツの作成またはお問い合わせを行う際に、利用者から提供される情報を取得します。</p>
+      <p>当社は、利用者が提供するメールアドレス、表示名、所属に関する情報、自己紹介およびプロフィール画像を取り扱います。</p>
+      <p>当社は、利用者が本サービス上で作成または送信する投稿、コメント、メッセージ、画像、通報内容その他のコンテンツを取り扱います。</p>
 
-      <p>
-        This Privacy Policy explains how Pacel collects, uses, stores, shares, and protects information when you use
-        our mobile application, campus community features, student messaging features, group features, campus news,
-        event information, item sharing features, account features, and related services.
-      </p>
+      <h2>2. 利用目的</h2>
+      <p>取得した情報は、本サービスの提供および改善、安全性の確保、不正利用への対応、利用者からのお問い合わせへの対応ならびに法令上必要な対応のために利用します。</p>
 
-      <p>
-        By using Pacel, you agree to the collection and use of information as described in this Privacy Policy.
-        If you do not agree, please do not use Pacel.
-      </p>
+      <h2>3. カメラ、写真および位置情報</h2>
+      <p>当社は、利用者が提供する画像および位置に関する情報を、利用者の同意がある場合に限り取り扱います。利用者は、端末の設定により各種権限を管理できます。</p>
 
-      <h2>1. Information We Collect</h2>
-      <p>
-        We collect information you provide, information generated when you use Pacel, and information needed
-        to operate app features.
-      </p>
+      <h2>4. 公開範囲と第三者提供</h2>
+      <p>利用者が公開したプロフィール、投稿、コメントその他のコンテンツは、他の利用者に閲覧されることがあります。公開前に内容および公開範囲を十分にご確認ください。</p>
+      <p>当社は、法令に基づく場合、利用者または第三者の権利・安全を守るために必要な場合を除き、個人情報を本人の同意なく第三者へ販売または提供しません。</p>
 
-      <h2>2. Account Information</h2>
-      <p>
-        When you register, sign in, or update your profile, we may collect your name, nickname, email address,
-        password-related login credentials, account identifiers, profile photo, avatar, bio, profile settings,
-        login token, verification status, and app identifiers.
-      </p>
+      <h2>5. アプリ内課金</h2>
+      <p>アプリ内課金に関する決済はAppleにより処理されます。当社は、購入内容に関する必要最小限の情報を取り扱います。クレジットカード番号などの決済情報は当社に提供されません。</p>
 
-      <h2>3. User Content and Communications</h2>
-      <p>
-        Pacel may collect and process content you create, upload, send, receive, or interact with, including campus
-        posts, school news, event information, club or seminar group information, item sharing posts, images, videos,
-        comments, likes, favorites, reports, block actions, messages, conversation information, timestamps, sender and
-        recipient identifiers, and related metadata.
-      </p>
+      <h2>6. 保管期間と削除</h2>
+      <p>情報は、本サービスの提供、安全性の維持および法令上必要な期間に限り保管します。利用者から削除の要請があった場合は、法令上の保管義務がある情報およびAppleが管理する購入記録を除き、合理的な範囲で対応します。</p>
 
-      <h2>4. Camera, Photos, Microphone, and Media Access</h2>
-      <p>
-        Pacel may request access to your camera, photo library, or microphone for features such as profile images,
-        campus posts, event posts, item sharing posts, group communication, and messages with media.
-      </p>
-      <p>
-        We access these permissions only when you choose to use related features or grant permission through your device.
-        You can change permission settings at any time in your device settings.
-      </p>
+      <h2>7. 安全管理</h2>
+      <p>当社は、情報の漏えい、滅失または不正利用の防止に努めます。ただし、インターネットを通じた情報の取扱いに完全な安全性を保証することはできません。</p>
 
-      <h2>5. Payment and Purchase Information</h2>
-      <p>
-        Pacel may support paid digital features, subscriptions, or campus-related item sharing features. For digital
-        goods and subscriptions in the iOS app, purchases are processed through Apple in-app purchase where required by
-        App Store rules. We may receive transaction status, product identifiers, purchase results, and related records
-        needed to provide purchased features.
-      </p>
-      <p>
-        Apple processes payment details for Apple in-app purchases. Pacel does not receive your full payment card
-        information from Apple.
-      </p>
+      <h2>8. 利用者の選択</h2>
+      <p>利用者は、適用法令に基づき、自己の情報について開示、訂正、削除等を求めることができます。個人情報に関するお問い合わせは、下記の窓口までご連絡ください。</p>
 
-      <h2>6. Device, Usage, and Technical Information</h2>
-      <p>
-        We may collect device type, operating system, app version, language, region, network state, permitted device
-        identifiers, IP address, timestamps, request logs, crash logs, diagnostics, feature usage, page visits, button
-        actions, loading states, error messages, and security events.
-      </p>
+      <h2>9. 未成年者の利用</h2>
+      <p>未成年の方は、適用される法令に従い、必要に応じて保護者の同意を得たうえで本サービスを利用してください。</p>
 
-      <h2>7. Location and Address Information</h2>
-      <p>
-        Pacel may allow you to enter campus names, event locations, activity locations, meeting places, delivery
-        addresses, or other location-related information when you choose to use related features. We use this
-        information to provide the feature you requested.
-      </p>
-      <p>
-        Pacel does not need precise device location unless a specific feature requests it and you grant that permission.
-      </p>
+      <h2>10. ポリシーの変更</h2>
+      <p>当社は、法令や本サービスの内容の変更に応じて本ポリシーを変更することがあります。変更後の内容は、本ページまたは本サービス内で公表した時点から適用されます。</p>
 
-      <h2>8. How We Use Information</h2>
-      <p>
-        We use information to create and secure accounts, provide student messaging, campus communities, group
-        coordination, campus news, event information, item sharing, profiles, posts, messages, purchases, settings,
-        content recommendations, saved preferences, reports, blocking tools, safety reviews, customer support, abuse
-        prevention, performance improvement, issue diagnosis, and compliance with legal, security, App Store, and
-        platform requirements.
-      </p>
-
-      <h2>9. How We Share Information</h2>
-      <p>
-        We may share information with service providers, payment providers, Apple, other users when you choose to interact
-        publicly or directly, authorities when required by law, and parties involved in a business transfer.
-      </p>
-      <p>
-        We do not sell your personal information in the ordinary meaning of selling it for money.
-      </p>
-
-      <h2>10. Data Storage and Security</h2>
-      <p>
-        We use reasonable technical and organizational measures to protect information. However, no method of transmission
-        or storage is completely secure.
-      </p>
-      <p>
-        Some information may be stored locally on your device, such as login state, token data, blocked user IDs,
-        draft posts, saved preferences, and cached app data.
-      </p>
-
-      <h2>11. Data Retention</h2>
-      <p>
-        We keep information for as long as needed to provide Pacel, maintain accounts, comply with legal obligations,
-        resolve disputes, prevent abuse, enforce agreements, support security, and operate business records.
-      </p>
-
-      <h2>12. Your Choices and Rights</h2>
-      <p>
-        Depending on your location, you may have rights to access, correct, delete, or receive a copy of certain personal
-        information, or to object to or restrict certain processing.
-      </p>
-      <p>
-        You can update account information in the app where available, revoke device permissions in your device settings,
-        and request account deletion through the in-app support or settings page where available. If you revoke
-        permissions, related features may stop working.
-      </p>
-
-      <h2>13. Children and Minors</h2>
-      <p>
-        Pacel is intended for students and campus community users who are old enough to legally use online services in
-        their location. We do not knowingly collect personal information from children without appropriate consent where
-        required.
-      </p>
-      <p>
-        If you are a minor, you should use Pacel only with permission and supervision from a parent or legal guardian
-        where required by law.
-      </p>
-
-      <h2>14. International Processing</h2>
-      <p>
-        Your information may be processed or stored in countries or regions other than where you live.
-        Data protection laws may differ from those in your location.
-      </p>
-
-      <h2>15. Changes to This Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. The updated version will apply when posted or made available
-        in the app.
-      </p>
-
-      <h2>16. Contact</h2>
-      <p>
-        If you have questions about this Privacy Policy or your privacy choices, please contact us through the in-app
-        support or settings page.
-      </p>
+      <h2>11. お問い合わせ</h2>
+      <p>本ポリシー、個人情報の取扱い、削除に関するご質問やご要望は、Pacel サポート窓口（<a href="mailto:support@pacel.com">support@pacel.com</a>）までお問い合わせください。</p>
     </section>
   </div>
 </template>
