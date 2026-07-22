@@ -6,11 +6,11 @@ defineOptions({
 
 <template>
   <div relative min-h-100vh>
-    <img h-full w-full src="../assets/bg.webp" alt="">
+    <img h-full w-full src="https://www.pumqewy2345.xyz/hfimg/img/659671f3e8d74541b7ae96048aabc6a9373.png" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
       <div rd-2 bg-black p-2 p-x-5 text-8 color-white>
-        Olin99826@gmail.com
+        elysie@gmail.com
       </div>
     </div>
   </div>
