@@ -2,171 +2,58 @@
   <div class="agreement-page">
     <section class="agreement-section">
       <h1>Antje User Agreement</h1>
+      <p class="effective-date"><strong>Effective Date: July 21, 2026</strong></p>
+      <p>This User Agreement (the “Agreement”) governs your access to and use of Antje (the “Service”). By creating an account or using the Service, you agree to this Agreement and acknowledge the Privacy Policy. If you do not agree, do not use the Service.</p>
 
-      <p class="effective-date"><strong>Effective Date: July 13, 2026</strong></p>
+      <h2>1. Acceptance and Legal Capacity</h2>
+      <p>You may use the Service only if applicable law permits you to do so and you have the legal authority to accept this Agreement. If authorization is required under applicable law, the appropriate responsible person must provide it.</p>
 
-      <p>
-        Welcome to Antje. This User Agreement explains the rules that apply when you access or use Antje, including our
-        mobile application, dynamic posts, multi-user voice rooms, online chats, video calls, AI Social Helper, Image
-        Consultant, account features, profiles, purchases, and related services.
-      </p>
+      <h2>2. Accounts</h2>
+      <p>You agree to provide accurate information, keep your account secure, and notify us if you believe it has been used without permission. You may not sell, transfer, lend, or misuse an account.</p>
+      <p>You may delete your account through the account controls or request assistance by contacting us. Information may be retained only as described in the Privacy Policy or as required by law.</p>
 
-      <p>
-        By creating an account, signing in, accessing Antje, posting content, joining voice rooms, sending messages,
-        making video calls, using AI features, making purchases, or otherwise using Antje, you agree to this User
-        Agreement. If you do not agree, please do not use Antje.
-      </p>
+      <h2>3. Community Standards</h2>
+      <p>Antje is intended for courteous and respectful interaction. You must respect the dignity, privacy, safety, personal boundaries, intellectual property, and differing opinions of others. You are responsible for the content you provide and for your conduct.</p>
+      <p>We do not tolerate abusive users or objectionable content. Threats, harassment, bullying, stalking, exploitation, discrimination, impersonation, and conduct that deliberately endangers another person are prohibited.</p>
 
-      <h2>1. Eligibility</h2>
-      <p>
-        You must be old enough to legally use online services in your location and to enter into this agreement.
-        Antje may require account registration, age confirmation, camera access, microphone access, or other verification
-        steps before certain features are available.
-      </p>
-      <p>
-        You are responsible for ensuring that your use of Antje complies with applicable laws, community safety rules,
-        payment rules, intellectual property rules, and platform terms.
-      </p>
+      <h2>4. User Content</h2>
+      <p>You represent that you have the rights and permissions necessary for any content you provide and that your content does not violate applicable law or another person’s rights.</p>
+      <p>You retain ownership of your content. You grant us a non-exclusive, worldwide, royalty-free license to host, reproduce, process, display, and distribute it only as reasonably necessary to provide the Service, make it available to the audience you select, maintain safety, and enforce this Agreement.</p>
 
-      <h2>2. Account Registration and Security</h2>
-      <p>
-        You may need an account to use features such as posting updates, joining voice rooms, messaging, video calls,
-        editing your profile, using AI Social Helper, using Image Consultant, saving content, or making purchases.
-      </p>
-      <p>
-        You agree to provide accurate registration information and to keep your account information up to date.
-        You are responsible for keeping your login credentials secure and for all activity under your account.
-      </p>
+      <h2>5. Prohibited Conduct</h2>
+      <p>You may not provide unlawful, sexually exploitative, pornographic, hateful, threatening, graphically violent, fraudulent, deceptive, defamatory, harassing, invasive, or infringing content. Content that exploits or endangers protected persons is strictly prohibited.</p>
+      <p>You may not disclose private information without permission, encourage self-harm or dangerous acts, distribute spam or malicious code, manipulate engagement, evade safety controls, abuse reporting tools, access another account without authorization, interfere with the Service, or use the Service to harm or exploit another person.</p>
 
-      <h2>3. Posts, Voice Rooms, Chats, and Video Calls</h2>
-      <p>
-        Antje may allow users to create, join, view, or interact with dynamic posts, comments, multi-user voice rooms,
-        chats, online friend lists, video calls, profile pages, and related app pages.
-      </p>
-      <p>
-        You agree not to use these features to harass others, impersonate another person, mislead users, publish
-        unlawful content, or interfere with Antje.
-      </p>
+      <h2>6. Safety, Reporting, and Enforcement</h2>
+      <p>Use the available report and block controls if you encounter objectionable content or abusive conduct. You may also contact us at <a href="mailto:support@antje.com">support@antje.com</a>. Reports must be made honestly and include enough information to identify the concern.</p>
+      <p>We may filter, restrict, or remove content; limit access to features; preserve relevant safety records; or suspend or terminate accounts when reasonably necessary to protect users, enforce this Agreement, or comply with law. We aim to address safety concerns within a reasonable period appropriate to their severity.</p>
 
-      <h2>4. Etiquette, Safety, and Positive Interaction</h2>
-      <p>
-        Antje is designed for respectful social interaction, shared etiquette, and genuine connections. You agree to
-        communicate with good manners, respect personal boundaries, and avoid behavior that creates an unsafe,
-        intimidating, deceptive, or hostile environment.
-      </p>
-      <p>
-        Antje is not an emergency service, crisis support service, medical service, legal service, or substitute for
-        professional advice. If you face an emergency or immediate risk, contact local emergency services or qualified
-        professionals.
-      </p>
+      <h2>7. Digital Purchases</h2>
+      <p>Any price and digital item will be shown before purchase. Unless applicable law requires otherwise, digital items have no cash value, may be used only within the Service, and may not be transferred or exchanged for cash. Purchases and refund requests are also subject to the terms of the applicable app marketplace.</p>
 
-      <h2>5. AI Social Helper and Image Consultant</h2>
-      <p>
-        Antje may provide AI Social Helper for conversation suggestions, social interaction guidance, and communication
-        support, and Image Consultant for style, appearance, or image-related suggestions.
-      </p>
-      <p>
-        AI outputs are generated automatically and may be incomplete, inaccurate, or unsuitable for your situation. You
-        are responsible for reviewing AI outputs before using them. Do not use AI features to deceive, harass, exploit,
-        impersonate, or manipulate others.
-      </p>
+      <h2>8. Informational Content</h2>
+      <p>Suggestions and informational content may be incomplete, inaccurate, or unsuitable for a particular situation. They are not medical, legal, financial, emergency, or other professional advice. Review information carefully before relying on or sharing it.</p>
 
-      <h2>6. User Content</h2>
-      <p>
-        You may upload, submit, publish, transmit, or display content, including profile information, photos, videos,
-        posts, comments, voice room content, chat messages, video call interactions, AI prompts, style preferences, and
-        other materials.
-      </p>
-      <p>
-        You keep ownership of your content, but you grant Antje a worldwide, non-exclusive, royalty-free license
-        to host, store, process, display, distribute, adapt for technical purposes, and use your content as needed
-        to operate, protect, and improve Antje.
-      </p>
+      <h2>9. Intellectual Property</h2>
+      <p>The names, logos, designs, text, images, software, and other elements associated with the Service are owned by us or their respective rights holders. This Agreement grants you only a limited, personal, non-exclusive, non-transferable right to use the Service lawfully.</p>
 
-      <h2>7. Prohibited Conduct</h2>
-      <p>
-        You agree not to post unlawful, harmful, abusive, harassing, hateful, discriminatory, exploitative, violent,
-        sexually explicit, infringing, fraudulent, deceptive, spam, malware, or unsafe content. You also agree not to
-        bully or threaten other users, share another person's private information without permission, impersonate others,
-        record or distribute private calls without consent where prohibited, misuse AI features, bypass security,
-        moderation, payment, age checks, or access controls, or collect information from other users without permission.
-      </p>
+      <h2>10. Third-Party Services</h2>
+      <p>Third-party products or services may be governed by their own terms and privacy policies. We are not responsible for content or services provided independently by third parties.</p>
 
-      <h2>8. Review, Moderation, Reports, and Blocking</h2>
-      <p>
-        Some content may require review before it appears publicly. Antje may remove,
-        hide, restrict, or refuse content at any time.
-      </p>
-      <p>
-        Users may report or block other users. If you block a user, content from that user may be hidden from your
-        experience.
-      </p>
+      <h2>11. Account Restriction and Termination</h2>
+      <p>We may restrict, suspend, or terminate an account in response to a serious or repeated violation, harm to another person, a safety risk, fraud, misuse, or a legal requirement. Where reasonable, we may provide notice of the reason.</p>
 
-      <h2>9. Purchases and Virtual Items</h2>
-      <p>
-        Antje may offer paid digital features, virtual items, subscriptions, AI Social Helper, Image Consultant, or other
-        digital purchases through Apple in-app purchase where required by App Store rules.
-      </p>
-      <p>
-        Payments are processed by Apple or the applicable payment provider. Virtual items have no cash value, are not
-        legal tender, and may be used only within Antje where supported. Except where required by law or Apple rules,
-        purchases may be non-refundable once delivered.
-      </p>
+      <h2>12. Availability and Disclaimers</h2>
+      <p>We may change, suspend, or discontinue all or part of the Service for quality, safety, legal, or other reasonable reasons. Except where required by law, we do not guarantee uninterrupted availability, complete accuracy, or suitability for every purpose.</p>
 
-      <h2>10. Third-Party Content</h2>
-      <p>
-        Antje may display links, content, services, or offers from users or third parties. Third-party content is
-        provided by its respective provider and may be subject to separate terms and privacy policies.
-      </p>
-      <p>
-        Antje is not responsible for third-party products, services, websites, or user transactions except where required
-        by applicable law.
-      </p>
+      <h2>13. Limitation of Liability</h2>
+      <p>To the extent permitted by law, we are not liable for indirect, incidental, special, or consequential loss arising from use of, or inability to use, the Service. Nothing in this Agreement excludes liability that cannot lawfully be excluded.</p>
 
-      <h2>11. Privacy</h2>
-      <p>
-        Your use of Antje is also governed by our Privacy Policy, which explains how we collect, use, store,
-        and protect information.
-      </p>
+      <h2>14. Changes to This Agreement</h2>
+      <p>We may update this Agreement to reflect changes in law or the Service. If a change is material, we will provide notice through this page or another appropriate method.</p>
 
-      <h2>12. Availability and Changes</h2>
-      <p>
-        Antje may change, suspend, discontinue, or limit any feature at any time. We may update this agreement
-        from time to time. The updated version will apply when it is posted or made available in the app.
-      </p>
-
-      <h2>13. Disclaimers</h2>
-      <p>
-        Antje is provided on an "as is" and "as available" basis. We do not guarantee that posts, voice rooms, chats,
-        video calls, AI outputs, user content, purchases, profiles, or verification features will always be available,
-        accurate, secure, or error-free.
-      </p>
-
-      <h2>14. Limitation of Liability</h2>
-      <p>
-        To the maximum extent allowed by law, Antje and its operators will not be liable for indirect, incidental,
-        special, consequential, exemplary, or punitive damages, or for loss of data, revenue, profits, goodwill,
-        content, or business opportunities.
-      </p>
-
-      <h2>15. Termination</h2>
-      <p>
-        You may stop using Antje at any time. We may suspend, restrict, or terminate your access if we believe
-        you violated this agreement, created risk, caused harm, or used Antje in a way that may expose Antje,
-        users, partners, or third parties to liability.
-      </p>
-
-      <h2>16. Account Deletion</h2>
-      <p>
-        You may request account deletion through the in-app support or settings page where available. We may retain
-        certain information as required by law, for security, fraud prevention, dispute resolution, or legitimate
-        business records.
-      </p>
-
-      <h2>17. Contact</h2>
-      <p>
-        If you have questions about this User Agreement, please contact us through the in-app support or settings page.
-      </p>
+      <h2>15. Contact Us</h2>
+      <p>For questions about this Agreement, safety, or account deletion, contact <a href="mailto:support@antje.com">support@antje.com</a>.</p>
     </section>
   </div>
 </template>

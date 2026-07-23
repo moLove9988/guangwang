@@ -2,162 +2,50 @@
   <div class="agreement-page">
     <section class="agreement-section">
       <h1>Antje Privacy Policy</h1>
+      <p class="effective-date"><strong>Effective Date: July 21, 2026</strong></p>
+      <p>Antje (the “Service,” “we,” “us,” or “our”) respects your privacy. This Privacy Policy explains what information we collect and process, how we use and share it, how long we retain it, and the choices available to you.</p>
 
-      <p class="effective-date"><strong>Effective Date: July 13, 2026</strong></p>
+      <h2>1. Scope</h2>
+      <p>This Privacy Policy applies to information processed in connection with Antje and to communications you send to us about the Service. Third-party services may provide separate privacy notices for information they process independently.</p>
 
-      <p>
-        This Privacy Policy explains how Antje collects, uses, stores, shares, and protects information when you use
-        our mobile application, social community features, dynamic posts, multi-user voice rooms, chats, video calls,
-        AI Social Helper, Image Consultant, account features, purchases, and related services.
-      </p>
+      <h2>2. Information We Collect and Process</h2>
+      <p><strong>Account and profile information.</strong> This includes your email address, display name, profile details, images, and preferences that you choose to provide.</p>
+      <p><strong>Content and communications.</strong> This includes content that you choose to create, publish, send, or submit, together with related interactions and safety actions.</p>
+      <p><strong>Media.</strong> This includes photos, videos, camera input, microphone input, or other media that you choose to provide after granting any required device permission.</p>
+      <p><strong>Purchase information.</strong> This includes product, transaction, and purchase-status records. Payment credentials are processed by the applicable payment provider and are not received by us in full.</p>
+      <p><strong>Support information.</strong> This includes your contact details, message, and any related information that you choose to provide.</p>
 
-      <p>
-        By using Antje, you agree to the collection and use of information as described in this Privacy Policy.
-        If you do not agree, please do not use Antje.
-      </p>
+      <h2>3. How We Collect Information</h2>
+      <p>We collect information directly from you when you create or update an account, provide content, communicate with others, make a purchase, request support, or otherwise choose to submit information. We also create limited records of actions necessary to provide the Service, maintain safety, and fulfill your requests.</p>
 
-      <h2>1. Information We Collect</h2>
-      <p>
-        We collect information you provide, information generated when you use Antje, and information needed
-        to operate app features.
-      </p>
+      <h2>4. How We Use Information</h2>
+      <p>We use information to provide and personalize the Service, maintain accounts and preferences, deliver content and communications, fulfill purchases, respond to requests, enforce community standards, investigate reports, prevent fraud and misuse, protect rights and safety, and comply with legal obligations. We do not use information for a materially different purpose without an appropriate legal basis or additional permission when required.</p>
 
-      <h2>2. Account Information</h2>
-      <p>
-        When you register, sign in, or update your profile, we may collect your name, nickname, email address,
-        password-related login credentials, account identifiers, profile photo, avatar, bio, profile settings,
-        login token, verification status, and app identifiers.
-      </p>
+      <h2>5. Device Permissions and Your Choices</h2>
+      <p>Device access is requested only when you choose an action that requires it. You can deny or withdraw permission in iOS Settings. You may also choose not to provide optional information, although some requested features may then be unavailable.</p>
 
-      <h2>3. User Content and Communications</h2>
-      <p>
-        Antje may collect and process content you create, upload, send, receive, or interact with, including dynamic
-        posts, profile content, images, videos, comments, likes, favorites, follows, reports, block actions, voice room
-        information, chat messages, video call records, conversation information, timestamps, sender and recipient
-        identifiers, and related metadata.
-      </p>
+      <h2>6. Public Information and Other Users</h2>
+      <p>Information you choose to publish may be visible to other users. Information you send to a recipient is available to that recipient, who may retain it after you delete your copy. Review content before sharing it and do not disclose another person’s information without permission.</p>
 
-      <h2>4. Camera, Photos, Microphone, and Media Access</h2>
-      <p>
-        Antje may request access to your camera, photo library, or microphone for features such as profile images,
-        dynamic posts, voice rooms, video calls, media messages, Image Consultant, and other photo, audio, or video
-        features.
-      </p>
-      <p>
-        We access these permissions only when you choose to use related features or grant permission through your device.
-        You can change permission settings at any time in your device settings.
-      </p>
+      <h2>7. Service Providers and Other Disclosures</h2>
+      <p>We may share information with service providers that process it on our behalf to provide requested services, process purchases, support operations, maintain security, or comply with law. They are required to provide protection consistent with this Policy and may use information only for the authorized purpose.</p>
+      <p>We may also disclose information when you direct us to do so, when required by law, or when reasonably necessary to protect rights, safety, and security. We do not sell personal information or permit service providers to use it for their own advertising.</p>
 
-      <h2>5. Payment and Purchase Information</h2>
-      <p>
-        Antje may support paid digital features, subscriptions, virtual items, AI Social Helper, Image Consultant, or
-        other premium features. For digital goods and subscriptions in the iOS app, purchases are processed through
-        Apple in-app purchase where required by App Store rules. We may receive transaction status, product identifiers,
-        purchase results, and related records needed to provide purchased features.
-      </p>
-      <p>
-        Apple processes payment details for Apple in-app purchases. Antje does not receive your full payment card
-        information from Apple.
-      </p>
+      <h2>8. Retention and Deletion</h2>
+      <p>We retain information only for as long as reasonably necessary for the purposes described in this Policy, including providing the Service, maintaining security, resolving disputes, preventing abuse, and meeting legal obligations.</p>
+      <p>You may delete your account using the account controls or contact us to request deletion. Some information may remain where retention is required by law, necessary for security or fraud prevention, retained by another user, or maintained independently by a third party.</p>
 
-      <h2>6. Device, Usage, and Technical Information</h2>
-      <p>
-        We may collect device type, operating system, app version, language, region, network state, permitted device
-        identifiers, IP address, timestamps, request logs, crash logs, diagnostics, feature usage, page visits, button
-        actions, loading states, error messages, and security events.
-      </p>
+      <h2>9. Security</h2>
+      <p>We use reasonable safeguards designed to protect information against unauthorized access, loss, disclosure, alteration, or misuse. No method of storage or transmission can be guaranteed completely secure.</p>
 
-      <h2>7. Location Information</h2>
-      <p>
-        Antje may allow you to enter general location-related information, such as city, region, or profile location,
-        when you choose to use related features. We use this information to provide the feature you requested.
-      </p>
-      <p>
-        Antje does not need precise device location unless a specific feature requests it and you grant that permission.
-      </p>
+      <h2>10. Your Rights and Choices</h2>
+      <p>Depending on applicable law, you may request access to, correction of, deletion of, or restriction of your personal information. You may withdraw consent for future processing where consent applies. Withdrawing consent does not affect processing already completed. We may request reasonable information to verify your request.</p>
 
-      <h2>8. How We Use Information</h2>
-      <p>
-        We use information to create and secure accounts, provide social posts, voice rooms, chats, video calls, AI
-        Social Helper, Image Consultant, profiles, purchases, settings, content recommendations, saved preferences,
-        reports, blocking tools, safety reviews, customer support, abuse prevention, performance improvement, issue
-        diagnosis, and compliance with legal, security, App Store, and platform requirements.
-      </p>
+      <h2>11. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy to reflect changes in law or the Service. If a change is material, we will provide notice through the Service or another appropriate method.</p>
 
-      <h2>9. AI Features</h2>
-      <p>
-        If you use AI Social Helper or Image Consultant, Antje may process the text, prompts, profile information,
-        images, style preferences, conversation context, or other content you choose to provide to generate suggestions,
-        social interaction guidance, style guidance, or related outputs.
-      </p>
-      <p>
-        AI outputs are for informational and entertainment purposes only. They may be incomplete, inaccurate, or
-        inappropriate for your situation, and you should use your own judgment before relying on them.
-      </p>
-
-      <h2>10. How We Share Information</h2>
-      <p>
-        We may share information with service providers, payment providers, Apple, other users when you choose to interact
-        publicly or directly, authorities when required by law, and parties involved in a business transfer.
-      </p>
-      <p>
-        We do not sell your personal information in the ordinary meaning of selling it for money.
-      </p>
-
-      <h2>11. Data Storage and Security</h2>
-      <p>
-        We use reasonable technical and organizational measures to protect information. However, no method of transmission
-        or storage is completely secure.
-      </p>
-      <p>
-        Some information may be stored locally on your device, such as login state, token data, blocked user IDs,
-        draft posts, saved preferences, and cached app data.
-      </p>
-
-      <h2>12. Data Retention</h2>
-      <p>
-        We keep information for as long as needed to provide Antje, maintain accounts, comply with legal obligations,
-        resolve disputes, prevent abuse, enforce agreements, support security, and operate business records.
-      </p>
-
-      <h2>13. Your Choices and Rights</h2>
-      <p>
-        Depending on your location, you may have rights to access, correct, delete, or receive a copy of certain personal
-        information, or to object to or restrict certain processing.
-      </p>
-      <p>
-        You can update account information in the app where available, revoke device permissions in your device settings,
-        and request account deletion through the in-app support or settings page where available. If you revoke
-        permissions, related features may stop working.
-      </p>
-
-      <h2>14. Children and Minors</h2>
-      <p>
-        Antje is not intended for children who are not old enough to legally use the service in their location. We do
-        not knowingly collect personal information from children without appropriate consent where required.
-      </p>
-      <p>
-        If you are a minor, you should use Antje only with permission and supervision from a parent or legal guardian
-        where required by law.
-      </p>
-
-      <h2>15. International Processing</h2>
-      <p>
-        Your information may be processed or stored in countries or regions other than where you live.
-        Data protection laws may differ from those in your location.
-      </p>
-
-      <h2>16. Changes to This Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. The updated version will apply when posted or made available
-        in the app.
-      </p>
-
-      <h2>17. Contact</h2>
-      <p>
-        If you have questions about this Privacy Policy or your privacy choices, please contact us through the in-app
-        support or settings page.
-      </p>
+      <h2>12. Contact Us</h2>
+      <p>For privacy questions, rights requests, or account deletion assistance, contact <a href="mailto:support@antje.com">support@antje.com</a>.</p>
     </section>
   </div>
 </template>
