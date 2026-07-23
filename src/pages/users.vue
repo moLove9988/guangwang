@@ -2,169 +2,53 @@
   <div class="agreement-page">
     <section class="agreement-section">
       <h1>Saya User Agreement</h1>
+      <p class="effective-date"><strong>Effective Date: July 21, 2026</strong></p>
+      <p>This User Agreement governs your access to and use of Saya and its related services.</p>
+      <p>By accessing or using Saya, you agree to this User Agreement and the Privacy Policy. If you do not agree, do not use Saya.</p>
 
-      <p class="effective-date"><strong>Effective Date: July 14, 2026</strong></p>
+      <h2>1. Acceptance and Eligibility</h2>
+      <p>You must be legally able to enter into this agreement in your location. Minors may use Saya only as permitted by applicable law and, where required, with permission from a parent or legal guardian.</p>
+      <p>You must use Saya in accordance with applicable laws and this User Agreement.</p>
 
-      <p>
-        Welcome to Saya. This User Agreement explains the rules that apply when you access or use Saya, including our
-        mobile application, smoky makeup photo tools, Smoky Makeup Cards, Makeup Library, Inspiration Square, community
-        sharing features, HD export, account features, purchases, and related services.
-      </p>
+      <h2>2. Account and Access</h2>
+      <p>You agree to provide accurate information and are responsible for activity associated with your account.</p>
+      <p>You may not sell, transfer, impersonate another person through, or misuse an account.</p>
 
-      <p>
-        By creating an account, signing in, accessing Saya, uploading or shooting photos, creating Smoky Makeup Cards,
-        saving looks, sharing content, reacting to styles, making purchases, or otherwise using Saya, you agree to this
-        User Agreement. If you do not agree, please do not use Saya.
-      </p>
+      <h2>3. User Content</h2>
+      <p>You retain ownership of content you create or submit. You must have all rights and permissions necessary to use that content, including permission from people shown or identified in it.</p>
+      <p>You grant Saya a limited, non-exclusive permission to process, display, format, and make available your content only as reasonably necessary to provide the service, apply your visibility choices, maintain safety, and enforce this User Agreement.</p>
 
-      <h2>1. Eligibility</h2>
-      <p>
-        You must be old enough to legally use online services in your location and to enter into this agreement.
-        Saya may require account registration, age confirmation, camera access, photo library access, or other
-        verification steps before certain features are available.
-      </p>
-      <p>
-        You are responsible for ensuring that your use of Saya complies with applicable laws, community safety rules,
-        payment rules, intellectual property rules, and platform terms.
-      </p>
+      <h2>4. Community Standards</h2>
+      <p>Saya does not tolerate objectionable content or abusive conduct. You must treat others with respect and remain responsible for content and interactions you make available.</p>
+      <p>You may not submit or promote unlawful, threatening, harassing, hateful, discriminatory, sexually explicit, violent, deceptive, infringing, invasive, or otherwise harmful content. You may not impersonate others, disclose another person's private information without permission, spam, interfere with the service, or misuse safety controls.</p>
 
-      <h2>2. Account Registration and Security</h2>
-      <p>
-        You may need an account to use features such as creating Smoky Makeup Cards, saving your Makeup Library,
-        posting to Inspiration Square, reacting to styles, editing your profile, using HD export, or making purchases.
-      </p>
-      <p>
-        You agree to provide accurate registration information and to keep your account information up to date.
-        You are responsible for keeping your login credentials secure and for all activity under your account.
-      </p>
+      <h2>5. Reports, Blocking, and Enforcement</h2>
+      <p>You may report inappropriate content, block abusive users, or contact support. Content or access may be restricted when reasonably necessary to protect users, enforce this User Agreement, or comply with law.</p>
+      <p>Serious or repeated violations may result in removal of content or loss of access to Saya.</p>
 
-      <h2>3. Makeup Photo Tools and Smoky Makeup Cards</h2>
-      <p>
-        Saya may allow users to upload or shoot makeup photos, choose smoky styles, add short inspiration notes, create
-        magazine-cover-style Smoky Makeup Cards, save finished cards, compare looks, and organize beauty ideas over
-        time.
-      </p>
-      <p>
-        You are responsible for making sure you have the right to use any photo, image, text, or other material you
-        upload, edit, save, export, or share through Saya.
-      </p>
+      <h2>6. Intellectual Property</h2>
+      <p>Saya and its names, logos, designs, text, software, and other service materials are owned by their respective rights holders. This User Agreement gives you only a limited, personal, non-exclusive, non-transferable right to use Saya for lawful purposes.</p>
 
-      <h2>4. Inspiration Square and Community Interaction</h2>
-      <p>
-        Saya may allow users to share Smoky Makeup Cards in Inspiration Square, browse creative looks, react to styles,
-        comment, follow trends, and discover makeup inspiration from the community.
-      </p>
-      <p>
-        You agree to keep the community respectful, makeup-focused, and safe. Do not harass others, impersonate another
-        person, mislead users, publish unlawful content, or interfere with Saya.
-      </p>
+      <h2>7. Purchases and Virtual Items</h2>
+      <p>Optional digital items are offered through Apple's in-app purchase system and are subject to the terms shown at purchase. Virtual items have no cash value, may not be transferred outside Saya, and do not expire while the associated account remains available.</p>
+      <p>Apple processes payments and determines refund eligibility under its policies and applicable law.</p>
 
-      <h2>5. Beauty and Makeup Disclaimer</h2>
-      <p>
-        Saya provides creative makeup inspiration and image tools for entertainment, organization, and personal style
-        exploration. Saya does not provide medical, dermatological, professional cosmetic, allergy, or safety advice.
-      </p>
-      <p>
-        You are responsible for checking whether any makeup product, tool, or technique is suitable for you. Stop using
-        any product or technique that causes discomfort and consult a qualified professional when needed.
-      </p>
+      <h2>8. Acceptable Use</h2>
+      <p>You may not attempt unauthorized access, circumvent access controls, disrupt Saya, distribute malicious code, exploit errors, manipulate purchases, or use Saya in a way that harms another person or the service.</p>
 
-      <h2>6. User Content</h2>
-      <p>
-        You may upload, submit, publish, transmit, or display content, including profile information, photos, videos,
-        Smoky Makeup Cards, style selections, inspiration notes, Makeup Library records, Inspiration Square posts,
-        comments, reactions, and other materials.
-      </p>
-      <p>
-        You keep ownership of your content, but you grant Saya a worldwide, non-exclusive, royalty-free license
-        to host, store, process, display, distribute, adapt for technical purposes, and use your content as needed
-        to operate, protect, and improve Saya.
-      </p>
+      <h2>9. Makeup Disclaimer</h2>
+      <p>Saya provides creative content and tools, not medical, dermatological, allergy, or professional cosmetic advice. You are responsible for determining whether any product or technique is suitable for you.</p>
 
-      <h2>7. Prohibited Conduct</h2>
-      <p>
-        You agree not to post unlawful, harmful, abusive, harassing, hateful, discriminatory, exploitative, violent,
-        sexually explicit, infringing, fraudulent, deceptive, spam, malware, or unsafe content. You also agree not to
-        bully or threaten other users, share another person's private information without permission, impersonate others,
-        upload photos without proper rights or consent, promote unsafe beauty practices, bypass security, moderation,
-        payment, age checks, or access controls, or collect information from other users without permission.
-      </p>
+      <h2>10. Account Deletion</h2>
+      <p>You may initiate permanent account deletion from the account settings. Deletion cannot be undone and is subject to any retention required by law or maintained independently by Apple.</p>
 
-      <h2>8. Review, Moderation, Reports, and Blocking</h2>
-      <p>
-        Some content may require review before it appears publicly. Saya may remove,
-        hide, restrict, or refuse content at any time.
-      </p>
-      <p>
-        Users may report or block other users. If you block a user, content from that user may be hidden from your
-        experience.
-      </p>
+      <h2>11. Availability and Liability</h2>
+      <p>Saya may change or become unavailable. To the extent permitted by law, Saya is provided without warranties that it will always be uninterrupted, error-free, or suitable for every purpose.</p>
+      <p>To the extent permitted by law, Saya is not liable for indirect, incidental, special, or consequential loss. Nothing in this User Agreement limits liability that cannot lawfully be limited.</p>
 
-      <h2>9. Purchases and Virtual Items</h2>
-      <p>
-        Saya may offer paid digital features, including optional HD export for high-resolution saving and sharing,
-        through Apple in-app purchase where required by App Store rules.
-      </p>
-      <p>
-        Payments are processed by Apple or the applicable payment provider. Virtual items have no cash value, are not
-        legal tender, and may be used only within Saya where supported. Except where required by law or Apple rules,
-        purchases may be non-refundable once delivered.
-      </p>
-
-      <h2>10. Third-Party Content</h2>
-      <p>
-        Saya may display links, content, services, or offers from users or third parties. Third-party content is
-        provided by its respective provider and may be subject to separate terms and privacy policies.
-      </p>
-      <p>
-        Saya is not responsible for third-party products, services, websites, or user transactions except where required
-        by applicable law.
-      </p>
-
-      <h2>11. Privacy</h2>
-      <p>
-        Your use of Saya is also governed by our Privacy Policy, which explains how we collect, use, store,
-        and protect information.
-      </p>
-
-      <h2>12. Availability and Changes</h2>
-      <p>
-        Saya may change, suspend, discontinue, or limit any feature at any time. We may update this agreement
-        from time to time. The updated version will apply when it is posted or made available in the app.
-      </p>
-
-      <h2>13. Disclaimers</h2>
-      <p>
-        Saya is provided on an "as is" and "as available" basis. We do not guarantee that makeup tools, Smoky Makeup
-        Cards, HD exports, library records, community posts, user content, purchases, profiles, or moderation features
-        will always be available, accurate, secure, or error-free.
-      </p>
-
-      <h2>14. Limitation of Liability</h2>
-      <p>
-        To the maximum extent allowed by law, Saya and its operators will not be liable for indirect, incidental,
-        special, consequential, exemplary, or punitive damages, or for loss of data, revenue, profits, goodwill,
-        content, or business opportunities.
-      </p>
-
-      <h2>15. Termination</h2>
-      <p>
-        You may stop using Saya at any time. We may suspend, restrict, or terminate your access if we believe
-        you violated this agreement, created risk, caused harm, or used Saya in a way that may expose Saya,
-        users, partners, or third parties to liability.
-      </p>
-
-      <h2>16. Account Deletion</h2>
-      <p>
-        You may request account deletion through the in-app support or settings page where available. We may retain
-        certain information as required by law, for security, fraud prevention, dispute resolution, or legitimate
-        business records.
-      </p>
-
-      <h2>17. Contact</h2>
-      <p>
-        If you have questions about this User Agreement, please contact us through the in-app support or settings page.
-      </p>
+      <h2>12. Changes and Contact</h2>
+      <p>We may update this User Agreement to reflect changes in law or the service. The updated version applies from the effective date shown when it is made available.</p>
+      <p>For questions about this User Agreement, safety, or account deletion, contact <a href="mailto:support@saya.com">support@saya.com</a>.</p>
     </section>
   </div>
 </template>

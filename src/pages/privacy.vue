@@ -2,161 +2,52 @@
   <div class="agreement-page">
     <section class="agreement-section">
       <h1>Saya Privacy Policy</h1>
+      <p class="effective-date"><strong>Effective Date: July 21, 2026</strong></p>
+      <p>This Privacy Policy explains what information Saya handles, how it is obtained and used, when it may be shared, how long it is retained, and the choices available to you.</p>
+      <p>Please review this Privacy Policy before using Saya.</p>
 
-      <p class="effective-date"><strong>Effective Date: July 14, 2026</strong></p>
+      <h2>1. Scope and Sources</h2>
+      <p>This Privacy Policy applies to Saya and support communications relating to Saya.</p>
+      <p>Information is obtained directly from you when you enter account or profile details, create or submit content, interact with the service, make a purchase, change preferences, or contact support.</p>
 
-      <p>
-        This Privacy Policy explains how Saya collects, uses, stores, shares, and protects information when you use our
-        mobile application, smoky makeup photo tools, Smoky Makeup Cards, Makeup Library, Inspiration Square, account
-        features, purchases, and related services.
-      </p>
+      <h2>2. Information We Handle</h2>
+      <p>Saya may handle account and profile information, such as an email address, display name, and profile details; content you create or submit; service activity, interactions, safety reports, preferences, and virtual-item balances; purchase item and transaction status; and information included in support communications.</p>
+      <p>Saya does not receive your full payment-card details from Apple.</p>
 
-      <p>
-        By using Saya, you agree to the collection and use of information as described in this Privacy Policy.
-        If you do not agree, please do not use Saya.
-      </p>
+      <h2>3. Camera and Photo Access</h2>
+      <p>Camera or photo access is requested only when you choose a feature that requires capturing, selecting, or saving an image. Saya handles only the images you choose or create for that purpose.</p>
+      <p>You can deny or withdraw device permissions in iOS Settings.</p>
 
-      <h2>1. Information We Collect</h2>
-      <p>
-        We collect information you provide, information generated when you use Saya, and information needed
-        to operate app features.
-      </p>
+      <h2>4. How We Use Information</h2>
+      <p>Information is used to provide and maintain Saya, manage accounts and user choices, present and organize content, complete requested purchases, support safety features, respond to support requests, prevent misuse, and comply with legal obligations.</p>
 
-      <h2>2. Account Information</h2>
-      <p>
-        When you register, sign in, or update your profile, we may collect your name, nickname, email address,
-        password-related login credentials, account identifiers, profile photo, avatar, bio, profile settings,
-        login token, verification status, and app identifiers.
-      </p>
+      <h2>5. Public Content</h2>
+      <p>Profile information, content, comments, and activity you choose to make public may be displayed in public areas of Saya. Content you keep private is not intended for public display. Review content carefully before making it public.</p>
 
-      <h2>3. User Content and Communications</h2>
-      <p>
-        Saya may collect and process content you create, upload, save, share, or interact with, including makeup photos,
-        camera captures, Smoky Makeup Cards, smoky style choices, inspiration notes, Makeup Library records,
-        Inspiration Square posts, images, comments, reactions, favorites, reports, block actions, timestamps, user
-        identifiers, and related metadata.
-      </p>
+      <h2>6. Sharing and Third Parties</h2>
+      <p>Apple processes in-app purchases under Apple's terms and privacy policy. Information may also be disclosed with your consent, when required by law, or when reasonably necessary to protect users, rights, safety, or the service.</p>
+      <p>Any third party that receives personal information must provide protection consistent with this Privacy Policy and applicable law.</p>
 
-      <h2>4. Camera, Photos, and Media Access</h2>
-      <p>
-        Saya may request access to your camera or photo library for features such as shooting or uploading makeup
-        photos, creating Smoky Makeup Cards, saving finished cards, sharing looks, and exporting images.
-      </p>
-      <p>
-        We access these permissions only when you choose to use related features or grant permission through your device.
-        You can change permission settings at any time in your device settings.
-      </p>
+      <h2>7. Sale and Tracking</h2>
+      <p>Saya does not sell personal information and does not use personal information to track you across apps or websites owned by other companies for advertising.</p>
 
-      <h2>5. Payment and Purchase Information</h2>
-      <p>
-        Saya may support optional paid digital features, including HD export for high-resolution saving and sharing.
-        For digital goods and subscriptions in the iOS app, purchases are processed through Apple in-app purchase where
-        required by App Store rules. We may receive transaction status, product identifiers, purchase results, and
-        related records needed to provide purchased features.
-      </p>
-      <p>
-        Apple processes payment details for Apple in-app purchases. Saya does not receive your full payment card
-        information from Apple.
-      </p>
+      <h2>8. Retention and Deletion</h2>
+      <p>Information is retained only for as long as reasonably necessary for the purposes described in this Privacy Policy or as required by law.</p>
+      <p>You may initiate deletion of your account and associated information from the account settings or request assistance at <a href="mailto:support@saya.com">support@saya.com</a>. Records maintained independently by Apple are governed by Apple's policies.</p>
 
-      <h2>6. Device, Usage, and Technical Information</h2>
-      <p>
-        We may collect device type, operating system, app version, language, region, network state, permitted device
-        identifiers, IP address, timestamps, request logs, crash logs, diagnostics, feature usage, page visits, button
-        actions, loading states, error messages, and security events.
-      </p>
+      <h2>9. Your Choices and Rights</h2>
+      <p>You can update available account information, manage content visibility, remove content, change device permissions, and delete your account. These controls allow you to withdraw consent for the corresponding use of information.</p>
+      <p>Depending on applicable law, you may request access, correction, deletion, a copy, restriction, or objection concerning personal information by contacting <a href="mailto:support@saya.com">support@saya.com</a>.</p>
 
-      <h2>7. Location Information</h2>
-      <p>
-        Saya may allow you to enter general location-related information, such as city, region, or profile location,
-        when you choose to use related features. We use this information to provide the feature you requested.
-      </p>
-      <p>
-        Saya does not need precise device location unless a specific feature requests it and you grant that permission.
-      </p>
+      <h2>10. Security</h2>
+      <p>Reasonable safeguards are used to protect information against unauthorized access, loss, disclosure, alteration, or misuse. No method of handling information can be guaranteed to be completely secure.</p>
 
-      <h2>8. How We Use Information</h2>
-      <p>
-        We use information to create and secure accounts, provide makeup photo tools, generate and save Smoky Makeup
-        Cards, organize your Makeup Library, display Inspiration Square content, process reactions, provide HD export,
-        manage purchases, save preferences, review reports, operate blocking tools, conduct safety reviews, provide
-        customer support, prevent abuse, improve performance, diagnose issues, and comply with legal, security,
-        App Store, and platform requirements.
-      </p>
+      <h2>11. Children and Changes</h2>
+      <p>Saya is not intended for children who are not legally permitted to use the service. If information from a child is handled in violation of applicable law, appropriate steps will be taken to delete it.</p>
+      <p>We may update this Privacy Policy to reflect changes in law or the service. The updated version applies from the effective date shown when it is made available.</p>
 
-      <h2>9. Image Processing and Makeup Card Creation</h2>
-      <p>
-        When you create a Smoky Makeup Card, Saya may process the makeup photo, selected smoky style, inspiration note,
-        display settings, and export preferences you provide to create, preview, save, or share the finished card.
-      </p>
-      <p>
-        Makeup Card outputs are creative tools for personal expression and inspiration. Results may vary depending on
-        photo quality, lighting, selected style, and device conditions.
-      </p>
-
-      <h2>10. How We Share Information</h2>
-      <p>
-        We may share information with service providers, payment providers, Apple, other users when you choose to interact
-        publicly or directly, authorities when required by law, and parties involved in a business transfer.
-      </p>
-      <p>
-        We do not sell your personal information in the ordinary meaning of selling it for money.
-      </p>
-
-      <h2>11. Data Storage and Security</h2>
-      <p>
-        We use reasonable technical and organizational measures to protect information. However, no method of transmission
-        or storage is completely secure.
-      </p>
-      <p>
-        Some information may be stored locally on your device, such as login state, token data, blocked user IDs,
-        draft posts, saved preferences, and cached app data.
-      </p>
-
-      <h2>12. Data Retention</h2>
-      <p>
-        We keep information for as long as needed to provide Saya, maintain accounts, comply with legal obligations,
-        resolve disputes, prevent abuse, enforce agreements, support security, and operate business records.
-      </p>
-
-      <h2>13. Your Choices and Rights</h2>
-      <p>
-        Depending on your location, you may have rights to access, correct, delete, or receive a copy of certain personal
-        information, or to object to or restrict certain processing.
-      </p>
-      <p>
-        You can update account information in the app where available, revoke device permissions in your device settings,
-        and request account deletion through the in-app support or settings page where available. If you revoke
-        permissions, related features may stop working.
-      </p>
-
-      <h2>14. Children and Minors</h2>
-      <p>
-        Saya is not intended for children who are not old enough to legally use the service in their location. We do
-        not knowingly collect personal information from children without appropriate consent where required.
-      </p>
-      <p>
-        If you are a minor, you should use Saya only with permission and supervision from a parent or legal guardian
-        where required by law.
-      </p>
-
-      <h2>15. International Processing</h2>
-      <p>
-        Your information may be processed or stored in countries or regions other than where you live.
-        Data protection laws may differ from those in your location.
-      </p>
-
-      <h2>16. Changes to This Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. The updated version will apply when posted or made available
-        in the app.
-      </p>
-
-      <h2>17. Contact</h2>
-      <p>
-        If you have questions about this Privacy Policy or your privacy choices, please contact us through the in-app
-        support or settings page.
-      </p>
+      <h2>12. Contact</h2>
+      <p>For questions about this Privacy Policy, privacy choices, or requests concerning personal information, contact <a href="mailto:support@saya.com">support@saya.com</a>.</p>
     </section>
   </div>
 </template>
