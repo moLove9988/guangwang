@@ -1,436 +1,384 @@
-<script setup lang="ts" generic="T extends any, O extends any">
-defineOptions({
-  name: 'IndexPage',
-})
-const appName = 'Olin'
-</script>
-
 <template>
-  <div class="protocol">
-    <div class="bt" style="text-align: center">
-      {{ appName }}'s Privacy Policy
-    </div>
-    The use of {{ appName }} through mobile applications may involve collection and use
-    of your information. This Privacy Policy explains and informs you how your
-    information is collected, used and disclosed by {{ appName }} with respect to your
-    access and use of our services through our mobile applications. It is
-    important for you to understand this Privacy Policy and how you may protect
-    your information, so please read this Privacy Policy carefully.
-    <br>
-    <div class="bt">
-      1. Application Scope of this Privacy Policy
-    </div>
-    1.1By using {{ appName }}, you agree that we may access, collect, use and share your
-    information in accordance with this Privacy Policy, as revised from time to
-    time. In addition, your use of {{ appName }} signifies that you agree with the terms
-    of this Privacy Policy. If you do not agree to the terms of this Privacy
-    Policy, do not use {{ appName }}.
-    <br><br>
-    1.2This Privacy Policy is incorporated into and forms part of the {{ appName }}
-    Terms of Service that you have agreed to in order to use {{ appName }}. Any terms
-    used in this Privacy Policy will have the same meaning as the equivalent
-    defined terms in the {{ appName }} Terms of Service unless otherwise defined in this
-    Privacy Policy or the context requires otherwise. Unless otherwise specified
-    in this Privacy Policy, these terms in the {{ appName }} Terms of Service shall also
-    be applicable in this Privacy Policy.
-    <br><br>
-    1.3Any information that is collected is subject to the Privacy Policy in
-    effect at the time such information is collected. We may, however, modify
-    and revise our Privacy Policy from time to time. If we make any change to
-    this policy, which we deem to be material changes, with or without
-    notification, you are agreeing to be bound by the revised policy.
-    <br><br>
-    1.4 {{ appName }} may link you to social media or other features or services
-    (including websites, plug-ins and widgets) provided by a third party. Please
-    note that this Privacy Policy doesn’t apply to the information collected by
-    any third-party websites, services or applications that can be accessed
-    through our services, and does not apply to the information collected by
-    other companies and organizations who advertise their services on {{ appName }}. We
-    bear no liability for any third party use of any information provided by you
-    to them.
-    <br><br>
-    2. We obtain information about you through the means discussed below when we
-    provide the {{ appName }} Services. Please note that we need certain types of
-    information so that we can provide the {{ appName }} Services to you.
-    <br><br>
-    1).User-provided Information
-    <br><br>
-    2).Automatically Collected Information for Legitimate Interests
-    <br><br>
-    User-provided Information
-    <br><br>
-    1) Information provide to us when you open a {{ appName }} account, including your
-    nickname, gender, date of birth, country, age,email,password,social media
-    account information (profile photo,Video), and any tags you posted about
-    yourself;
-    <br><br>
-    2)Any information included in your {{ appName }} profile which are visible to other
-    users of {{ appName }}, or information you make available to us via your use of
-    {{ appName }}, which may include your photos, gender;
-    <br><br>
-    3) User-generated content (" UGC "), such as comments, text, messages,
-    pictures, images, videos, sounds, code, or other data or material that you
-    upload, distribute, or stream on the Application while using the {{ appName }}
-    Service;
-    <br><br>
-    4) Payment information, such as bank account number, Paypal or other payment
-    information to be paid;
-    <br><br>
-    5) Transaction information such as transaction number and transaction
-    history after you purchase the paid service;
-    <br><br>
-    6) Your opt-in and communication with us, such as information used to
-    validate your account or address your feedback or complaint and information
-    you provide when participating in in-app surveys and activities.
-    <br><br>
-    7) Information provided by you from social media when you create a {{ appName }}
-    account by connecting to or associating a {{ appName }} account with a third party
-    social media account (e.g., Facebook, Google);
-    <br><br>
-    2.Automatically Collected Information for Legitimate Interests
-    <br><br>
-    ⊙ Data about your Accounts on other Services: If your social media or other
-    online accounts are associated with your accounts on our services, we may
-    obtain certain information through those accounts. If you log in to our
-    services through Facebook or other third party platforms, we ask for your
-    permission to access certain information about that other account. For
-    example, depending on the platform or service, we may collect your name,
-    profile picture, gender, information and date of birth, including
-    information from Google: The Unique ID for the Google Account; ID token;
-    Facebook: AccessToken. These platforms and services provide us with
-    information through their apis. The information we receive depends on the
-    information you decide to provide us (through your privacy Settings) or the
-    platform or service. If you access or use our services through third party
-    platforms or services or click on any third party links, the collection, use
-    and sharing of your data will also be governed by the privacy policies and
-    other agreements of such third party.
-    <br><br>
-    ⊙Device identifiers, such as your operating system, browser type, brand,
-    model and mobile device serial number, Internet Protocol (IP) address,
-    mobile operator, screen resolution, language Settings, IMEI number, IMSI
-    number, and media access control address;
-    <br><br>
-    ⊙Network activity information, such as your browsing history, search
-    history, videos or pages you visited, the dates and times you visited, other
-    user accounts you subscribed to, and information about your interactions
-    with other users;
-    <br><br>
-    ⊙We also collect error-reporting information if the Service crashes or hangs
-    up so that we can investigate the error and improve the stability of the
-    Service for future releases. In general these reports do not contain
-    personally identifiable information, or only incidentally. As part of these
-    error reports, we receive information about the type and version of your
-    device, the device identifier, the time the error occurred, the feature
-    being used and the state of the application when the error occurred. We do
-    not use this information for any purpose other than investigating and fixing
-    the error.
-    <br><br>
-    ⊙Information about your access to and use of other applications;
-    <br><br>
-    ⊙Metadata, associated with the UGC you provide to us, describes other data
-    and provides information about how, when, and by whom the UGC clips are
-    collected and the format of the UGC, such as subject tags and subtitles used
-    to tag video keywords;
-    <br><br>
-    We may also collect, use and share your information to generate and share
-    summary insights that do not identify you.Aggregated data may be derived
-    from your personal information but is not considered personal information
-    because the data does not directly or indirectly identify you.For example,
-    we may aggregate your usage data to calculate the percentage of users who
-    visit a particular site feature, to generate statistics about our users, to
-    calculate the percentage of users who visit a particular site feature, or to
-    calculate the number of AD displays placed or clicked.
-    <br><br>
-    <div class="bt">
-      2.Special Note about Sensitive Personal Information
-    </div>
-    To provide certain features (e.g. online video calling), we must access your
-    microphone, camera, with your permission, as described below:
-    <br><br>
-    1)Microphone: We access the microphone on your device (with your permission)
-    to record audio messages and deliver sound during video calls.
-    <br><br>
-    2)Camera: We access the camera on your device (with your permission) to take
-    your profile pictures and deliver realtime images during video calls.
-    <br><br>
-    By using {{ appName }}, you agree that all processing activities of sensitive
-    personal information are for the purposes and in the manner as described in
-    this Privacy Policy.
-    <br><br>
-    Please note that we do not use your sensitive personal information for the
-    purpose of making direct marketing unless agreed by you.
-    <br><br>
-    2.3Special Note about Children’s Information The services of {{ appName }} are only
-    applicable to users of 18 years old or more. We do not allow users under 18
-    years old to access our platform, and will not knowingly collect the
-    personal information of users under 18 years old.
-    <br><br>
-    <div class="bt">
-      3.How We Use the Information We Collect
-    </div>
-    We use or may disclose your personal information only in the following
-    circumstances: Verify your identity;
-    <br><br>
-    1) Connect you to others enabled by the Service;
-    <br><br>
-    2) Sharing your personal information with others on the Service;
-    <br><br>
-    3) Allows you to use certain features of services that may be provided from
-    time to time. Show you the name of the person you are communicating with and
-    show you the name of the person you are communicating with on the service;
-    <br><br>
-    4) Send you any administrative notification alerts and communications
-    related to your use of the Services;
-    <br><br>
-    5) To provide you with information that you have allowed us to collect from
-    you or that you have provided to social media providers associated with your
-    {{ appName }} account Relevant content you requested, such as information about your
-    location and that of your {{ appName }} contact;
-    <br><br>
-    6) Contact you by email, text message or other means to notify you of new
-    products, services or promotions on offer.for internal operations Conduct,
-    including troubleshooting, data analysis, testing, research, service
-    improvement, detection and prevention of error, fraud or other illegal;
-    Activities;
-    <br><br>
-    7) When we sincerely believe that the law, any legal process, law
-    enforcement, national security, or issue of public importance requires
-    disclosure: To protect and defend our rights or property (including
-    enforcing our terms of use and other agreements); or
-    <br><br>
-    8)Relating to corporate transactions involving {{ appName }}, such as the purchase
-    or sale of business units, acquisitions, mergers, sale of assets or other
-    similar events.
-    <br><br>
-    {{ appName }} allows you to share text messages, photos, screenshots, videos and
-    other communications in the {{ appName }} application with other users, and if you
-    choose to do so your text messages, photos, screenshots, videos and other
-    communications will be stored on our servers. In addition, if you choose to
-    share these items with other {{ appName }} users, we may not be able to remove them
-    from our servers or make them unavailable to anyone you have shared them
-    with. Sending and sharing text messages, photos, screenshots, videos or
-    other communications in the {{ appName }} application is your decision. By choosing
-    to share that information, you should understand that you may no longer be
-    able to control how that information is used and that it may become publicly
-    available (depending in part on your actions or the actions of others with
-    whom you have shared the information). {{ appName }} is not responsible for any use
-    or misuse of information you share.
-    <br><br>
-    3.2 Transfer and Storage
-    <br><br>
-    We operate and may continue to operate servers in a number of jurisdictions
-    around the world, so the server on which your personal information is used
-    and stored may not be in your jurisdiction.
-    <br><br>
-    You consent to the transfer of your personal information (both inside and
-    outside of your jurisdiction) for the purposes described in this Privacy
-    Policy.
-    <br><br>
-    3.3 analysis
-    <br><br>
-    The main reason we use your information is to provide and improve our
-    services. In addition, we use your information to help keep you safe. Read
-    on to learn more about the various reasons we use your information, as well
-    as practical examples.
-    <br><br>
-    1) Third Party Usage Analysis Tools: We use the tools provided by Google Inc
-    (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, "Google") for
-    usage analysis in our services. Tools owned by Firebase and acquired by
-    Google are used to measure usage. Firebase, run by Google, is also used for
-    usage analysis purposes.
-    <br><br>
-    2) Third party Conversion tracking tool: AppsFlyer, Google conversion
-    tracking API and Facebook Conversion tracking API for user conversion
-    tracking.
-    <br><br>
-    3) Crash detection tool: We used the Firebase owned Crashlytics tool for
-    crash detection. It helps maintain and improve services. All of your crash
-    data is collected anonymously.
-    <br><br>
-    3.4 Share your information
-    <br><br>
-    Your information is shared with others in the following ways: Sharing on our
-    products
-    <br><br>
-    1) Without your consent, we will not rent or sell your information to a
-    third party (or a group of companies to which {{ appName }} belongs), except as
-    otherwise stated in this Privacy Policy with whom we may share your
-    information:
-    <br><br>
-    2) We may share user content and your information (including but not limited
-    to information from cookies, log files, device identifiers, bit data and
-    usage data) with or become part of a group of businesses that are legally
-    part of {{ appName }}'s group of companies (" Affiliates ").Affiliates may use this
-    information to help provide, understand, and improve services (including by
-    providing analytics) and their own services (including by providing you with
-    a better, more relevant experience).But these affiliates will respect the
-    choices you make about who can see your content.
-    <br><br>
-    3) We may also share your information and information from tools such as
-    cookies, log files, device identifiers and location data with third party
-    organizations that help us provide services to you (the "Service
-    Provider").Our service providers will be granted access to your information
-    in order to provide services under reasonable confidentiality terms.
-    <br><br>
-    4) We may also share aggregate or anonymous information with third parties,
-    including advertisers and investors.For example, we might tell our
-    advertisers how many users our app has received.This information does not
-    contain any personal or personally identifiable information and is used to
-    develop content and services that we hope you will be interested in.
-    <br><br>
-    5) We may delete some data that can identify you and share your name data
-    with other parties.We may also combine your information with other
-    information in ways that are no longer associated with you and share this
-    aggregate information, and you may choose the parties with whom you share
-    your user content:
-    <br><br>
-    6) Any information or content that you voluntarily disclose to publish to
-    the Service, such as user content, will be made available to the public.
-    With this feature, {{ appName }} can prevent demand frenzy.Once you share user
-    content or make it public, that user content may be re-shared by others;
-    <br><br>
-    7) If you delete information and content that you create on the Service (for
-    example, screen shots, etc.), the copy may remain visible in the Service's
-    cache and archived pages, or if other users or third parties have copied or
-    saved the information (for example, Facebook, etc.).
-    <br><br>
-    3.5 Security Measures We Take to Protect Your Information
-    <br><br>
-    We employ administrative, physical and electronic measures designed to
-    protect your information from unauthorized access, however, despite these
-    efforts, no security measures are perfect or impenetrable and no method of
-    data transmission can be guaranteed against any interception or other type
-    of misuse. In the event that your personal information is compromised as a
-    result of a breach of security, we will promptly notify you if your personal
-    information has been compromised, as required by applicable law.
-    <br><br>
-    Where we do share your personal information with any third parties, we will
-    use reasonable efforts to ensure that such third parties only use your
-    personal information:
-    <br><br>
-    (i)in compliance with this Privacy Policy;
-    <br><br>
-    (ii) subject to any other instructions we give them, including any
-    appropriate confidentiality and security measures that we implement.
-    <br><br>
-    <div class="bt">
-      4.How to Access Your Information
-    </div>
-    You can access and modify the information you provided to us through your
-    account.
-    <br><br>
-    If you believe your information posted on {{ appName }} is not authentic or accurate
-    and can provide us with reasonable proof regarding this, you can require us
-    via the contact information provided in this Privacy Policy to correct these
-    unauthentic or inaccurate information and we will use reasonable efforts to
-    honour your request; however, we may retain an archived copy of your
-    information as required by law and/or for record keeping purposes.
-    <br><br>
-    Once your account is closed or deleted, you will no longer have access to
-    your message history, preferences or any other information associated with
-    your use of our services. Even after you remove information from your
-    account or profile, copies of that information may remain viewable
-    elsewhere, to the extent it has been shared with others, it was otherwise
-    distributed pursuant to your privacy settings, or it was copied or stored by
-    other users. Additionally, we will retain your personal data even after you
-    have closed your account if reasonably necessary to comply with our legal
-    obligations (including law enforcement requests), meet regulatory
-    requirements, resolve disputes, maintain security, prevent fraud and abuse,
-    or enforce the Terms of Service. We will retain de-personalized information
-    after your account has been closed.
-    <br><br>
-    In some cases, we may not be able to update, amend or remove your personal
-    information, in which case we will let you know why we are unable to do so,
-    for example, certain requests may require disproportionate technical effort
-    or extremely impractical, or are prohibited by law.
-    <br><br>
-    Since {{ appName }} will be used in multiple jurisdictions and we may not be
-    possible to identify all the inconsistency between certain terms of this
-    Privacy Policy and the applicable law in your jurisdiction, thus you agree
-    to notify us once such inconsistency is identified by you. Under this
-    circumstance we will take necessary methods to eliminate such inconsistency,
-    including deleting these personal information improperly collected or used
-    by us.
-    <br><br>
-    <div class="bt">
-      5. Data access and deletion
-    </div>
-    You always have control over what information you choose to share with us on
-    the Services. To do this, you can change the Settings in the service or on
-    the mobile device. Alternatively, you can delete this service completely
-    from your mobile device and you can delete your data at any time. If you
-    request us to delete your account, we will use commercially reasonable
-    efforts to delete your data from our servers.
-    <br><br>
-    Text messages, photos, videos or any other personally identifiable
-    information that you share in or through the {{ appName }} App with other users or
-    submit in blogs, bulletin boards or chat rooms on our website or elsewhere
-    may be viewed and used by others, These include sending you unsolicited
-    messages or identity theft. {{ appName }} is not responsible for any use or misuse
-    of your information resulting from the disclosure of your information
-    <br><br>
-    <div class="bt">
-      6. Security
-    </div>
-    Protecting user privacy and personal information is a top priority at {{ appName }},
-    and we make significant efforts to ensure the privacy of all personally
-    identifiable information you provide to us.Access to all personally
-    identifiable information is limited to {{ appName }} employees, contractors, agents
-    and third party service providers who want to know this information in order
-    to provide, operate and develop it.Maintenance, support can be political
-    into the service.
-    <br><br>
-    <div class="bt">
-      7. Age
-    </div>
-    This service is not targeted at children under the age of eighteen (18) and
-    we do not knowingly accept or sell personally identifiable information from
-    children under the age of eighteen as part of our service. If we become
-    aware that we have inadvertently received personally identifiable
-    information from users under 18 years of age in our Services, we will remove
-    such information from our records. If we change our practices in the future,
-    as part of the service, we will obtain prior, verifiable parental consent
-    before collecting any personally identifiable information from children
-    under 18 years of age.
-    <br><br>
-    <div class="bt">
-      8. Change notification
-    </div>
-    We reserve the right to change this Privacy Policy at our sole discretion.
-    You can view updates to our privacy policy at any time through the link on
-    our website. You agree to accept the Posting of {{ appName }} electronic newsletter
-    and/or the revised Privacy Policy. And you agree that such electronic
-    communications or posts constitute a notice to you of the Privacy Policy. We
-    reserve the right to revise this policy from time to time, so please check
-    often. If we make material changes to this Policy, we will notify you by
-    Posting a revised Privacy Policy or by means of a notice on our website or
-    legal requirements. You agree to periodically review the Privacy Policy so
-    that you are aware of any changes. You agree that your continued use of the
-    Service after we publish the revised Privacy Policy or provide notice on our
-    website means that you accept the revised Privacy Policy. If you do not
-    agree to the terms of the Privacy Policy, you should not use the Service.
-    <br><br>
-    <div class="bt">
-      9. Contacting Us
-    </div>
-    If you have any questions about our Privacy Policy or any privacy-related
-    matters, please contact us via email at 【{{ appName }}@{{ appName }}.site】.
-    <br><br>
+  <div class="agreement-page">
+    <section class="agreement-section">
+      <h1>Yoomi Privacy Policy</h1>
+
+      <p class="effective-date"><strong>Effective Date: August 7, 2026</strong></p>
+
+      <p>
+        Yoomi respects your privacy. This Privacy Policy explains what information we may collect, how we use and
+        protect it, when it may be shared, and the choices available to you when you use the Yoomi mobile application
+        and related services (“Yoomi” or the “Service”).
+      </p>
+
+      <p>By using Yoomi, you acknowledge the practices described in this Privacy Policy.</p>
+
+      <h2>1. Information We Collect</h2>
+      <p>
+        Depending on how you use Yoomi, we may collect the following information:
+      </p>
+
+      <h3>Account and Profile Information</h3>
+      <p>
+        When you create or manage an account, we may collect information such as your:
+      </p>
+      <ul>
+        <li>Email address or login identifier.</li>
+        <li>Nickname, avatar, age, gender, or profile description.</li>
+        <li>Account ID and authentication information.</li>
+        <li>Preferences and privacy settings.</li>
+      </ul>
+      <p>
+        If you use a third-party login service, we may receive limited account information authorized by you and
+        provided by that service.
+      </p>
+
+      <h3>Content and Communications</h3>
+      <p>
+        We may collect content you create, upload, send, receive, or save through Yoomi, including:
+      </p>
+      <ul>
+        <li>Drifting bottle notes.</li>
+        <li>Love Wish Box entries.</li>
+        <li>Replies and chat messages.</li>
+        <li>Shared moments, images, captions, and comments.</li>
+        <li>Saved conversations.</li>
+        <li>Reports, feedback, and customer support messages.</li>
+      </ul>
+      <p>Other users may view content that you choose to share publicly or send to them.</p>
+
+      <h3>Private Love Wish Box Content</h3>
+      <p>Love Wish Box entries marked as private are not displayed to other users unless you choose to share them.</p>
+      <p>
+        We may access or process private content only when reasonably necessary to provide the feature, respond to
+        your request, investigate a reported safety issue, prevent misuse, comply with legal obligations, or maintain
+        the security of the Service.
+      </p>
+      <p>
+        Please do not store passwords, financial information, identity documents, or other highly sensitive information
+        in the Love Wish Box.
+      </p>
+
+      <h3>Usage and Interaction Information</h3>
+      <p>
+        We may collect information about how you interact with Yoomi, such as:
+      </p>
+      <ul>
+        <li>Bottle notes you open, reply to, save, or report.</li>
+        <li>Features and pages you use.</li>
+        <li>Accounts you follow, block, or interact with.</li>
+        <li>App session times and general interaction activity.</li>
+        <li>Notification preferences.</li>
+      </ul>
+
+      <h3>Device and Technical Information</h3>
+      <p>
+        We may automatically collect limited technical information, including:
+      </p>
+      <ul>
+        <li>Device type, operating system, and app version.</li>
+        <li>Device or account identifiers.</li>
+        <li>IP address and general network information.</li>
+        <li>Language, time zone, and general regional settings.</li>
+        <li>Crash reports, performance information, and diagnostic logs.</li>
+      </ul>
+      <p>This information helps us maintain security, diagnose problems, and improve app performance.</p>
+
+      <h3>Photos, Camera, and Notifications</h3>
+      <p>
+        If you choose to upload an avatar, image, or shared moment, Yoomi may request access to your camera or
+        photo library.
+      </p>
+      <p>
+        If you enable notifications, we may use a device notification token to send replies, account updates, safety
+        notices, and other service-related notifications.
+      </p>
+      <p>You can change these permissions through your device settings.</p>
+
+      <h2>2. How We Use Information</h2>
+      <p>We may use collected information to:</p>
+      <ul>
+        <li>Create, authenticate, and manage your account.</li>
+        <li>Deliver bottle notes, wishes, replies, chats, and shared content.</li>
+        <li>Save your selected conversations and preferences.</li>
+        <li>Recommend or distribute content within Yoomi.</li>
+        <li>Provide notifications and customer support.</li>
+        <li>Detect spam, fraud, harassment, illegal content, and other misuse.</li>
+        <li>Review reports and enforce our User Agreement and Community Rules.</li>
+        <li>Protect users and maintain the security of the Service.</li>
+        <li>Analyze performance and improve Yoomi’s features and usability.</li>
+        <li>Comply with applicable laws and valid legal requests.</li>
+      </ul>
+      <p>We will not use private Love Wish Box content for public display unless you choose to share it.</p>
+
+      <h2>3. Content Shared with Other Users</h2>
+      <p>
+        Your nickname, avatar, profile information, shared bottle notes, replies, moments, and other content may be
+        visible to other users according to the feature and privacy settings you select.
+      </p>
+      <p>
+        When you share content with another user, that user may save, copy, capture, or redistribute it outside Yoomi.
+        We cannot fully control how other users handle information that you voluntarily share.
+      </p>
+      <p>Please consider carefully before sharing personal or sensitive information.</p>
+
+      <h2>4. Content Moderation and Safety</h2>
+      <p>
+        To maintain a respectful environment, we may use automated systems and human review to detect or investigate
+        content that may violate our User Agreement or Community Rules.
+      </p>
+      <p>We may review content when:</p>
+      <ul>
+        <li>A user submits a report.</li>
+        <li>Our systems detect possible abuse or safety risks.</li>
+        <li>Review is necessary to prevent fraud, harassment, threats, or illegal activity.</li>
+        <li>We are required to do so by law.</li>
+        <li>Review is necessary to protect Yoomi, our users, or other people.</li>
+      </ul>
+      <p>
+        Moderation information may include reported content, related messages, account activity, report reasons,
+        and actions taken.
+      </p>
+
+      <h2>5. How We Share Information</h2>
+      <p>We may share limited information in the following circumstances:</p>
+
+      <h3>Service Providers</h3>
+      <p>
+        We may work with trusted service providers that support hosting, cloud storage, login, analytics,
+        notifications, security, content moderation, and customer support.
+      </p>
+      <p>
+        These providers may process information only as necessary to perform services for us and subject to appropriate
+        obligations.
+      </p>
+
+      <h3>Legal and Safety Reasons</h3>
+      <p>We may disclose information when reasonably necessary to:</p>
+      <ul>
+        <li>Comply with applicable laws, regulations, court orders, or valid government requests.</li>
+        <li>Investigate fraud, illegal activity, threats, harassment, or safety concerns.</li>
+        <li>Enforce our User Agreement and Community Rules.</li>
+        <li>Protect the rights, safety, and property of Yoomi, our users, or others.</li>
+      </ul>
+
+      <h3>Business Changes</h3>
+      <p>
+        If Yoomi is involved in a merger, acquisition, financing, restructuring, or transfer of assets, relevant
+        information may be transferred as part of that transaction, subject to applicable law.
+      </p>
+
+      <h3>With Your Permission</h3>
+      <p>We may share information for another purpose when you clearly direct us or provide your consent.</p>
+      <p>Yoomi does not sell private messages or private Love Wish Box content for monetary payment.</p>
+
+      <h2>6. Data Retention</h2>
+      <p>We retain information only for as long as reasonably necessary to:</p>
+      <ul>
+        <li>Provide and maintain the Service.</li>
+        <li>Keep your account active.</li>
+        <li>Complete purposes described in this Privacy Policy.</li>
+        <li>Resolve disputes and respond to support requests.</li>
+        <li>Prevent fraud, abuse, and repeated violations.</li>
+        <li>Meet legal, regulatory, accounting, or security obligations.</li>
+      </ul>
+      <p>
+        When you delete content or your account, it may not disappear immediately from backups or technical systems.
+        Limited information may also be retained where necessary for legal compliance, security, fraud prevention,
+        or enforcement purposes.
+      </p>
+
+      <h2>7. Account and Data Deletion</h2>
+      <p>
+        You may request deletion of your account and associated personal information through the account settings,
+        where available, or by contacting us at <strong><a href="mailto:yoomi@gmail.com">yoomi@gmail.com</a></strong>.
+      </p>
+      <p>
+        Before completing a deletion request, we may need to verify your identity. Certain information may be retained
+        when required by law or reasonably necessary to protect users, investigate abuse, resolve disputes, or enforce
+        our agreements.
+      </p>
+      <p>Content previously shared with other users may remain visible in their conversations or copies after your account is deleted.</p>
+
+      <h2>8. Your Privacy Rights</h2>
+      <p>
+        Depending on your country or region, you may have the right to:
+      </p>
+      <ul>
+        <li>Access personal information we hold about you.</li>
+        <li>Correct inaccurate or incomplete information.</li>
+        <li>Request deletion of your personal information.</li>
+        <li>Withdraw consent where processing is based on consent.</li>
+        <li>Object to or restrict certain uses of your information.</li>
+        <li>Request a portable copy of certain information.</li>
+        <li>Submit a complaint to an appropriate data protection authority.</li>
+      </ul>
+      <p>
+        To make a privacy request, contact us at <strong><a href="mailto:yoomi@gmail.com">yoomi@gmail.com</a></strong>.
+        We may request reasonable information to verify your identity before processing the request.
+      </p>
+
+      <h2>9. Your Choices</h2>
+      <p>You may:</p>
+      <ul>
+        <li>Edit certain account and profile information in Yoomi.</li>
+        <li>Choose whether Love Wish Box content remains private or is shared.</li>
+        <li>Delete bottle notes, wishes, replies, or other content where the feature is available.</li>
+        <li>Block or report other users.</li>
+        <li>Change camera, photo library, and notification permissions in your device settings.</li>
+        <li>Request account deletion.</li>
+        <li>Stop using Yoomi at any time.</li>
+      </ul>
+      <p>Disabling certain permissions may prevent some features from working correctly.</p>
+
+      <h2>10. Data Security</h2>
+      <p>
+        We use reasonable administrative, technical, and organizational safeguards designed to protect information
+        against unauthorized access, loss, misuse, alteration, or disclosure.
+      </p>
+      <p>
+        However, no digital service or storage system can be guaranteed to be completely secure. You are responsible
+        for protecting your account credentials and should notify us if you suspect unauthorized account access.
+      </p>
+
+      <h2>11. International Data Transfers</h2>
+      <p>
+        Yoomi and its service providers may process information in countries or regions other than where you live.
+      </p>
+      <p>
+        Where required by applicable law, we will use appropriate safeguards for international transfers of personal
+        information.
+      </p>
+
+      <h2>12. Children’s Privacy</h2>
+      <p>Yoomi is not intended for anyone below the minimum age required by our User Agreement or applicable law.</p>
+      <p>
+        We do not knowingly collect personal information from children who are not permitted to use the Service.
+        If you believe that an underage child has provided personal information through Yoomi, please contact us so
+        that we can review and take appropriate action.
+      </p>
+
+      <h2>13. Third-Party Services</h2>
+      <p>
+        Yoomi may contain links to or integrations with third-party services. Their privacy practices are governed
+        by their own policies, and we are not responsible for how those third parties collect or use information.
+      </p>
+      <p>We encourage you to review their privacy policies before using those services.</p>
+
+      <h2>14. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy when our services, data practices, or legal obligations change.</p>
+      <p>
+        If changes are material, we may provide notice through Yoomi or by another reasonable method. The updated
+        effective date will appear at the top of this Privacy Policy.
+      </p>
+
+      <h2>15. Contact Us</h2>
+      <p>
+        If you have questions, concerns, complaints, or requests regarding this Privacy Policy or your personal
+        information, please contact:
+      </p>
+      <p><strong>Email:</strong> <a href="mailto:yoomi@gmail.com">yoomi@gmail.com</a></p>
+    </section>
   </div>
 </template>
 
+<script>
+export default {
+  name: 'YoomiPrivacyPolicy'
+}
+</script>
+
 <style scoped>
-  .protocol {
+.agreement-page {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  padding: 24px 18px;
+  background: #ffffff;
+  color: #222222;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.7;
+}
+
+.agreement-section {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #111111;
+}
+
+h2 {
+  margin: 28px 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #111111;
+}
+
+h3 {
+  margin: 20px 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #111111;
+}
+
+p {
+  margin: 0 0 14px;
+  font-size: 15px;
+  color: #333333;
+}
+
+ul {
+  margin: 0 0 14px 20px;
+  padding: 0;
+  font-size: 15px;
+  color: #333333;
+}
+
+li {
+  margin: 0 0 8px;
+}
+
+a {
+  color: #111111;
+  text-decoration: underline;
+}
+
+.effective-date {
+  margin-bottom: 20px;
+  color: #111111;
+}
+
+@media screen and (max-width: 600px) {
+  .agreement-page {
+    padding: 20px 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
     font-size: 14px;
-    margin-bottom: 14px;
-    color: #000;
-    margin-left:6px;
-    margin-right:6px;
-    background-color: fff;
   }
-  .bt {
-    font-size: 20px;
-    margin: 6px 0px;
-    color: #7f1146;
+
+  ul {
+    font-size: 14px;
   }
+}
 </style>
