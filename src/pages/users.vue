@@ -1,25 +1,61 @@
 <template>
-  <div class="tos-container">
-    <article class="tos-content">
-      <div v-html="content"></div>
-    </article>
+  <div class="csp-wrapper">
+    <div class="csp-container">
+      <header class="csp-header">
+        <h1>Gilsta Terms of Service</h1>
+        <p class="csp-updated">Effective Date: August 11, 2026</p>
+      </header>
+
+      <p class="csp-intro">
+        These Terms of Service govern your access to and use of Gilsta,
+        a music-focused community platform operated by Gilsta Team.
+      </p>
+
+      <section class="csp-section">
+        <h2>1. Service Provider</h2>
+        <p>Gilsta is provided and operated by Gilsta Team.</p>
+        <p>Contact: Gilstamusic@gmail.com</p>
+      </section>
+
+      <section class="csp-section">
+        <h2>2. User Accounts</h2>
+        <p>You are responsible for maintaining accurate information, protecting your account credentials, and all activities performed through your account.</p>
+        <p>You may not create false accounts, impersonate others, transfer accounts, or access accounts without authorization.</p>
+      </section>
+
+      <section class="csp-section">
+        <h2>3. User Content</h2>
+        <p>Gilsta allows users to share festival photos, music-related posts, voice notes, text content, livestream-related content, video chat interactions, and other materials.</p>
+        <p>You retain ownership of your content. By submitting content, you grant Gilsta Team a worldwide, non-exclusive, royalty-free license to host, store, display, reproduce, distribute, and make available content solely for operating, improving, maintaining, and promoting Gilsta services.</p>
+      </section>
+
+      <section class="csp-section">
+        <h2>4. Music and Copyright Responsibilities</h2>
+        <p>You are responsible for ensuring that uploaded content does not violate copyrights, trademarks, performance rights, or other third-party rights.</p>
+        <p>Gilsta may remove content believed to violate intellectual property rights.</p>
+      </section>
+
+      <section class="csp-section">
+        <h2>5. Livestream and Video Chat</h2>
+        <p>Gilsta may provide livestream and video chat features. Users are responsible for their own behavior and should not share private or sensitive information publicly.</p>
+      </section>
+
+      <section class="csp-section">
+        <h2>6. Community Rules</h2>
+        <p>Users must not upload illegal, harmful, abusive, hateful, fraudulent, misleading, explicit, or unauthorized promotional content.</p>
+        <p>Gilsta may remove content, restrict features, suspend accounts, or terminate accounts when necessary.</p>
+      </section>
+
+      <section class="csp-section">
+        <h2>7. Disclaimer and Liability</h2>
+        <p>Gilsta is provided on an “AS IS” and “AS AVAILABLE” basis. Gilsta Team is not responsible for user-generated content, user interactions, or third-party services.</p>
+      </section>
+
+      <section class="csp-section">
+        <h2>8. Contact Information</h2>
+        <p>Gilsta Team</p>
+        <p>Email: Gilstamusic@gmail.com</p>
+      </section>
+    </div>
   </div>
 </template>
-
-<script setup>
-const content = `Gilsta Terms of Service<br/>Effective Date: August 7, 2026<br/><br/>1. Introduction<br/>These Terms of Service (“Terms”) constitute a legally binding agreement between you (“User,”<br/>“you,” or “your”) and Gilsta Team (“Gilsta,” “we,” “us,” or “our”) regarding your access to<br/>and use of the Gilsta mobile application, website, products, and related services (collectively, the<br/>“Service”).<br/>Gilsta is a coffee-focused social community platform that enables users to share café-related photos, text,<br/>experiences, and discover content created by other members.<br/>By downloading, installing, accessing, or using Gilsta, you acknowledge that you have read, understood,<br/>and agreed to be legally bound by these Terms.<br/>If you do not agree with these Terms, you must immediately stop using the Service.<br/><br/>2. Eligibility and User Requirements<br/>You may use Gilsta only if:<br/>• You meet the minimum legal age requirement applicable in your jurisdiction;<br/>• You have the legal capacity to enter into this agreement;<br/>• Your use of Gilsta complies with all applicable laws and regulations.<br/>Gilsta reserves the right to refuse service, restrict access, or terminate accounts that violate these Terms.<br/><br/>3. Account Registration and Security<br/>Certain features may require account creation.<br/>You agree that:<br/>• All registration information provided by you must be accurate and complete;<br/>• You are responsible for maintaining the confidentiality of your account credentials;<br/>• You are responsible for all activities conducted through your account;<br/>• You will immediately notify Gilsta if you suspect unauthorized access.<br/>You may not:<br/>• Create accounts using false identities;<br/>• Impersonate another person or organization;<br/>• Sell, transfer, or share your account;<br/><br/>1<br/><br/><br/>• Use another person&#x27;s account without authorization.<br/>Gilsta is not responsible for losses caused by your failure to protect your account information.<br/><br/>4. Use of the Service<br/>Gilsta grants you a limited, personal, non-exclusive, non-transferable, revocable license to access and use<br/>the Service for personal, non-commercial purposes.<br/>You agree not to:<br/>• Modify, copy, reproduce, or distribute Gilsta;<br/>• Reverse engineer, decompile, or attempt to extract source code;<br/>• Circumvent security features;<br/>• Interfere with platform operation;<br/>• Use automated systems to scrape or collect data;<br/>• Use Gilsta for unlawful purposes.<br/><br/>5. User-Generated Content<br/>Gilsta allows users to upload, publish, store, and share content, including:<br/>• Photos;<br/>• Text;<br/>• Comments;<br/>• Profile information;<br/>• Other materials submitted through the Service.<br/>You retain ownership of your User Content.<br/>However, by submitting User Content to Gilsta, you grant Gilsta Team a worldwide, non-exclusive, royaltyfree, sublicensable, and transferable license to:<br/>• Host;<br/>• Store;<br/>• Reproduce;<br/>• Modify for technical purposes;<br/>• Display;<br/>• Distribute;<br/>• Make available;<br/>such content solely for operating, improving, maintaining, and promoting Gilsta and its services.<br/>This license continues for as long as necessary to provide the Service and may survive account deletion<br/>where required for legal, technical, security, or backup purposes.<br/>Gilsta does not claim ownership of your User Content.<br/><br/>2<br/><br/><br/>6. User Content Responsibility<br/>You are solely responsible for all content you upload or publish.<br/>You represent and warrant that:<br/>• You own or have obtained all necessary rights to your content;<br/>• Your content does not violate third-party rights;<br/>• Your content complies with applicable laws.<br/>You agree not to upload content that:<br/>• Infringes copyrights, trademarks, or other intellectual property rights;<br/>• Violates privacy rights;<br/>• Contains personal information of others without permission;<br/>• Includes harassment, threats, hate speech, discrimination, or abuse;<br/>• Contains pornography, sexual exploitation, or explicit material;<br/>• Promotes violence or illegal activities;<br/>• Contains scams, fraud, spam, or misleading information;<br/>• Attempts to manipulate or disrupt the platform.<br/><br/>7. Content Moderation and Enforcement<br/>Gilsta is not obligated to monitor all user content but may review, remove, restrict, or disable access to<br/>content at its sole discretion.<br/>Gilsta may take action when content:<br/>• Violates these Terms;<br/>• Creates legal risk;<br/>• Harms users or the community;<br/>• Damages platform integrity.<br/>Actions may include:<br/>• Removing content;<br/>• Limiting visibility;<br/>• Suspending accounts;<br/>• Permanently terminating accounts.<br/>Gilsta does not guarantee that inappropriate content will always be identified or removed immediately.<br/><br/>3<br/><br/><br/>8. Reporting and Blocking Features<br/>Gilsta provides tools that allow users to:<br/>• Report inappropriate content;<br/>• Block unwanted interactions;<br/>• Manage community experiences.<br/>Users are responsible for their own interactions and privacy choices.<br/><br/>9. Video Publishing and Paid Features<br/>Gilsta provides photo and text publishing features.<br/>Additional features, including video publishing capabilities, may be available through in-app purchases.<br/>Paid features may include:<br/>• Café walkthrough videos;<br/>• Coffee preparation videos;<br/>• Longer café clips;<br/>• Extended visual content.<br/>All purchases are processed through Apple App Store, Google Play, or other applicable payment<br/>platforms.<br/>You acknowledge that:<br/>• Payment terms are governed by the relevant platform;<br/>• Refund requests are subject to platform policies and applicable law;<br/>• Gilsta does not store complete payment card information.<br/><br/>10. Intellectual Property Rights<br/>All Gilsta intellectual property, including:<br/>• Software;<br/>• Application design;<br/>• Interface;<br/>• Logos;<br/>• Branding;<br/>• Features;<br/>• Documentation;<br/>is owned by or licensed to Gilsta Team.<br/><br/>4<br/><br/><br/>Except as expressly permitted, you may not:<br/>• Copy;<br/>• Modify;<br/>• Sell;<br/>• License;<br/>• Distribute;<br/>• Reverse engineer;<br/>any part of Gilsta.<br/><br/>11. Third-Party Services<br/>Gilsta may rely on third-party services, including:<br/>• Hosting providers;<br/>• Cloud infrastructure;<br/>• Analytics services;<br/>• Payment processors;<br/>• Authentication services.<br/>Gilsta does not control and is not responsible for third-party services.<br/>Your use of third-party services may be subject to separate terms and privacy policies.<br/><br/>12. Service Availability and Changes<br/>Gilsta reserves the right to:<br/>• Modify features;<br/>• Add or remove functions;<br/>• Suspend services;<br/>• Discontinue services.<br/>Gilsta does not guarantee that the Service will always be available, uninterrupted, secure, or error-free.<br/><br/>13. Disclaimer of Warranties<br/>TO THE MAXIMUM EXTENT PERMITTED BY LAW, Gilsta IS PROVIDED ON AN “AS IS” AND “AS<br/>AVAILABLE” BASIS.<br/>Gilsta DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING:<br/>• MERCHANTABILITY;<br/>• FITNESS FOR A PARTICULAR PURPOSE;<br/><br/>5<br/><br/><br/>• NON-INFRINGEMENT;<br/>• ACCURACY;<br/>• RELIABILITY;<br/>• AVAILABILITY.<br/>Gilsta does not guarantee that:<br/>• Content will be accurate;<br/>• User interactions will be safe;<br/>• The Service will meet your expectations;<br/>• Errors will always be corrected.<br/><br/>14. Limitation of Liability<br/>TO THE MAXIMUM EXTENT PERMITTED BY LAW, Gilsta TEAM SHALL NOT BE LIABLE FOR:<br/>• INDIRECT DAMAGES;<br/>• INCIDENTAL DAMAGES;<br/>• CONSEQUENTIAL DAMAGES;<br/>• LOSS OF PROFITS;<br/>• LOSS OF DATA;<br/>• USER INTERACTIONS;<br/>• CONTENT CREATED BY USERS.<br/>The total liability of Gilsta Team shall not exceed the amount paid by you to Gilsta during the twelve (12)<br/>months preceding the event giving rise to the claim.<br/><br/>15. Indemnification<br/>You agree to defend, indemnify, and hold harmless Gilsta Team and its affiliates, officers, employees, and<br/>partners from claims, damages, liabilities, and expenses arising from:<br/>• Your use of the Service;<br/>• Your User Content;<br/>• Your violation of these Terms;<br/>• Your violation of third-party rights.<br/><br/>16. Account Termination<br/>You may stop using Gilsta at any time.<br/>Gilsta may suspend or terminate your account if:<br/>• You violate these Terms;<br/>• You create risks for Gilsta or users;<br/><br/>6<br/><br/><br/>• Required by law;<br/>• Your account is inactive or abused.<br/>Termination does not affect rights or obligations that are intended to survive termination.<br/><br/>17. Governing Law and Dispute Resolution<br/>These Terms shall be governed by applicable laws determined by Gilsta Team’s operating jurisdiction,<br/>without regard to conflict of law principles.<br/>Any dispute shall first be addressed through good-faith communication.<br/>Where permitted by law, disputes may be resolved through applicable arbitration or legal proceedings.<br/><br/>18. Changes to These Terms<br/>Gilsta Team may modify these Terms at any time.<br/>Updated Terms will be published through the Service.<br/>Your continued use of Gilsta after changes become effective constitutes acceptance of the updated Terms.<br/><br/>19. Contact Information<br/>For questions regarding these Terms:<br/>Gilsta Team<br/>Email:<br/>Gilstacoffee@gmail.com<br/><br/>Gilsta Team<br/>Coffee first. Camera next.<br/><br/>7<br/><br/>`
-</script>
-
-<style scoped>
-.tos-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 32px 20px;
-  color: #222;
-  line-height: 1.7;
-}
-.tos-content {
-  white-space: normal;
-  font-size: 15px;
-}
-</style>

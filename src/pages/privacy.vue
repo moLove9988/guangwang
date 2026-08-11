@@ -1,25 +1,78 @@
 <template>
   <div class="pp-container">
-    <article class="pp-content">
-      <div v-html="content"></div>
-    </article>
+    <header class="pp-header">
+      <h1>Gilsta Privacy Policy</h1>
+      <p class="pp-updated">Effective Date: August 11, 2026</p>
+    </header>
+
+    <p class="pp-intro">
+      This Privacy Policy explains how Gilsta Team collects, uses, stores,
+      shares, and protects information when you access or use Gilsta and its
+      related services.
+    </p>
+
+    <section class="pp-section">
+      <h2>1. Service Provider</h2>
+      <p>Gilsta is provided and operated by Gilsta Team.</p>
+      <p>For privacy questions or requests, please contact: Gilstamusic@gmail.com</p>
+    </section>
+
+    <section class="pp-section">
+      <h2>2. Information We Collect</h2>
+      <p>We may collect information provided directly by you, automatically collected information, and information from third-party services.</p>
+      <p>This may include:</p>
+      <ul>
+        <li>Username, profile photo, email address, and account credentials.</li>
+        <li>Festival photos, music-related posts, captions, voice notes, comments, reactions, livestream-related content, and video chat content.</li>
+        <li>Device type, operating system, application version, IP address, network information, usage information, crash reports, and performance data.</li>
+      </ul>
+    </section>
+
+    <section class="pp-section">
+      <h2>3. How We Use Your Information</h2>
+      <p>Gilsta Team may use collected information to:</p>
+      <ul>
+        <li>Provide and maintain Gilsta services.</li>
+        <li>Display user content and operate community features.</li>
+        <li>Provide livestream and communication functions.</li>
+        <li>Improve performance, develop features, and maintain security.</li>
+        <li>Prevent abuse, fraud, and violations.</li>
+      </ul>
+    </section>
+
+    <section class="pp-section">
+      <h2>4. Information Sharing</h2>
+      <p>Gilsta Team does not sell your personal information.</p>
+      <p>Information may be shared with service providers, including hosting providers, analytics providers, security providers, communication infrastructure providers, and payment processors when necessary to operate the Service.</p>
+      <p>Publicly shared content may be visible to other Gilsta users and community members.</p>
+    </section>
+
+    <section class="pp-section">
+      <h2>5. Livestream and Communication Information</h2>
+      <p>When using livestream or video chat features, Gilsta may process activity information, participation records, technical information required for communication, and reports related to these features.</p>
+    </section>
+
+    <section class="pp-section">
+      <h2>6. Data Retention and Account Deletion</h2>
+      <p>You may request deletion of your account by contacting:</p>
+      <p>Gilstamusic@gmail.com</p>
+      <p>Some information may be retained where necessary for legal compliance, fraud prevention, security, backups, or enforcement of agreements.</p>
+    </section>
+
+    <section class="pp-section">
+      <h2>7. Privacy Rights</h2>
+      <p>Depending on applicable laws, you may request access, correction, deletion, restriction, portability, or objection regarding your personal information.</p>
+    </section>
+
+    <section class="pp-section">
+      <h2>8. Children's Privacy</h2>
+      <p>Gilsta is not intended for children below the minimum age required by applicable law. We do not knowingly collect children's personal information without authorization.</p>
+    </section>
+
+    <section class="pp-section">
+      <h2>9. Contact Information</h2>
+      <p>Gilsta Team</p>
+      <p>Email: Gilstamusic@gmail.com</p>
+    </section>
   </div>
 </template>
-
-<script setup>
-const content = `Gilsta Privacy Policy<br/>Effective Date: August 7, 2026<br/><br/>1. Introduction<br/>Gilsta Team (“Gilsta,” “we,” “us,” or “our”) respects your privacy and is committed to protecting<br/>your personal information.<br/>This Privacy Policy explains how we collect, use, disclose, store, and protect information when you access<br/>or use the Gilsta mobile application, website, and related services (collectively, the “Service”).<br/>By accessing or using Gilsta, you acknowledge that you have read and understood this Privacy Policy.<br/><br/>2. Information We Collect<br/>We may collect information provided directly by you, automatically collected information, and<br/>information from third-party services.<br/><br/>2.1 Information You Provide<br/>When you create an account or use Gilsta, you may provide:<br/><br/>Account Information<br/>Including:<br/>• Username;<br/>• Email address;<br/>• Profile photo;<br/>• Account credentials;<br/>• Other information required to create and manage your account.<br/><br/>User-Generated Content<br/>When you use Gilsta’s community features, we collect content you choose to submit, including:<br/>• Photos;<br/>• Text posts;<br/>• Captions;<br/>• Comments;<br/>• Reactions;<br/>• Public profile information;<br/><br/>1<br/><br/><br/>• Other content uploaded through the Service.<br/>You control whether your content is publicly displayed.<br/><br/>Customer Support Information<br/>If you contact us, we may collect:<br/>• Your email address;<br/>• Communication records;<br/>• Information necessary to respond to your request.<br/><br/>3. Information Collected Automatically<br/>When you use Gilsta, we may automatically collect certain technical information, including:<br/>• Device type;<br/>• Operating system;<br/>• Application version;<br/>• IP address;<br/>• Device identifiers where permitted;<br/>• Language and region settings;<br/>• Network information;<br/>• Usage information;<br/>• Crash reports and performance data.<br/>This information helps us:<br/>• Maintain service functionality;<br/>• Improve application performance;<br/>• Detect security issues;<br/>• Understand user interactions;<br/>• Provide a better experience.<br/><br/>4. Purchase and Payment Information<br/>If you purchase additional Gilsta features, including video publishing functionality, payment information<br/>may be processed by third-party payment platforms.<br/>Examples include:<br/>• Apple App Store;<br/>• Google Play;<br/>• Other authorized payment providers.<br/>Gilsta does not collect or store complete payment card numbers.<br/><br/>2<br/><br/><br/>We may receive limited transaction information, such as:<br/>• Purchase confirmation;<br/>• Transaction status;<br/>• Feature activation information.<br/><br/>5. How We Use Your Information<br/>Gilsta Team may use collected information for the following purposes:<br/><br/>Providing and Maintaining the Service<br/>Including:<br/>• Creating and managing accounts;<br/>• Displaying user content;<br/>• Operating community features;<br/>• Providing requested functions.<br/><br/>Improving Gilsta<br/>Including:<br/>• Developing new features;<br/>• Improving user experience;<br/>• Understanding platform usage;<br/>• Fixing technical issues.<br/><br/>Safety and Security<br/>Including:<br/>• Detecting fraud;<br/>• Preventing abuse;<br/>• Investigating violations;<br/>• Protecting users and platform integrity.<br/><br/>Communication<br/>Including:<br/>• Responding to support requests;<br/>• Sending important service notifications;<br/><br/>3<br/><br/><br/>• Providing information related to account activity.<br/><br/>Legal Compliance<br/>Including:<br/>• Meeting legal obligations;<br/>• Responding to lawful requests;<br/>• Protecting legal rights and interests.<br/><br/>6. How We Share Information<br/>Gilsta Team does not sell your personal information.<br/>We may share information only under the following circumstances:<br/><br/>6.1 Service Providers<br/>We may share necessary information with trusted service providers that support Gilsta operations,<br/>including:<br/>• Cloud hosting providers;<br/>• Storage providers;<br/>• Security providers;<br/>• Analytics providers;<br/>• Customer support providers;<br/>• Payment processors.<br/>These providers are permitted to process information only for authorized purposes.<br/><br/>6.2 User-Generated Content<br/>If you choose to publish content publicly, such content may be visible to:<br/>• Other Gilsta users;<br/>• Community members;<br/>• People who access publicly available content.<br/>You are responsible for choosing what information you share publicly.<br/><br/>4<br/><br/><br/>6.3 Legal Requirements<br/>We may disclose information if required by:<br/>• Applicable laws;<br/>• Court orders;<br/>• Government requests;<br/>• Legal proceedings.<br/><br/>6.4 Business Transfers<br/>If Gilsta Team is involved in:<br/>• A merger;<br/>• Acquisition;<br/>• Sale of assets;<br/>• Corporate restructuring;<br/>your information may be transferred as part of that transaction, subject to applicable laws.<br/><br/>7. Data Retention<br/>Gilsta retains personal information only for as long as necessary to:<br/>• Provide the Service;<br/>• Maintain account functionality;<br/>• Meet legal obligations;<br/>• Resolve disputes;<br/>• Enforce agreements;<br/>• Maintain security.<br/>When information is no longer required, Gilsta may delete, anonymize, or securely dispose of it.<br/><br/>8. Account Deletion and Data Removal<br/>You may request deletion of your Gilsta account.<br/>To request deletion, contact:<br/>Gilstacoffee@gmail.com<br/>After a valid deletion request:<br/>• Your account information will be removed or anonymized;<br/>• Public profile information may be removed;<br/><br/>5<br/><br/><br/>• User-generated content may be deleted where applicable.<br/>Some information may be retained when necessary for:<br/>• Legal compliance;<br/>• Fraud prevention;<br/>• Security purposes;<br/>• Backup systems;<br/>• Enforcement of agreements.<br/><br/>9. Your Privacy Rights<br/>Depending on your location and applicable privacy laws, you may have certain rights, including:<br/><br/>Access<br/>You may request information about personal data we hold about you.<br/><br/>Correction<br/>You may request correction of inaccurate information.<br/><br/>Deletion<br/>You may request deletion of your personal information.<br/><br/>Restriction<br/>You may request restrictions on certain processing activities.<br/><br/>Data Portability<br/>Where applicable, you may request a copy of your information in a portable format.<br/><br/>Objection<br/>Where applicable, you may object to certain processing activities.<br/>To exercise your rights, contact:<br/>Gilstacoffee@gmail.com<br/><br/>6<br/><br/><br/>10. Children’s Privacy<br/>Gilsta is not intended for children below the minimum age required by applicable law.<br/>We do not knowingly collect personal information from children without appropriate authorization.<br/>If we become aware that we have collected information from a child in violation of applicable law, we will<br/>take reasonable steps to delete such information.<br/><br/>11. Cookies and Similar Technologies<br/>Gilsta may use technologies such as:<br/>• Cookies;<br/>• Local storage;<br/>• Analytics technologies;<br/>• Similar tools;<br/>to:<br/>• Improve application performance;<br/>• Understand usage patterns;<br/>• Maintain security;<br/>• Improve user experience.<br/>You may have control over certain technologies through your device settings.<br/><br/>12. Third-Party Services<br/>Gilsta may integrate or rely on third-party services.<br/>These third parties may collect and process information according to their own privacy policies.<br/>Gilsta Team is not responsible for the privacy practices of third-party services.<br/><br/>13. International Data Transfers<br/>Your information may be processed or stored in countries other than your country of residence.<br/>Where required, Gilsta Team takes reasonable measures to ensure appropriate protection of personal<br/>information during international transfers.<br/><br/>7<br/><br/><br/>14. Data Security<br/>Gilsta uses commercially reasonable technical and organizational measures designed to protect personal<br/>information.<br/>However:<br/>• No online service is completely secure;<br/>• No method of transmission or storage can guarantee absolute security.<br/>You acknowledge that you provide information at your own risk.<br/><br/>15. California Privacy Rights (CCPA/CPRA)<br/>If applicable, California residents may have rights including:<br/>• Knowing what personal information is collected;<br/>• Requesting deletion;<br/>• Requesting correction;<br/>• Opting out of certain disclosures;<br/>• Exercising privacy rights without discrimination.<br/>Gilsta does not sell personal information.<br/>Requests may be submitted through:<br/>Gilstacoffee@gmail.com<br/><br/>16. European Privacy Rights (GDPR)<br/>Where applicable, users located in the European Economic Area may have rights under the General Data<br/>Protection Regulation, including:<br/>• Access;<br/>• Correction;<br/>• Deletion;<br/>• Restriction;<br/>• Data portability;<br/>• Objection.<br/>The legal basis for processing may include:<br/>• Providing the Service;<br/>• User consent;<br/>• Legitimate interests;<br/>• Legal obligations.<br/><br/>8<br/><br/><br/>17. Changes to This Privacy Policy<br/>Gilsta Team may update this Privacy Policy periodically.<br/>When changes are made:<br/>• The updated version will be published through Gilsta;<br/>• The effective date will be updated.<br/>Your continued use of Gilsta after changes become effective means you accept the updated Privacy Policy.<br/><br/>18. Contact Information<br/>If you have questions, concerns, or requests regarding this Privacy Policy, please contact:<br/>Gilsta Team<br/>Email:<br/>Gilstacoffee@gmail.com<br/><br/>Gilsta Team<br/>Coffee first. Camera next.<br/><br/>9<br/><br/>`
-</script>
-
-<style scoped>
-.pp-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 32px 20px;
-  color: #222;
-  line-height: 1.7;
-}
-.pp-content {
-  white-space: normal;
-  font-size: 15px;
-}
-</style>
