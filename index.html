@@ -1,25 +1,672 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <title>KololivApp</title>
-  <meta name="description" content="Opinionated Vite Starter Template">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090713">
+  <title>OKLiv — Fun Live, Chat Now</title>
+  <meta name="description" content="OKLiv is the live social home for Slavic culture, real conversations and new friends.">
+  <link rel="icon" href="assets/logo.png">
+  <style>
+    :root {
+      --bg: #090713;
+      --bg-2: #100c20;
+      --panel: rgba(255, 255, 255, .055);
+      --panel-2: rgba(255, 255, 255, .085);
+      --stroke: rgba(255, 255, 255, .12);
+      --text: #f8f6ff;
+      --muted: #a9a3bc;
+      --pink: #f14bdf;
+      --purple: #8b4cff;
+      --blue: #69a7ff;
+      --peach: #ffb68f;
+      --radius: 28px;
+      --shadow: 0 30px 90px rgba(0, 0, 0, .45);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; overflow-x: clip; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 70% -10%, rgba(88, 111, 255, .18), transparent 34%),
+        radial-gradient(circle at 15% 17%, rgba(212, 60, 255, .12), transparent 26%),
+        var(--bg);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      overflow-x: clip;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .25;
+      background-image: linear-gradient(rgba(255,255,255,.015) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.015) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: linear-gradient(to bottom, black, transparent 75%);
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+    img { max-width: 100%; display: block; }
+    .container { width: min(1180px, calc(100% - 48px)); margin-inline: auto; }
+
+    .nav-wrap {
+      position: fixed;
+      top: 18px;
+      left: 0;
+      right: 0;
+      z-index: 50;
+    }
+
+    .nav {
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px 10px 16px;
+      border: 1px solid rgba(255,255,255,.1);
+      background: rgba(11, 8, 24, .74);
+      box-shadow: 0 12px 45px rgba(0,0,0,.25);
+      backdrop-filter: blur(20px);
+      border-radius: 22px;
+    }
+
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: -.02em; }
+    .brand img { width: 46px; height: 46px; border-radius: 14px; box-shadow: 0 0 30px rgba(125, 80, 255, .35); }
+    .brand-name { font-size: 20px; }
+    .brand-name span { color: #b7b0ca; font-weight: 550; }
+    .nav-links { display: flex; align-items: center; gap: 30px; color: #c2bdd1; font-size: 14px; font-weight: 600; }
+    .nav-links a { transition: color .2s ease; }
+    .nav-links a:hover { color: #fff; }
+
+    .button {
+      min-height: 48px;
+      padding: 0 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border: 0;
+      border-radius: 15px;
+      color: #fff;
+      font-weight: 750;
+      letter-spacing: -.01em;
+      cursor: pointer;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+
+    .button:hover { transform: translateY(-2px); }
+    .button-primary {
+      background: linear-gradient(120deg, var(--pink), var(--purple) 48%, var(--blue));
+      box-shadow: 0 14px 35px rgba(147, 75, 255, .28);
+    }
+    .button-ghost { background: rgba(255,255,255,.075); border: 1px solid var(--stroke); }
+    .button-small { min-height: 46px; padding-inline: 19px; font-size: 14px; }
+    .mobile-toggle { display: none; width: 46px; height: 46px; padding: 0; }
+
+    .hero {
+      min-height: 900px;
+      padding: 165px 0 100px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 760px;
+      height: 760px;
+      right: -250px;
+      top: 0;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(99, 107, 255, .22), rgba(236, 67, 222, .08) 42%, transparent 70%);
+      filter: blur(10px);
+      pointer-events: none;
+    }
+
+    .hero-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 78px; align-items: center; }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 8px 12px;
+      border: 1px solid rgba(255,255,255,.11);
+      border-radius: 999px;
+      background: rgba(255,255,255,.05);
+      color: #d7d1e7;
+      font-size: 12px;
+      font-weight: 750;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow i { width: 8px; height: 8px; border-radius: 50%; background: #79ffac; box-shadow: 0 0 16px #79ffac; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      margin: 26px 0 24px;
+      font-size: clamp(54px, 6.1vw, 86px);
+      line-height: .98;
+      letter-spacing: -.068em;
+      max-width: 660px;
+    }
+
+    .gradient-text {
+      color: transparent;
+      background: linear-gradient(100deg, #fff 6%, #f5a8ff 45%, #82bdff 84%);
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    .hero-copy > p { max-width: 560px; color: var(--muted); font-size: 18px; line-height: 1.7; }
+    .hero-actions { display: flex; align-items: center; gap: 12px; margin-top: 34px; }
+    .store-icon { width: 20px; height: 20px; }
+
+    .store-badges { display: flex; align-items: center; gap: 12px; margin-top: 34px; }
+    .store-badge {
+      width: 210px;
+      min-height: 70px;
+      padding: 11px 18px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: #fff;
+      background: #030303;
+      border: 1px solid rgba(255,255,255,.28);
+      border-radius: 18px;
+      box-shadow: 0 12px 30px rgba(0,0,0,.32), inset 0 1px 0 rgba(255,255,255,.06);
+      user-select: none;
+    }
+    .store-badge svg { flex: 0 0 auto; width: 38px; height: 38px; }
+    .store-copy { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.05; }
+    .store-name { font-size: 19px; font-weight: 800; letter-spacing: -.025em; white-space: nowrap; }
+    .store-status { margin-top: 6px; color: #aaa; font-size: 13px; font-weight: 650; letter-spacing: .03em; }
+
+    .people-row { margin-top: 38px; display: flex; align-items: center; gap: 14px; color: #aaa4bb; font-size: 13px; }
+    .people { display: flex; }
+    .people span {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      border: 2px solid #110d20;
+      margin-left: -8px;
+      background: linear-gradient(140deg, #ff9bcf, #7248f4);
+      color: white;
+      font-size: 11px;
+      font-weight: 800;
+    }
+    .people span:first-child { margin-left: 0; background: linear-gradient(140deg, #64caff, #5d49ff); }
+    .people span:nth-child(2) { background: linear-gradient(140deg, #ffbe73, #ef4e9b); }
+    .people span:nth-child(3) { background: linear-gradient(140deg, #9bffac, #4c70e8); }
+    .people span:nth-child(4) { background: #fff; color: #29223f; }
+
+    .hero-stage { min-height: 620px; position: relative; perspective: 1200px; }
+    .phone {
+      position: absolute;
+      overflow: hidden;
+      border: 8px solid #191428;
+      border-radius: 42px;
+      background: #181426;
+      box-shadow: var(--shadow), inset 0 0 0 1px rgba(255,255,255,.18);
+    }
+
+    .phone::before {
+      content: "";
+      position: absolute;
+      top: 11px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 3;
+      width: 84px;
+      height: 22px;
+      background: #08070e;
+      border-radius: 99px;
+    }
+
+    .phone img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+    .phone-main { width: 330px; height: 650px; left: 145px; top: -8px; transform: rotate(2deg); z-index: 3; }
+    .phone-back { width: 276px; height: 560px; left: -25px; top: 86px; transform: rotate(-8deg); opacity: .85; filter: saturate(.85); }
+    .phone-mini { width: 236px; height: 470px; right: -26px; top: 105px; transform: rotate(9deg); opacity: .72; }
+
+    .float-card {
+      position: absolute;
+      z-index: 8;
+      padding: 14px 18px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(14,10,29,.76);
+      box-shadow: 0 20px 50px rgba(0,0,0,.36);
+      backdrop-filter: blur(16px);
+      font-size: 13px;
+      font-weight: 700;
+      animation: hover 5s ease-in-out infinite;
+    }
+    .float-card.live { right: -12px; top: 45px; }
+    .float-card.chat { left: 18px; bottom: 12px; animation-delay: -2.5s; }
+    .live-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; background: #ff4773; box-shadow: 0 0 14px #ff4773; }
+    @keyframes hover { 50% { transform: translateY(-9px); } }
+
+    .marquee { border-block: 1px solid rgba(255,255,255,.075); overflow: hidden; background: rgba(255,255,255,.018); }
+    .marquee-track { display: flex; width: max-content; animation: marquee 26s linear infinite; }
+    .marquee-group { display: flex; align-items: center; gap: 52px; padding: 22px 26px; color: #7f7990; font-size: 13px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+    .marquee-group span::before { content: "✦"; margin-right: 52px; color: #d65bff; }
+    @keyframes marquee { to { transform: translateX(-50%); } }
+
+    section { padding: 130px 0; position: relative; }
+    .section-kicker { color: #ca78ff; font-size: 13px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 14px; }
+    .section-title { max-width: 760px; font-size: clamp(38px, 5vw, 64px); line-height: 1.06; letter-spacing: -.052em; margin-bottom: 22px; }
+    .section-lead { max-width: 630px; color: var(--muted); font-size: 18px; line-height: 1.7; }
+
+    .feature-grid { margin-top: 72px; display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+    .feature-card {
+      position: relative;
+      min-height: 560px;
+      padding: 36px;
+      overflow: hidden;
+      border: 1px solid var(--stroke);
+      border-radius: var(--radius);
+      background: linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.025));
+    }
+    .feature-card.wide { grid-column: 1 / -1; min-height: 590px; }
+    .feature-number { color: #77718a; font-size: 12px; font-weight: 800; letter-spacing: .12em; }
+    .feature-card h3 { max-width: 470px; margin: 24px 0 14px; font-size: clamp(28px, 3vw, 42px); line-height: 1.06; letter-spacing: -.04em; }
+    .feature-card p { max-width: 460px; color: var(--muted); line-height: 1.65; }
+
+    .phone-window {
+      position: absolute;
+      overflow: hidden;
+      border-radius: 34px 34px 0 0;
+      border: 7px solid #1e1930;
+      border-bottom: 0;
+      background: #171224;
+      box-shadow: 0 24px 70px rgba(0,0,0,.4);
+    }
+    .phone-window img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+    .live-card { background: radial-gradient(circle at 90% 10%, rgba(255,111,184,.16), transparent 30%), linear-gradient(145deg,#151026,#0e0b19); }
+    .live-card .phone-window { width: 292px; height: 415px; right: 38px; bottom: 0; }
+    .community-card { background: radial-gradient(circle at 85% 15%, rgba(97,144,255,.16), transparent 34%), linear-gradient(145deg,#121126,#0e0b19); }
+    .community-card .phone-window { width: 292px; height: 410px; right: 25px; bottom: 0; transform: rotate(3deg); }
+
+    .wide-copy { position: relative; z-index: 3; max-width: 480px; }
+    .wide .phone-window.one { width: 280px; height: 500px; right: 315px; bottom: -70px; transform: rotate(-5deg); }
+    .wide .phone-window.two { width: 280px; height: 510px; right: 48px; bottom: -15px; transform: rotate(5deg); }
+    .wide { background: radial-gradient(circle at 72% 32%, rgba(226,76,255,.24), transparent 32%), radial-gradient(circle at 92% 64%, rgba(91,157,255,.2), transparent 35%), linear-gradient(145deg,#151025,#0d0b17); }
+
+    .culture { background: linear-gradient(180deg, transparent, rgba(255,255,255,.018), transparent); }
+    .culture-grid { margin-top: 70px; display: grid; grid-template-columns: 1.15fr .85fr; gap: 22px; }
+    .culture-card { min-height: 450px; border: 1px solid var(--stroke); border-radius: var(--radius); overflow: hidden; background: var(--panel); position: relative; }
+    .culture-card.visual { min-height: 660px; }
+    .culture-card.visual img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+    .culture-card.visual::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(9,7,19,.98), transparent 56%); }
+    .visual-copy { position: absolute; z-index: 2; left: 38px; bottom: 34px; right: 38px; }
+    .visual-copy h3 { font-size: 34px; letter-spacing: -.04em; margin-bottom: 10px; }
+    .visual-copy p { color: #c4bed1; line-height: 1.6; margin-bottom: 0; }
+    .culture-stack { display: grid; gap: 22px; }
+    .mini-feature { padding: 34px; display: flex; flex-direction: column; justify-content: space-between; min-height: 319px; }
+    .mini-feature h3 { font-size: 30px; letter-spacing: -.035em; margin: 0 0 12px; }
+    .mini-feature p { margin: 0; color: var(--muted); line-height: 1.65; }
+    .feature-icon { width: 58px; height: 58px; display: grid; place-items: center; border-radius: 18px; background: linear-gradient(145deg, rgba(242,74,220,.28), rgba(91,150,255,.25)); border: 1px solid rgba(255,255,255,.15); font-size: 26px; }
+
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 66px; }
+    .step { padding: 30px; border: 1px solid var(--stroke); border-radius: 24px; background: var(--panel); }
+    .step span { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 13px; background: #fff; color: #151020; font-weight: 850; }
+    .step h3 { font-size: 22px; letter-spacing: -.025em; margin: 30px 0 12px; }
+    .step p { color: var(--muted); line-height: 1.65; margin-bottom: 0; }
+
+    .safety-card {
+      padding: 54px;
+      border-radius: 34px;
+      border: 1px solid var(--stroke);
+      background: linear-gradient(135deg, rgba(132,70,255,.15), rgba(255,255,255,.035));
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .safety-list { display: grid; gap: 15px; }
+    .safety-item { padding: 18px; display: flex; gap: 14px; border-radius: 18px; background: rgba(255,255,255,.055); border: 1px solid rgba(255,255,255,.08); }
+    .check { flex: 0 0 auto; width: 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; background: rgba(123,255,174,.13); color: #7bffae; font-weight: 900; }
+    .safety-item strong { display: block; margin-bottom: 4px; }
+    .safety-item small { color: var(--muted); line-height: 1.45; }
+
+    .faq-list { margin-top: 58px; max-width: 860px; }
+    details { border-top: 1px solid var(--stroke); }
+    details:last-child { border-bottom: 1px solid var(--stroke); }
+    summary { list-style: none; cursor: pointer; padding: 25px 2px; display: flex; justify-content: space-between; gap: 20px; font-size: 18px; font-weight: 720; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; color: #b881ff; font-size: 24px; font-weight: 400; transition: transform .2s; }
+    details[open] summary::after { transform: rotate(45deg); }
+    details p { padding: 0 48px 24px 2px; color: var(--muted); line-height: 1.7; margin: 0; }
+
+    .final-cta {
+      margin-bottom: 48px;
+      padding: 80px 32px;
+      text-align: center;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 38px;
+      background: radial-gradient(circle at 50% 0%, rgba(236,76,229,.35), transparent 40%), radial-gradient(circle at 90% 100%, rgba(87,153,255,.24), transparent 42%), #141022;
+    }
+    .final-cta img { width: 88px; height: 88px; margin: 0 auto 28px; border-radius: 25px; box-shadow: 0 18px 50px rgba(128,76,255,.35); }
+    .final-cta h2 { font-size: clamp(40px, 5vw, 66px); letter-spacing: -.055em; margin-bottom: 16px; }
+    .final-cta p { color: #c2bccf; font-size: 18px; }
+    .final-actions { display: flex; justify-content: center; gap: 12px; margin-top: 30px; }
+    .final-actions .store-badge { text-align: left; }
+
+    footer { padding: 0 0 42px; }
+    .footer-row { padding-top: 28px; border-top: 1px solid var(--stroke); display: flex; justify-content: space-between; align-items: center; gap: 24px; color: #827c91; font-size: 13px; }
+    .footer-links { display: flex; gap: 22px; }
+    .footer-contact {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 10px 14px;
+      color: #cfc9da;
+      border: 1px solid var(--stroke);
+      border-radius: 999px;
+      background: rgba(255,255,255,.035);
+      transition: color .2s ease, border-color .2s ease, background .2s ease;
+    }
+    .footer-contact:hover { color: #fff; border-color: rgba(184,129,255,.55); background: rgba(184,129,255,.09); }
+    .footer-contact svg { width: 16px; height: 16px; color: #b881ff; }
+
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+
+    @media (max-width: 1080px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero-copy { text-align: center; }
+      .hero-copy h1, .hero-copy > p { margin-inline: auto; }
+      .hero-actions, .store-badges, .people-row { justify-content: center; }
+      .hero-stage { width: min(680px, 100%); margin: 10px auto 0; }
+      .feature-grid { grid-template-columns: 1fr; }
+      .feature-card.wide { grid-column: auto; }
+      .wide { min-height: 720px !important; }
+      .wide-copy { max-width: 100%; }
+      .wide .phone-window.one { left: 80px; right: auto; }
+      .wide .phone-window.two { right: 80px; }
+      .culture-grid { grid-template-columns: 1fr; }
+      .culture-stack { grid-template-columns: 1fr 1fr; }
+      .safety-card { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 760px) {
+      .container { width: min(100% - 28px, 620px); }
+      .nav-wrap { top: 10px; }
+      .nav-links { display: none; position: absolute; top: 80px; left: 14px; right: 14px; padding: 22px; flex-direction: column; align-items: stretch; gap: 18px; border-radius: 20px; background: rgba(13,9,27,.96); border: 1px solid var(--stroke); }
+      .nav-links.open { display: flex; }
+      .nav > .button-small { display: none; }
+      .mobile-toggle { display: inline-flex; }
+      .brand-name { font-size: 17px; }
+      .hero { min-height: 0; padding-top: 130px; }
+      .hero-grid { gap: 46px; }
+      h1 { font-size: clamp(48px, 15vw, 68px); }
+      .hero-copy > p { font-size: 16px; }
+      .hero-actions { flex-direction: column; align-items: stretch; }
+      .store-badges { flex-direction: column; align-items: stretch; }
+      .store-badge { width: 100%; justify-content: center; }
+      .people-row { flex-direction: column; }
+      .hero-stage { min-height: 510px; transform: scale(.86); transform-origin: top center; margin-bottom: -70px; }
+      .phone-main { left: 50%; transform: translateX(-50%) rotate(2deg); width: 294px; height: 580px; }
+      .phone-back { left: -115px; }
+      .phone-mini { right: -120px; }
+      .float-card.live { right: -20px; }
+      section { padding: 90px 0; }
+      .section-title { font-size: 40px; }
+      .feature-grid { margin-top: 45px; }
+      .feature-card { min-height: 650px; padding: 26px; }
+      .live-card .phone-window, .community-card .phone-window { left: 50%; right: auto; transform: translateX(-50%); }
+      .wide { min-height: 910px !important; }
+      .wide .phone-window.one { left: 4px; width: 240px; height: 470px; bottom: 20px; }
+      .wide .phone-window.two { right: -20px; width: 240px; height: 470px; bottom: 10px; }
+      .culture-stack, .steps { grid-template-columns: 1fr; }
+      .culture-card.visual { min-height: 570px; }
+      .safety-card { padding: 30px 22px; gap: 35px; }
+      .final-cta { padding: 60px 22px; }
+      .final-actions { flex-direction: column; }
+      .footer-row { flex-direction: column; text-align: center; }
+      .footer-links { flex-wrap: wrap; justify-content: center; }
+      .footer-contact { justify-content: center; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
 </head>
-<body class="font-sans">
-  <div id="app"></div>
-  <noscript>
-    <div>Please enable JavaScript to use this application.</div>
-  </noscript>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="OKLiv home">
+        <img src="assets/logo.png" alt="OKLiv logo">
+        <span class="brand-name">OKLiv <span>— Fun Live</span></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#culture">Culture</a>
+        <a href="#safety">Safety</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <a class="button button-primary button-small" href="#download">Get OKLiv</a>
+      <button class="button button-ghost mobile-toggle" id="menuButton" aria-label="Open menu" aria-expanded="false">☰</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal in">
+          <div class="eyebrow"><i></i> The Slavic culture community</div>
+          <h1>Fun live.<br><span class="gradient-text">Chat now.</span></h1>
+          <p>Go live, share your world, and meet people who love Slavic music, style, language, food and everyday culture as much as you do.</p>
+          <div class="store-badges" aria-label="App availability">
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 1.43c0 1.14-.42 2.2-1.16 3.02-.79.86-2.08 1.53-3.2 1.45-.14-1.09.4-2.2 1.14-2.97.8-.83 2.17-1.46 3.22-1.5ZM20.6 17.1c-.52 1.18-.77 1.7-1.44 2.75-.93 1.43-2.25 3.21-3.88 3.22-1.45.02-1.83-.95-3.8-.93-1.97.01-2.39.95-3.84.93-1.63-.02-2.88-1.62-3.81-3.05C1.23 16.05.95 11.4 2.56 8.95c1.15-1.74 2.97-2.76 4.69-2.76 1.75 0 2.85.95 4.3.95 1.4 0 2.25-.95 4.27-.95 1.53 0 3.15.83 4.3 2.26-3.78 2.07-3.17 7.47.48 8.65Z"/></svg>
+              <span class="store-copy"><span class="store-name">App Store</span><span class="store-status">Coming soon</span></span>
+            </div>
+            <div class="store-badge">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#00d7fe" d="M6 5.2v37.6L27.2 24z"/><path fill="#ffce00" d="m27.2 24 6.7-6.8 8.8 5c1.9 1.1 1.9 2.6 0 3.7l-8.8 5z"/><path fill="#00f076" d="M6 5.2 33.9 17.2 27.2 24z"/><path fill="#ff3a45" d="M6 42.8 33.9 30.8 27.2 24z"/></svg>
+              <span class="store-copy"><span class="store-name">Google Play</span><span class="store-status">Coming later</span></span>
+            </div>
+          </div>
+          <a class="button button-ghost" href="#features" style="margin-top:12px">Explore the experience</a>
+          <div class="people-row">
+            <div class="people" aria-hidden="true"><span>OK</span><span>♥</span><span>LIVE</span><span>+12K</span></div>
+            <span>One community. Thousands of live moments.</span>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal in" aria-label="OKLiv app previews">
+          <div class="phone phone-back"><img src="assets/community.png" alt="OKLiv community feed"></div>
+          <div class="phone phone-main"><img src="assets/home-ai.png" alt="OKLiv live discovery screen"></div>
+          <div class="phone phone-mini"><img src="assets/live.png" alt="OKLiv live room"></div>
+          <div class="float-card live"><span class="live-dot"></span>1,284 people live now</div>
+          <div class="float-card chat">💬 New message from Mila</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group"><span>Live culture</span><span>Real people</span><span>Slavic style</span><span>Private chat</span><span>Community stories</span></div>
+        <div class="marquee-group"><span>Live culture</span><span>Real people</span><span>Slavic style</span><span>Private chat</span><span>Community stories</span></div>
+      </div>
+    </div>
+
+    <section id="features">
+      <div class="container">
+        <div class="section-kicker reveal">Made for connection</div>
+        <h2 class="section-title reveal">A living culture,<br>not just another feed.</h2>
+        <p class="section-lead reveal">OKLiv brings live video, cultural discovery, creative AI and real conversation into one expressive social space.</p>
+
+        <div class="feature-grid">
+          <article class="feature-card live-card reveal">
+            <div class="feature-number">01 — GO LIVE</div>
+            <h3>Share the moment while it happens.</h3>
+            <p>Host a live, join the conversation and discover creators through music, fashion, food and daily life.</p>
+            <div class="phone-window"><img src="assets/live.png" alt="OKLiv livestream detail interface"></div>
+          </article>
+
+          <article class="feature-card community-card reveal">
+            <div class="feature-number">02 — COMMUNITY</div>
+            <h3>Find people who speak your vibe.</h3>
+            <p>Post photos, share traditions, learn a language and turn every cultural detail into a conversation.</p>
+            <div class="phone-window"><img src="assets/community.png" alt="OKLiv community interface"></div>
+          </article>
+
+          <article class="feature-card wide reveal">
+            <div class="wide-copy">
+              <div class="feature-number">03 — CREATE & CONNECT</div>
+              <h3>Try a Slavic look.<br>Then talk about it.</h3>
+              <p>Explore playful AI makeup inspired by regional traditions, share the result, and continue the connection in private chat.</p>
+              <a class="button button-ghost" href="#culture" style="margin-top:18px">See what makes OKLiv different</a>
+            </div>
+            <div class="phone-window one"><img src="assets/ai-makeup.png" alt="AI Slavic makeup generator"></div>
+            <div class="phone-window two"><img src="assets/chat.png" alt="OKLiv private chat screen"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="culture" id="culture">
+      <div class="container">
+        <div class="section-kicker reveal">Culture in motion</div>
+        <h2 class="section-title reveal">Old traditions.<br>New conversations.</h2>
+        <p class="section-lead reveal">From Balkan beats to family recipes, folk stories to contemporary style—discover the culture through the people living it.</p>
+
+        <div class="culture-grid">
+          <article class="culture-card visual reveal">
+            <img src="assets/profile.png" alt="OKLiv creator profile">
+            <div class="visual-copy">
+              <h3>Profiles with personality</h3>
+              <p>Follow the creators you love and turn a shared interest into a real connection.</p>
+            </div>
+          </article>
+
+          <div class="culture-stack">
+            <article class="culture-card mini-feature reveal">
+              <div class="feature-icon">🎙</div>
+              <div>
+                <h3>Live, together</h3>
+                <p>Watch, react and chat in the moment. Every room is a new doorway into culture.</p>
+              </div>
+            </article>
+            <article class="culture-card mini-feature reveal">
+              <div class="feature-icon">✨</div>
+              <div>
+                <h3>AI with a cultural twist</h3>
+                <p>Explore makeup looks inspired by Slavic regions and make every result uniquely yours.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-kicker reveal">Start in seconds</div>
+        <h2 class="section-title reveal">Your next conversation<br>is already live.</h2>
+        <div class="steps">
+          <article class="step reveal"><span>1</span><h3>Create your profile</h3><p>Choose your interests and show the community what part of Slavic culture inspires you.</p></article>
+          <article class="step reveal"><span>2</span><h3>Explore the culture</h3><p>Browse live rooms, trending posts and creative tools shaped around the things you love.</p></article>
+          <article class="step reveal"><span>3</span><h3>Say hello</h3><p>Follow, become friends and continue the conversation in a safe private chat.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="safety">
+      <div class="container">
+        <div class="safety-card reveal">
+          <div>
+            <div class="section-kicker">Your space, your boundaries</div>
+            <h2 class="section-title" style="font-size:clamp(38px,4.5vw,58px)">Good energy starts with safety.</h2>
+            <p class="section-lead">OKLiv gives you clear control over who can contact you and what you see.</p>
+          </div>
+          <div class="safety-list">
+            <div class="safety-item"><div class="check">✓</div><div><strong>Friend-first private chat</strong><small>Follow each other or become friends before starting a private conversation.</small></div></div>
+            <div class="safety-item"><div class="check">✓</div><div><strong>Fast report and block tools</strong><small>Easy-to-find controls on profiles, posts, live rooms and messages.</small></div></div>
+            <div class="safety-item"><div class="check">✓</div><div><strong>Community-first moderation</strong><small>Clear rules designed to keep culture, conversation and creativity welcoming.</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="section-kicker reveal">Questions, answered</div>
+        <h2 class="section-title reveal">What is OKLiv?</h2>
+        <div class="faq-list reveal">
+          <details><summary>Is OKLiv only for Slavic users?</summary><p>No. OKLiv is for anyone curious about Slavic culture and open to meeting people through music, food, language, style and everyday life.</p></details>
+          <details><summary>Can I message anyone directly?</summary><p>Private chat opens after you follow each other or become friends. This helps keep conversations relevant, mutual and respectful.</p></details>
+          <details><summary>What can I do during a live?</summary><p>You can watch creators, join the discussion, react in real time and send in-app gifts while the host is live.</p></details>
+          <details><summary>What is the AI Slavic Makeup feature?</summary><p>It is a playful creative tool that generates stylized makeup ideas inspired by regional Slavic aesthetics and lets you share the result with the community.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" style="padding-top:70px">
+      <div class="container final-cta reveal">
+        <img src="assets/logo.png" alt="OKLiv app icon">
+        <h2>Live the culture.<br>Join the conversation.</h2>
+        <p>OKLiv — Fun Live, Chat Now.</p>
+        <div class="final-actions" aria-label="App availability">
+          <div class="store-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 1.43c0 1.14-.42 2.2-1.16 3.02-.79.86-2.08 1.53-3.2 1.45-.14-1.09.4-2.2 1.14-2.97.8-.83 2.17-1.46 3.22-1.5ZM20.6 17.1c-.52 1.18-.77 1.7-1.44 2.75-.93 1.43-2.25 3.21-3.88 3.22-1.45.02-1.83-.95-3.8-.93-1.97.01-2.39.95-3.84.93-1.63-.02-2.88-1.62-3.81-3.05C1.23 16.05.95 11.4 2.56 8.95c1.15-1.74 2.97-2.76 4.69-2.76 1.75 0 2.85.95 4.3.95 1.4 0 2.25-.95 4.27-.95 1.53 0 3.15.83 4.3 2.26-3.78 2.07-3.17 7.47.48 8.65Z"/></svg>
+            <span class="store-copy"><span class="store-name">App Store</span><span class="store-status">Coming soon</span></span>
+          </div>
+          <div class="store-badge">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#00d7fe" d="M6 5.2v37.6L27.2 24z"/><path fill="#ffce00" d="m27.2 24 6.7-6.8 8.8 5c1.9 1.1 1.9 2.6 0 3.7l-8.8 5z"/><path fill="#00f076" d="M6 5.2 33.9 17.2 27.2 24z"/><path fill="#ff3a45" d="M6 42.8 33.9 30.8 27.2 24z"/></svg>
+            <span class="store-copy"><span class="store-name">Google Play</span><span class="store-status">Coming later</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <a class="brand" href="#top"><img src="assets/logo.png" alt="" style="width:38px;height:38px;border-radius:11px"><span>OKLiv</span></a>
+      <div class="footer-links"><a href="#safety">Safety</a><a href="#faq">FAQ</a><a href="#">Privacy</a><a href="#">Terms</a></div>
+      <a class="footer-contact" href="mailto:hello@okliv.app" aria-label="Email OKLiv at hello@okliv.app">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.75 5.5h16.5A1.75 1.75 0 0 1 22 7.25v9.5a1.75 1.75 0 0 1-1.75 1.75H3.75A1.75 1.75 0 0 1 2 16.75v-9.5A1.75 1.75 0 0 1 3.75 5.5Zm.18 2 8.07 5.42 8.07-5.42H3.93Zm16.07 9v-6.74l-7.44 5a1 1 0 0 1-1.12 0L4 9.76v6.74h16Z"/></svg>
+        <span>hello@okliv.app</span>
+      </a>
+      <span>© 2026 OKLiv. All rights reserved.</span>
+    </div>
+  </footer>
+
   <script>
-    (function () {
-      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-      const setting = localStorage.getItem('color-schema') || 'auto'
-      if (setting === 'dark' || (prefersDark && setting !== 'light'))
-        document.documentElement.classList.toggle('dark', true)
-    })()
+    const menuButton = document.getElementById('menuButton');
+    const navLinks = document.getElementById('navLinks');
+    menuButton.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.textContent = open ? '×' : '☰';
+    });
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.textContent = '☰';
+    }));
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: .12 });
+    document.querySelectorAll('.reveal:not(.in)').forEach(el => observer.observe(el));
   </script>
-  <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
