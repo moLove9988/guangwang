@@ -2,7 +2,7 @@
   <div class="agreement-page">
     <section class="agreement-section">
       <h1>Antje Privacy Policy</h1>
-      <p class="effective-date"><strong>Effective Date: July 21, 2026</strong></p>
+      <p class="effective-date"><strong>Effective Date: August 24, 2026</strong></p>
       <p>Antje (the “Service,” “we,” “us,” or “our”) respects your privacy. This Privacy Policy explains what information we collect and process, how we use and share it, how long we retain it, and the choices available to you.</p>
 
       <h2>1. Scope</h2>
@@ -15,36 +15,45 @@
       <p><strong>Purchase information.</strong> This includes product, transaction, and purchase-status records. Payment credentials are processed by the applicable payment provider and are not received by us in full.</p>
       <p><strong>Support information.</strong> This includes your contact details, message, and any related information that you choose to provide.</p>
 
-      <h2>3. How We Collect Information</h2>
+      <h2>3. Image Consultant Photos and Face Data</h2>
+      <p>When you choose or take a full-body picture for Image Consultant, the picture may incidentally contain a visible face. Antje does not detect or recognize faces, identify individuals, perform biometric authentication, or create or use facial coordinates, facial landmarks, face templates, embeddings, faceprints, or biometric profiles.</p>
+      <p>The selected picture is processed entirely on your device using on-device image color, composition, and human-body detection solely to provide general appearance guidance. The picture and the analysis results are not transmitted to Antje, uploaded to a server, sent to a third-party AI service, or shared with analytics, advertising, or data-broker services.</p>
+      <p>The selected picture is held temporarily in app memory only while the Image Consultant screen remains active. It is released when you replace the picture, start another consultation, leave the screen, or terminate the app. Antje does not retain a copy of the picture or any face data. Antje stores locally only the generated guidance, consultation identifier, timestamp, and picture dimensions. This local record is deleted when you delete your account.</p>
+
+      <h2>4. Social Helper and Third-Party AI Services</h2>
+      <p>Social Helper processes the text you enter entirely on your device using guidance logic and responses bundled with the app. Your messages are not transmitted to Antje or any third-party AI service and are not retained after the Social Helper screen is closed.</p>
+      <p>Antje does not send Image Consultant pictures, face data, Social Helper messages, or other personal information to any third-party AI provider.</p>
+
+      <h2>5. How We Collect Information</h2>
       <p>We collect information directly from you when you create or update an account, provide content, communicate with others, make a purchase, request support, or otherwise choose to submit information. We also create limited records of actions necessary to provide the Service, maintain safety, and fulfill your requests.</p>
 
-      <h2>4. How We Use Information</h2>
+      <h2>6. How We Use Information</h2>
       <p>We use information to provide and personalize the Service, maintain accounts and preferences, deliver content and communications, fulfill purchases, respond to requests, enforce community standards, investigate reports, prevent fraud and misuse, protect rights and safety, and comply with legal obligations. We do not use information for a materially different purpose without an appropriate legal basis or additional permission when required.</p>
 
-      <h2>5. Device Permissions and Your Choices</h2>
+      <h2>7. Device Permissions and Your Choices</h2>
       <p>Device access is requested only when you choose an action that requires it. You can deny or withdraw permission in iOS Settings. You may also choose not to provide optional information, although some requested features may then be unavailable.</p>
 
-      <h2>6. Public Information and Other Users</h2>
+      <h2>8. Public Information and Other Users</h2>
       <p>Information you choose to publish may be visible to other users. Information you send to a recipient is available to that recipient, who may retain it after you delete your copy. Review content before sharing it and do not disclose another person’s information without permission.</p>
 
-      <h2>7. Service Providers and Other Disclosures</h2>
+      <h2>9. Service Providers and Other Disclosures</h2>
       <p>We may share information with service providers that process it on our behalf to provide requested services, process purchases, support operations, maintain security, or comply with law. They are required to provide protection consistent with this Policy and may use information only for the authorized purpose.</p>
       <p>We may also disclose information when you direct us to do so, when required by law, or when reasonably necessary to protect rights, safety, and security. We do not sell personal information or permit service providers to use it for their own advertising.</p>
 
-      <h2>8. Retention and Deletion</h2>
+      <h2>10. Retention and Deletion</h2>
       <p>We retain information only for as long as reasonably necessary for the purposes described in this Policy, including providing the Service, maintaining security, resolving disputes, preventing abuse, and meeting legal obligations.</p>
       <p>You may delete your account using the account controls or contact us to request deletion. Some information may remain where retention is required by law, necessary for security or fraud prevention, retained by another user, or maintained independently by a third party.</p>
 
-      <h2>9. Security</h2>
+      <h2>11. Security</h2>
       <p>We use reasonable safeguards designed to protect information against unauthorized access, loss, disclosure, alteration, or misuse. No method of storage or transmission can be guaranteed completely secure.</p>
 
-      <h2>10. Your Rights and Choices</h2>
+      <h2>12. Your Rights and Choices</h2>
       <p>Depending on applicable law, you may request access to, correction of, deletion of, or restriction of your personal information. You may withdraw consent for future processing where consent applies. Withdrawing consent does not affect processing already completed. We may request reasonable information to verify your request.</p>
 
-      <h2>11. Changes to This Policy</h2>
+      <h2>13. Changes to This Policy</h2>
       <p>We may update this Privacy Policy to reflect changes in law or the Service. If a change is material, we will provide notice through the Service or another appropriate method.</p>
 
-      <h2>12. Contact Us</h2>
+      <h2>14. Contact Us</h2>
       <p>For privacy questions, rights requests, or account deletion assistance, contact <a href="mailto:support@antje.com">support@antje.com</a>.</p>
     </section>
   </div>
