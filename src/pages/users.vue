@@ -1,22 +1,22 @@
 <template>
   <div class="agreement-page">
     <section class="agreement-section">
-      <h1>Jessa Terms of Use</h1>
+      <h1>FestLiv Terms of Use</h1>
 
       <p class="effective-date"><strong>Effective Date: August 17, 2026</strong></p>
 
       <p>
-        Welcome to Jessa. By creating an account, accessing, or using Jessa, you agree to these Terms of Use.
+        Welcome to FestLiv. By creating an account, accessing, or using FestLiv, you agree to these Terms of Use.
         If you do not agree, please do not use the App.
       </p>
 
       <h2>1. Eligibility</h2>
       <p>
-        You must meet the minimum legal age required in your country or region to use Jessa. If you are under the age
+        You must meet the minimum legal age required in your country or region to use FestLiv. If you are under the age
         of legal majority, you must have permission from a parent or legal guardian.
       </p>
       <p>
-        Jessa is available worldwide except in mainland China. You are responsible for ensuring that your use of Jessa
+        FestLiv is available worldwide except in mainland China. You are responsible for ensuring that your use of FestLiv
         complies with the laws applicable in your location.
       </p>
 
@@ -24,20 +24,20 @@
       <p>
         You are responsible for providing accurate information, protecting your login credentials, and all activity
         conducted through your account. You may not impersonate another person, create misleading accounts, sell or
-        transfer your account, or use Jessa for unlawful purposes.
+        transfer your account, or use FestLiv for unlawful purposes.
       </p>
 
       <h2>3. User Content</h2>
       <p>
         You may share live streams, voice or video content, photos, short clips, comments, messages, product listings,
-        and other content through Jessa. You retain ownership of your content, but grant Jessa a worldwide,
+        and other content through FestLiv. You retain ownership of your content, but grant FestLiv a worldwide,
         non-exclusive, royalty-free license to host, display, reproduce, and distribute it only as necessary to operate,
         promote, and improve the App.
       </p>
       <p>You must have all necessary rights and permissions before posting any content.</p>
 
       <h2>4. Prohibited Content and Conduct</h2>
-      <p><strong>Jessa has zero tolerance for objectionable content and abusive users.</strong></p>
+      <p><strong>FestLiv has zero tolerance for objectionable content and abusive users.</strong></p>
       <p>You must not post, stream, send, or promote content that:</p>
       <ul>
         <li>Is illegal, sexually explicit, pornographic, violent, threatening, hateful, discriminatory, fraudulent, or otherwise harmful;</li>
@@ -53,7 +53,7 @@
         and targeted personal attacks are strictly prohibited.
       </p>
       <p>
-        Users may report inappropriate content and block abusive accounts. Jessa may review reports, remove content,
+        Users may report inappropriate content and block abusive accounts. FestLiv may review reports, remove content,
         restrict features, suspend or permanently terminate accounts, and cooperate with law enforcement where necessary.
       </p>
 
@@ -67,31 +67,31 @@
       <h2>6. Marketplace</h2>
       <p>
         Marketplace listings and transactions may be provided by independent users or third parties. Unless expressly
-        stated otherwise, Jessa does not manufacture, own, endorse, or guarantee listed products. Buyers and sellers
+        stated otherwise, FestLiv does not manufacture, own, endorse, or guarantee listed products. Buyers and sellers
         are responsible for product accuracy, legality, payment, delivery, returns, taxes, and compliance with applicable
         consumer laws.
       </p>
 
       <h2>7. Service Availability</h2>
       <p>
-        We may update, modify, suspend, or discontinue any part of Jessa when reasonably necessary. We do not guarantee
+        We may update, modify, suspend, or discontinue any part of FestLiv when reasonably necessary. We do not guarantee
         that the App will always be uninterrupted, secure, or error-free.
       </p>
       <p>
-        To the extent permitted by law, Jessa is provided "as is" and we are not responsible for indirect losses,
+        To the extent permitted by law, FestLiv is provided "as is" and we are not responsible for indirect losses,
         user conduct, user-generated content, third-party products, or interactions arranged through the App. Nothing
         in these Terms limits any consumer rights that cannot legally be excluded.
       </p>
 
       <h2>8. Termination</h2>
       <p>
-        You may stop using Jessa at any time. We may restrict or terminate access if you violate these Terms, harm other
+        You may stop using FestLiv at any time. We may restrict or terminate access if you violate these Terms, harm other
         users, create legal or security risks, or misuse the App.
       </p>
 
       <h2>9. Changes to These Terms</h2>
       <p>
-        We may update these Terms to reflect changes to Jessa, applicable laws, or safety requirements. Updated Terms
+        We may update these Terms to reflect changes to FestLiv, applicable laws, or safety requirements. Updated Terms
         will be posted in the App with a revised effective date. Where required by law, we will provide additional
         notice or request your consent.
       </p>
@@ -99,7 +99,7 @@
       <h2>10. Contact Us</h2>
       <p>
         If you have questions, complaints, or wish to report content or conduct, contact us at:
-        <a href="mailto:jessa@gmail.com">jessa@gmail.com</a>
+        <a href="mailto:festliv@gmail.com">festliv@gmail.com</a>
       </p>
     </section>
   </div>

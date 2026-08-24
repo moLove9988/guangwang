@@ -1,17 +1,17 @@
 <template>
   <div class="agreement-page">
     <section class="agreement-section">
-      <h1>Jessa Privacy Policy</h1>
+      <h1>FestLiv Privacy Policy</h1>
 
       <p class="effective-date"><strong>Effective Date: August 17, 2026</strong></p>
 
       <p>
-        Jessa respects your privacy. This Privacy Policy explains how we collect, use, share, and protect information
-        when you use the Jessa app and related services. Jessa is available worldwide except in mainland China.
+        FestLiv respects your privacy. This Privacy Policy explains how we collect, use, share, and protect information
+        when you use the FestLiv app and related services. FestLiv is available worldwide except in mainland China.
       </p>
 
       <h2>1. Information We Collect</h2>
-      <p>Depending on how you use Jessa, we may collect:</p>
+      <p>Depending on how you use FestLiv, we may collect:</p>
       <ul>
         <li>
           <strong>Account information:</strong> Email address, username, password or login credentials, profile photo,
@@ -46,13 +46,13 @@
         <li>Recommend relevant content, events, products, or users;</li>
         <li>Moderate content and investigate reports;</li>
         <li>Detect fraud, abuse, security threats, and violations of our Terms;</li>
-        <li>Maintain, analyze, and improve Jessa;</li>
+        <li>Maintain, analyze, and improve FestLiv;</li>
         <li>Communicate with you about your account, safety, support requests, or service updates;</li>
         <li>Comply with applicable laws and enforce our legal rights.</li>
       </ul>
       <p>
         Where required by law, we process information based on your consent, performance of our agreement with you,
-        compliance with legal obligations, or our legitimate interests in operating and protecting Jessa.
+        compliance with legal obligations, or our legitimate interests in operating and protecting FestLiv.
       </p>
 
       <h2>3. Public Content and Communications</h2>
@@ -78,7 +78,7 @@
           Authorities or other parties when required by law or reasonably necessary to prevent fraud, abuse, harm,
           or illegal activity;
         </li>
-        <li>A successor organization in connection with a merger, acquisition, financing, or transfer of Jessa's business.</li>
+        <li>A successor organization in connection with a merger, acquisition, financing, or transfer of FestLiv's business.</li>
       </ul>
       <p>
         Service providers may only process information for authorized purposes and must provide appropriate protection
@@ -87,7 +87,7 @@
 
       <h2>5. Data Retention and Deletion</h2>
       <p>
-        We retain information only for as long as reasonably necessary to provide Jessa, fulfill the purposes described
+        We retain information only for as long as reasonably necessary to provide FestLiv, fulfill the purposes described
         in this Policy, resolve disputes, protect users, and comply with legal obligations.
       </p>
       <p>
@@ -109,19 +109,19 @@
       </ul>
       <p>
         To exercise these rights, contact us at
-        <a href="mailto:jessa@gmail.com">jessa@gmail.com</a>. We may need to verify your identity before completing
+        <a href="mailto:festliv@gmail.com">festliv@gmail.com</a>. We may need to verify your identity before completing
         a request.
       </p>
 
       <h2>7. International Data Transfers</h2>
       <p>
-        Because Jessa operates internationally, your information may be processed in countries other than the one where
+        Because FestLiv operates internationally, your information may be processed in countries other than the one where
         you live. Where required, we use appropriate safeguards to protect information transferred across borders.
       </p>
 
       <h2>8. Children's Privacy</h2>
       <p>
-        Jessa is not intended for children below the minimum age permitted in their country or region. If we learn that
+        FestLiv is not intended for children below the minimum age permitted in their country or region. If we learn that
         we collected personal information from an underage child without valid authorization, we will take reasonable
         steps to delete it.
       </p>
@@ -135,14 +135,14 @@
       <h2>10. Changes to This Policy</h2>
       <p>
         We may update this Privacy Policy when our services, data practices, or legal obligations change. The updated
-        version will be posted in Jessa with a revised effective date. Where required, we will provide additional notice
+        version will be posted in FestLiv with a revised effective date. Where required, we will provide additional notice
         or obtain your consent.
       </p>
 
       <h2>11. Contact Us</h2>
       <p>
         For privacy questions, requests, or complaints, contact:
-        <a href="mailto:jessa@gmail.com">jessa@gmail.com</a>
+        <a href="mailto:festliv@gmail.com">festliv@gmail.com</a>
       </p>
     </section>
   </div>
